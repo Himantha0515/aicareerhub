@@ -1,0 +1,242 @@
+@import "tailwindcss";
+
+/* Design tokens. Light is the default; dark is applied either by the OS
+   preference or by an explicit data-theme on <html> set by the toggle. */
+:root {
+  --bg: #fafaff;
+  --surface: #ffffff;
+  --surface-2: #f1f2f9;
+  --border: #e4e6f0;
+  --fg: #12101f;
+  --fg-muted: #5b5f75;
+  --accent: #6d3ef5;
+  --accent-hover: #5b2fd6;
+  --accent-soft: #efeaff;
+  --accent-fg: #ffffff;
+  --violet: #8b5cf6;
+  --indigo: #6366f1;
+  --fuchsia: #d946ef;
+  --cyan: #06b6d4;
+  --amber: #f59e0b;
+  --emerald: #10b981;
+  --rose: #f43f5e;
+  --grad-brand: linear-gradient(120deg, var(--indigo), var(--violet) 45%, var(--fuchsia));
+  --glass: rgb(255 255 255 / 0.72);
+  --orb-opacity: 0.35;
+  --shadow: 0 1px 2px rgb(20 16 40 / 0.05), 0 8px 24px rgb(20 16 40 / 0.07);
+  --glow: 0 8px 32px rgb(109 62 245 / 0.22);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #090812;
+    --surface: #110f1e;
+    --surface-2: #1a1730;
+    --border: #272441;
+    --fg: #eceaf6;
+    --fg-muted: #9a97b5;
+    --accent: #a78bfa;
+    --accent-hover: #c4b5fd;
+    --accent-soft: #221b3f;
+    --accent-fg: #0b0716;
+    --glass: rgb(17 15 30 / 0.66);
+    --orb-opacity: 0.22;
+    --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.35);
+    --glow: 0 8px 32px rgb(167 139 250 / 0.18);
+  }
+}
+
+/* Explicit toggle must win over the media query in both directions. */
+:root[data-theme="light"] {
+  --bg: #fafaff;
+  --surface: #ffffff;
+  --surface-2: #f1f2f9;
+  --border: #e4e6f0;
+  --fg: #12101f;
+  --fg-muted: #5b5f75;
+  --accent: #6d3ef5;
+  --accent-hover: #5b2fd6;
+  --accent-soft: #efeaff;
+  --accent-fg: #ffffff;
+  --glass: rgb(255 255 255 / 0.72);
+  --orb-opacity: 0.35;
+  --shadow: 0 1px 2px rgb(20 16 40 / 0.05), 0 8px 24px rgb(20 16 40 / 0.07);
+  --glow: 0 8px 32px rgb(109 62 245 / 0.22);
+}
+
+:root[data-theme="dark"] {
+  --bg: #090812;
+  --surface: #110f1e;
+  --surface-2: #1a1730;
+  --border: #272441;
+  --fg: #eceaf6;
+  --fg-muted: #9a97b5;
+  --accent: #a78bfa;
+  --accent-hover: #c4b5fd;
+  --accent-soft: #221b3f;
+  --accent-fg: #0b0716;
+  --glass: rgb(17 15 30 / 0.66);
+  --orb-opacity: 0.22;
+  --shadow: 0 1px 2px rgb(0 0 0 / 0.4), 0 8px 24px rgb(0 0 0 / 0.35);
+  --glow: 0 8px 32px rgb(167 139 250 / 0.18);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-fg: var(--fg);
+  --color-fg-muted: var(--fg-muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-fg: var(--accent-fg);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  /* Reading measure for article pages. */
+  --container-prose: 46rem;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Brand text & surfaces -------------------------------------------- */
+
+.text-gradient {
+  background: var(--grad-brand);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: gradient-pan 8s ease-in-out infinite;
+}
+
+.btn-gradient {
+  background: var(--grad-brand);
+  background-size: 180% auto;
+  color: #fff;
+  box-shadow: var(--glow);
+  transition: background-position 0.4s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+.btn-gradient:hover {
+  background-position: 90% center;
+  transform: translateY(-2px);
+  box-shadow: 0 12px 40px rgb(139 92 246 / 0.35);
+}
+
+.glass {
+  background: var(--glass);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+}
+
+/* Card that lifts and tilts in 3D on hover. */
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.25s ease, box-shadow 0.35s ease;
+}
+.card-3d:hover {
+  transform: perspective(900px) rotateX(3deg) rotateY(-3deg) translateY(-6px);
+  box-shadow: var(--glow), var(--shadow);
+}
+
+/* Thin animated gradient border ring for hero badges / featured cards. */
+.ring-gradient {
+  position: relative;
+  background: var(--surface);
+  background-clip: padding-box;
+  border: 1px solid transparent;
+}
+.ring-gradient::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  margin: -1px;
+  border-radius: inherit;
+  background: var(--grad-brand);
+  background-size: 200% auto;
+  animation: gradient-pan 6s linear infinite;
+}
+
+/* ---- Ambient background ------------------------------------------------ */
+
+.bg-grid {
+  background-image:
+    linear-gradient(to right, var(--border) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--border) 1px, transparent 1px);
+  background-size: 44px 44px;
+  mask-image: radial-gradient(ellipse 90% 65% at 50% 0%, black 30%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse 90% 65% at 50% 0%, black 30%, transparent 75%);
+}
+
+.orb {
+  position: absolute;
+  border-radius: 9999px;
+  filter: blur(72px);
+  opacity: var(--orb-opacity);
+  will-change: transform;
+}
+
+/* ---- Keyframes ---------------------------------------------------------- */
+
+@keyframes gradient-pan {
+  0%, 100% { background-position: 0% center; }
+  50% { background-position: 100% center; }
+}
+
+@keyframes float-y {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-28px) scale(1.05); }
+}
+
+@keyframes float-xy {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(24px, -20px) rotate(4deg); }
+  66% { transform: translate(-16px, 12px) rotate(-3deg); }
+}
+
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fade-up {
+  from { opacity: 0; transform: translateY(16px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-float-y { animation: float-y 9s ease-in-out infinite; }
+.animate-float-xy { animation: float-xy 12s ease-in-out infinite; }
+.animate-bob { animation: bob 5s ease-in-out infinite; }
+.animate-fade-up { animation: fade-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+
+/* Cross-document transitions: cheap, GPU-friendly, no animation library. */
+@view-transition {
+  navigation: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
