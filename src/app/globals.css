@@ -791,6 +791,237 @@ a:active, button:active {
 .animate-float-xy { animation: float-xy 12s ease-in-out infinite; }
 .animate-bob      { animation: bob  5s ease-in-out infinite; }
 .animate-fade-up  { animation: fade-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) both; }
+.animate-bot-float { animation: bot-float 4.5s ease-in-out infinite; }
+
+/* ---- Hero chatbot ----------------------------------------------------- */
+
+.hero-bot {
+  position: relative;
+  width: min(100%, 340px);
+  height: 380px;
+  margin-inline: auto;
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero-bot__glow {
+  position: absolute;
+  inset: 18% 8% 8%;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle at 50% 40%,
+    rgb(139 92 246 / 0.45),
+    rgb(99 102 241 / 0.18) 45%,
+    transparent 70%
+  );
+  filter: blur(8px);
+  animation: bot-glow 5s ease-in-out infinite;
+}
+
+.hero-bot__figure {
+  position: absolute;
+  inset: 24px 0 0;
+  display: grid;
+  place-items: center;
+  z-index: 2;
+}
+
+.hero-bot__svg {
+  width: min(280px, 82vw);
+  height: auto;
+  overflow: visible;
+}
+
+.hero-bot__chip {
+  position: absolute;
+  z-index: 3;
+  border-radius: 1rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  box-shadow: var(--shadow);
+  white-space: nowrap;
+}
+
+.hero-bot__chip--a { top: 8px; right: 0; }
+.hero-bot__chip--b { top: 72px; left: 0; }
+.hero-bot__chip--c { bottom: 56px; right: 0; }
+
+@media (min-width: 640px) {
+  .hero-bot__chip--a { right: -4px; }
+  .hero-bot__chip--b { left: -18px; }
+  .hero-bot__chip--c { right: -8px; }
+}
+
+@media (max-width: 379px) {
+  .hero-bot__chip--b { display: none; }
+}
+
+.hero-bot__bubble {
+  position: absolute;
+  z-index: 4;
+  border-radius: 1.1rem;
+  padding: 0.55rem 0.85rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  max-width: 140px;
+}
+
+.hero-bot__bubble--in {
+  top: 118px;
+  left: -6px;
+  background: #fff;
+  border: 1px solid var(--border);
+  color: var(--fg-muted);
+  animation: bot-bubble-in 4s ease-in-out infinite;
+}
+
+.hero-bot__bubble--out {
+  top: 54px;
+  right: 8px;
+  background: var(--grad-brand);
+  color: #fff;
+  animation: bot-bubble-out 4s ease-in-out infinite;
+}
+
+.hero-bot__typing {
+  display: inline-flex;
+  gap: 4px;
+  align-items: center;
+  height: 12px;
+}
+
+.hero-bot__typing i {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.35;
+  animation: bot-dot 1.2s ease-in-out infinite;
+}
+
+.hero-bot__typing i:nth-child(2) { animation-delay: 0.15s; }
+.hero-bot__typing i:nth-child(3) { animation-delay: 0.3s; }
+
+.hero-bot__eye {
+  transform-origin: center;
+  animation: bot-blink 5.5s ease-in-out infinite;
+}
+
+.hero-bot__antenna-dot {
+  animation: bot-pulse 2s ease-in-out infinite;
+}
+
+.hero-bot__antenna-ring {
+  transform-origin: 140px 20px;
+  animation: bot-ring 2s ease-out infinite;
+}
+
+.hero-bot__arm--l {
+  transform-origin: 47px 168px;
+  animation: bot-wave-l 3.8s ease-in-out infinite;
+}
+
+.hero-bot__arm--r {
+  transform-origin: 233px 168px;
+  animation: bot-wave-r 3.8s ease-in-out infinite;
+}
+
+.hero-bot__bar { animation: bot-bar 2.4s ease-in-out infinite; }
+.hero-bot__bar--2 { animation-delay: 0.2s; }
+.hero-bot__bar--3 { animation-delay: 0.4s; }
+
+.hero-bot__shadow {
+  animation: bot-shadow 4.5s ease-in-out infinite;
+}
+
+@keyframes bot-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-14px); }
+}
+
+@keyframes bot-glow {
+  0%, 100% { opacity: 0.85; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.06); }
+}
+
+@keyframes bot-blink {
+  0%, 42%, 48%, 100% { transform: scaleY(1); }
+  45% { transform: scaleY(0.12); }
+}
+
+@keyframes bot-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+@keyframes bot-ring {
+  0% { transform: scale(0.7); opacity: 0.5; }
+  100% { transform: scale(1.55); opacity: 0; }
+}
+
+@keyframes bot-wave-l {
+  0%, 100% { transform: rotate(0deg); }
+  50% { transform: rotate(-12deg); }
+}
+
+@keyframes bot-wave-r {
+  0%, 60%, 100% { transform: rotate(0deg); }
+  70% { transform: rotate(18deg); }
+  80% { transform: rotate(-6deg); }
+  90% { transform: rotate(14deg); }
+}
+
+@keyframes bot-bar {
+  0%, 100% { opacity: 0.45; transform: scaleX(1); }
+  50% { opacity: 1; transform: scaleX(1.15); }
+}
+
+@keyframes bot-shadow {
+  0%, 100% { transform: scaleX(1); opacity: 0.12; }
+  50% { transform: scaleX(0.86); opacity: 0.08; }
+}
+
+@keyframes bot-dot {
+  0%, 100% { opacity: 0.3; transform: translateY(0); }
+  50% { opacity: 1; transform: translateY(-2px); }
+}
+
+@keyframes bot-bubble-in {
+  0%, 12%, 100% { opacity: 0; transform: translateY(6px) scale(0.92); }
+  20%, 55% { opacity: 1; transform: translateY(0) scale(1); }
+  65% { opacity: 0; transform: translateY(-4px) scale(0.96); }
+}
+
+@keyframes bot-bubble-out {
+  0%, 35% { opacity: 0; transform: translateY(6px) scale(0.92); }
+  45%, 85% { opacity: 1; transform: translateY(0) scale(1); }
+  95%, 100% { opacity: 0; transform: translateY(-4px) scale(0.96); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-bot__glow,
+  .hero-bot__eye,
+  .hero-bot__antenna-dot,
+  .hero-bot__antenna-ring,
+  .hero-bot__arm--l,
+  .hero-bot__arm--r,
+  .hero-bot__bar,
+  .hero-bot__shadow,
+  .hero-bot__bubble--in,
+  .hero-bot__bubble--out,
+  .hero-bot__typing i,
+  .animate-bot-float {
+    animation: none !important;
+  }
+  .hero-bot__bubble--in,
+  .hero-bot__bubble--out {
+    opacity: 1;
+  }
+}
 
 /* Cross-document transitions: cheap, GPU-friendly, no animation library. */
 @view-transition {

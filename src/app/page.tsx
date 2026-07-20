@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import HeroChatBot from "@/components/HeroChatBot";
 import JobCard from "@/components/JobCard";
 import { fetchJobs, fetchTopics } from "@/lib/content-client";
 import { SITE } from "@/lib/site";
@@ -68,78 +69,71 @@ export default async function Home() {
   return (
     <>
       <section className="relative mx-auto w-full max-w-6xl overflow-x-clip px-4 pt-16 pb-14 sm:pt-24">
-        <div aria-hidden className="pointer-events-none absolute inset-0 hidden overflow-hidden lg:block">
-          <span className="animate-bob absolute top-16 right-14 rounded-2xl border border-border bg-surface px-4 py-2 text-sm shadow-[var(--shadow)]">
-            🤖 Machine Learning
-          </span>
-          <span
-            className="animate-bob absolute top-44 right-40 rounded-2xl border border-border bg-surface px-4 py-2 text-sm shadow-[var(--shadow)]"
-            style={{ animationDelay: "-1.6s" }}
-          >
-            ✨ GenAI
-          </span>
-          <span
-            className="animate-bob absolute top-72 right-10 rounded-2xl border border-border bg-surface px-4 py-2 text-sm shadow-[var(--shadow)]"
-            style={{ animationDelay: "-3.2s" }}
-          >
-            📚 RAG &amp; MCP
-          </span>
-        </div>
+        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(280px,0.95fr)] lg:gap-6">
+          <div className="min-w-0">
+            <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
+              🚀 Your AI career launchpad for India
+            </p>
 
-        <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
-          🚀 Your AI career launchpad for India
-        </p>
-
-        <h1
-          className="animate-fade-up mt-6 max-w-3xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
-          style={{ animationDelay: "0.08s" }}
-        >
-          Learn AI. Find AI jobs.{" "}
-          <span className="text-gradient">Build a career in it.</span>
-        </h1>
-
-        <p
-          className="animate-fade-up mt-6 max-w-xl text-lg text-fg-muted text-pretty"
-          style={{ animationDelay: "0.16s" }}
-        >
-          Learn AI skills that get you hired. Free beginner guides plus AI jobs
-          refreshed daily from company career portals — apply always opens the
-          employer site so you can build a career in machine learning and GenAI
-          in India.
-        </p>
-
-        <div
-          className="animate-fade-up mt-9 flex flex-wrap gap-3"
-          style={{ animationDelay: "0.24s" }}
-        >
-          <Link
-            href="/jobs"
-            className="btn-gradient rounded-full px-6 py-3 font-semibold"
-          >
-            Browse AI jobs →
-          </Link>
-          <Link
-            href="/learn"
-            className="rounded-full border border-border bg-surface px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
-          >
-            Start learning AI
-          </Link>
-        </div>
-
-        <div
-          className="animate-fade-up mt-12 grid max-w-2xl gap-3 sm:grid-cols-3"
-          style={{ animationDelay: "0.32s" }}
-        >
-          {PROMISES.map((s) => (
-            <div
-              key={s.title}
-              className="glass rounded-2xl border border-border p-4 shadow-[var(--shadow)]"
+            <h1
+              className="animate-fade-up mt-6 max-w-3xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
+              style={{ animationDelay: "0.08s" }}
             >
-              <p className="text-xl">{s.emoji}</p>
-              <p className="mt-1 font-semibold">{s.title}</p>
-              <p className="mt-0.5 text-xs text-fg-muted">{s.body}</p>
+              Learn AI. Find AI jobs.{" "}
+              <span className="text-gradient">Build a career in it.</span>
+            </h1>
+
+            <p
+              className="animate-fade-up mt-6 max-w-xl text-lg text-fg-muted text-pretty"
+              style={{ animationDelay: "0.16s" }}
+            >
+              Learn AI skills that get you hired. Free beginner guides plus AI jobs
+              refreshed daily from company career portals — apply always opens the
+              employer site so you can build a career in machine learning and GenAI
+              in India.
+            </p>
+
+            <div
+              className="animate-fade-up mt-9 flex flex-wrap gap-3"
+              style={{ animationDelay: "0.24s" }}
+            >
+              <Link
+                href="/jobs"
+                className="btn-gradient rounded-full px-6 py-3 font-semibold"
+              >
+                Browse AI jobs →
+              </Link>
+              <Link
+                href="/learn"
+                className="rounded-full border border-border bg-surface px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
+              >
+                Start learning AI
+              </Link>
             </div>
-          ))}
+
+            <div
+              className="animate-fade-up mt-12 grid max-w-2xl gap-3 sm:grid-cols-3"
+              style={{ animationDelay: "0.32s" }}
+            >
+              {PROMISES.map((s) => (
+                <div
+                  key={s.title}
+                  className="glass rounded-2xl border border-border p-4 shadow-[var(--shadow)]"
+                >
+                  <p className="text-xl">{s.emoji}</p>
+                  <p className="mt-1 font-semibold">{s.title}</p>
+                  <p className="mt-0.5 text-xs text-fg-muted">{s.body}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div
+            className="animate-fade-up relative flex justify-center lg:justify-end"
+            style={{ animationDelay: "0.2s" }}
+          >
+            <HeroChatBot />
+          </div>
         </div>
       </section>
 
