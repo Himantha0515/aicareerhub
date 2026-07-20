@@ -13,15 +13,16 @@ export type Job = {
   source: string;
   /** Plain paragraphs. Rendered as text — no HTML. */
   description: string[];
+  /** product | service when known from the company registry */
+  companyType?: "product" | "service";
 };
 
 /* ---------------------------------------------------------------------------
- * CURATED LISTINGS
+ * CURATED LISTINGS (fallback / highlights)
  *
- * v1 is curated-only by decision (see docs/PLAN.md). The free public job APIs
- * were tested and rejected: Remotive ignores its own `search` param and returns
- * a fixed 39-job sample; RemoteOK and Arbeitnow return zero AI-titled roles and
- * no India coverage.
+ * Primary board fills from company ATS portals via `npm run scrape` into
+ * `data/scraped-jobs.json` (Greenhouse / Lever / Ashby). These curated rows
+ * still merge in for a few India-focused highlights.
  *
  * RULES FOR ADDING AN ENTRY — read before editing:
  *   1. The listing must be REAL. Copy it from the employer's actual careers
@@ -143,13 +144,18 @@ export function topicsFor(title: string): string[] {
   ).map((topic) => topic.label);
 }
 
-export type JobFilters = { q?: string; tag?: string };
+export type JobFilters = {
+  q?: string;
+  tag?: string;
+  companyType?: "product" | "service";
+};
 
 export async function getJobs(filters: JobFilters = {}): Promise<Job[]> {
-  const { SCRAPED_JOBS } = await import("@/lib/scraped-jobs");
-  const { mergeCuratedAndScraped } = await import("@/lib/scraped-jobs");
+  const { getScrapedJobs, mergeCuratedAndScraped } = await import(
+    "@/lib/scraped-jobs"
+  );
 
-  let all = mergeCuratedAndScraped(CURATED_JOBS, SCRAPED_JOBS);
+  let all = mergeCuratedAndScraped(CURATED_JOBS, getScrapedJobs());
 
   if (filters.q) {
     const q = filters.q.toLowerCase();
@@ -161,6 +167,9 @@ export async function getJobs(filters: JobFilters = {}): Promise<Job[]> {
   if (filters.tag) {
     const tag = filters.tag.toLowerCase();
     all = all.filter((j) => j.tags.some((t) => t.toLowerCase() === tag));
+  }
+  if (filters.companyType) {
+    all = all.filter((j) => j.companyType === filters.companyType);
   }
 
   return all;

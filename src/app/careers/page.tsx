@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { ROLES } from "@/lib/content";
-import { getRoleGuide } from "@/lib/role-guides";
+import { fetchRoles } from "@/lib/content-client";
 
 export const metadata: Metadata = {
   title: "AI career paths — roles explained",
@@ -9,7 +8,9 @@ export const metadata: Metadata = {
     "What an ML engineer, GenAI engineer, data scientist, MLOps engineer and AI researcher actually do day to day, the skills each needs, and how to get started.",
 };
 
-export default function CareersPage() {
+export default async function CareersPage() {
+  const roles = await fetchRoles();
+
   return (
     <div className="mx-auto max-w-6xl px-4 py-12 animate-fade-up">
       <p className="inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
@@ -25,65 +26,62 @@ export default function CareersPage() {
       </p>
 
       <ul className="mt-10 grid gap-4 sm:grid-cols-2">
-        {ROLES.map((role) => {
-          const guide = getRoleGuide(role.slug);
-          return (
-            <li
-              key={role.slug}
-              className="card-3d flex flex-col rounded-2xl border border-border bg-surface p-6 hover:border-accent/50"
-            >
-              <div className="flex items-center gap-3.5">
-                <span
-                  className="grid h-12 w-12 shrink-0 place-items-center rounded-xl text-xl shadow-[var(--shadow)]"
-                  style={{ background: role.gradient }}
+        {roles.map((role) => (
+          <li
+            key={role.slug}
+            className="card-3d flex flex-col rounded-2xl border border-border bg-surface p-6 hover:border-accent/50"
+          >
+            <div className="flex items-center gap-3.5">
+              <span
+                className="grid h-12 w-12 shrink-0 place-items-center rounded-xl text-xl shadow-[var(--shadow)]"
+                style={{ background: role.gradient }}
+              >
+                {role.emoji}
+              </span>
+              <h2 className="text-lg font-semibold text-fg">{role.title}</h2>
+            </div>
+            <p className="mt-3 text-sm text-fg-muted text-pretty">
+              {role.summary}
+            </p>
+
+            <p className="mt-3 text-sm text-fg-muted text-pretty">
+              <span className="font-medium text-fg">Day to day: </span>
+              {role.doing}
+            </p>
+
+            <ul className="mt-4 flex flex-wrap gap-1.5">
+              {role.skills.map((skill) => (
+                <li
+                  key={skill}
+                  className="rounded-full border border-border bg-surface-2 px-2.5 py-0.5 text-xs font-medium text-fg-muted"
                 >
-                  {role.emoji}
-                </span>
-                <h2 className="text-lg font-semibold text-fg">{role.title}</h2>
-              </div>
-              <p className="mt-3 text-sm text-fg-muted text-pretty">
-                {role.summary}
-              </p>
+                  {skill}
+                </li>
+              ))}
+            </ul>
 
-              <p className="mt-3 text-sm text-fg-muted text-pretty">
-                <span className="font-medium text-fg">Day to day: </span>
-                {role.doing}
-              </p>
-
-              <ul className="mt-4 flex flex-wrap gap-1.5">
-                {role.skills.map((skill) => (
-                  <li
-                    key={skill}
-                    className="rounded-full border border-border bg-surface-2 px-2.5 py-0.5 text-xs font-medium text-fg-muted"
-                  >
-                    {skill}
-                  </li>
-                ))}
-              </ul>
-
-              <div className="mt-auto flex flex-wrap gap-3 pt-5">
-                {guide ? (
-                  <Link
-                    href={`/careers/${role.slug}`}
-                    className="text-sm font-medium text-accent transition-opacity hover:opacity-70"
-                  >
-                    Read full guide →
-                  </Link>
-                ) : (
-                  <span className="inline-block rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent">
-                    Guide coming soon
-                  </span>
-                )}
+            <div className="mt-auto flex flex-wrap gap-3 pt-5">
+              {role.hasGuide ? (
                 <Link
-                  href={`/jobs?q=${encodeURIComponent(role.title.split(" ")[0])}`}
-                  className="text-sm font-medium text-fg-muted transition-colors hover:text-accent"
+                  href={`/careers/${role.slug}`}
+                  className="text-sm font-medium text-accent transition-opacity hover:opacity-70"
                 >
-                  See open roles →
+                  Read full guide →
                 </Link>
-              </div>
-            </li>
-          );
-        })}
+              ) : (
+                <span className="inline-block rounded-full bg-accent-soft px-3 py-1 text-xs font-medium text-accent">
+                  Guide coming soon
+                </span>
+              )}
+              <Link
+                href={`/jobs?q=${encodeURIComponent(role.title.split(" ")[0])}`}
+                className="text-sm font-medium text-fg-muted transition-colors hover:text-accent"
+              >
+                See open roles →
+              </Link>
+            </div>
+          </li>
+        ))}
       </ul>
     </div>
   );

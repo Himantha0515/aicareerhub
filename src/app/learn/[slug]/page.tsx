@@ -1,40 +1,39 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { TOPICS } from "@/lib/content";
-import { getTopicGuide, TOPIC_GUIDES } from "@/lib/topic-guides";
+import { fetchTopic, fetchTopics } from "@/lib/content-client";
 import { SITE } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() {
-  return TOPIC_GUIDES.map((g) => ({ slug: g.slug }));
+export async function generateStaticParams() {
+  const topics = await fetchTopics();
+  return topics.filter((t) => t.hasGuide).map((t) => ({ slug: t.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const topic = TOPICS.find((t) => t.slug === slug);
-  if (!topic) return { title: "Guide not found" };
+  const data = await fetchTopic(slug);
+  if (!data?.topic) return { title: "Guide not found" };
   return {
-    title: topic.title,
-    description: topic.blurb,
+    title: data.topic.title,
+    description: data.topic.blurb,
     alternates: { canonical: `${SITE.url}/learn/${slug}` },
   };
 }
 
 export default async function TopicGuidePage({ params }: Props) {
   const { slug } = await params;
-  const topic = TOPICS.find((t) => t.slug === slug);
-  const guide = getTopicGuide(slug);
-  if (!topic || !guide) notFound();
+  const [data, topics] = await Promise.all([fetchTopic(slug), fetchTopics()]);
+  if (!data?.topic || !data.guide) notFound();
 
-  const idx = TOPICS.findIndex((t) => t.slug === slug);
-  const prev = idx > 0 ? TOPICS[idx - 1] : null;
-  const next = idx < TOPICS.length - 1 ? TOPICS[idx + 1] : null;
+  const { topic, guide } = data;
+  const idx = topics.findIndex((t) => t.slug === slug);
+  const prev = idx > 0 ? topics[idx - 1] : null;
+  const next = idx < topics.length - 1 ? topics[idx + 1] : null;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      {/* Breadcrumb */}
       <Link
         href="/learn"
         className="text-sm text-fg-muted transition-colors hover:text-fg"
@@ -42,7 +41,6 @@ export default async function TopicGuidePage({ params }: Props) {
         ← All topics
       </Link>
 
-      {/* Hero */}
       <div className="mt-6 flex items-center gap-4">
         <span
           className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl text-2xl shadow-[var(--shadow)]"
@@ -61,7 +59,6 @@ export default async function TopicGuidePage({ params }: Props) {
       </div>
       <p className="mt-4 text-lg text-fg-muted text-pretty">{guide.hero}</p>
 
-      {/* Sections */}
       <div className="mt-12 space-y-8">
         {guide.sections.map((section, i) => (
           <section
@@ -93,7 +90,6 @@ export default async function TopicGuidePage({ params }: Props) {
         ))}
       </div>
 
-      {/* Subtopics */}
       {guide.subtopics.length > 0 && (
         <section className="mt-14">
           <h2 className="text-2xl font-bold tracking-tight">
@@ -113,7 +109,6 @@ export default async function TopicGuidePage({ params }: Props) {
         </section>
       )}
 
-      {/* Tools */}
       {guide.tools.length > 0 && (
         <section className="mt-14">
           <h2 className="text-2xl font-bold tracking-tight">
@@ -125,7 +120,10 @@ export default async function TopicGuidePage({ params }: Props) {
                 key={tool.name}
                 className="flex items-start gap-3 rounded-xl border border-border bg-surface p-4"
               >
-                <span className="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-lg text-sm" style={{ background: topic.gradient, color: "#fff" }}>
+                <span
+                  className="mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-lg text-sm"
+                  style={{ background: topic.gradient, color: "#fff" }}
+                >
                   🛠
                 </span>
                 <div>
@@ -138,7 +136,6 @@ export default async function TopicGuidePage({ params }: Props) {
         </section>
       )}
 
-      {/* Learning path */}
       {guide.learningPath.length > 0 && (
         <section className="mt-14">
           <h2 className="text-2xl font-bold tracking-tight">
@@ -160,7 +157,6 @@ export default async function TopicGuidePage({ params }: Props) {
         </section>
       )}
 
-      {/* Cross-links */}
       <div className="mt-14 flex flex-wrap gap-3">
         <Link
           href={`/interview-prep/topic/${slug}`}
@@ -176,7 +172,6 @@ export default async function TopicGuidePage({ params }: Props) {
         </Link>
       </div>
 
-      {/* Prev / Next */}
       <nav className="mt-14 grid gap-4 border-t border-border pt-8 sm:grid-cols-2">
         {prev ? (
           <Link

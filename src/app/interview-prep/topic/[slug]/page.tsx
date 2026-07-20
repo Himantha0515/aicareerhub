@@ -1,34 +1,41 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { TOPICS } from "@/lib/content";
-import { getQuestionsByTopic, INTERVIEW_QUESTIONS } from "@/lib/interview-questions";
+import {
+  fetchInterviewQuestions,
+  fetchTopic,
+  fetchTopics,
+} from "@/lib/content-client";
 import { SITE } from "@/lib/site";
 import QuestionAccordion from "@/components/QuestionAccordion";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() {
-  const topicSlugs = new Set(INTERVIEW_QUESTIONS.flatMap((q) => q.topicSlugs));
-  return [...topicSlugs].map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  const topics = await fetchTopics();
+  return topics.map((t) => ({ slug: t.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const topic = TOPICS.find((t) => t.slug === slug);
-  if (!topic) return { title: "Topic not found" };
+  const data = await fetchTopic(slug);
+  if (!data?.topic) return { title: "Topic not found" };
   return {
-    title: `${topic.title} — interview questions`,
-    description: `Practical and theoretical interview questions about ${topic.title.toLowerCase()} for AI roles in India.`,
+    title: `${data.topic.title} — interview questions`,
+    description: `Practical and theoretical interview questions about ${data.topic.title.toLowerCase()} for AI roles in India.`,
     alternates: { canonical: `${SITE.url}/interview-prep/topic/${slug}` },
   };
 }
 
 export default async function TopicQuestionsPage({ params }: Props) {
   const { slug } = await params;
-  const topic = TOPICS.find((t) => t.slug === slug);
-  const questions = getQuestionsByTopic(slug);
-  if (!topic || questions.length === 0) notFound();
+  const [data, questions] = await Promise.all([
+    fetchTopic(slug),
+    fetchInterviewQuestions({ topic: slug }),
+  ]);
+  if (!data?.topic || questions.length === 0) notFound();
+
+  const { topic } = data;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">

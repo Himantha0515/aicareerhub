@@ -1,40 +1,39 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ROLES, TOPICS } from "@/lib/content";
-import { getRoleGuide, ROLE_GUIDES } from "@/lib/role-guides";
+import { fetchRole, fetchRoles, fetchTopics } from "@/lib/content-client";
 import { SITE } from "@/lib/site";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() {
-  return ROLE_GUIDES.map((g) => ({ slug: g.slug }));
+export async function generateStaticParams() {
+  const roles = await fetchRoles();
+  return roles.filter((r) => r.hasGuide).map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const role = ROLES.find((r) => r.slug === slug);
-  if (!role) return { title: "Role not found" };
+  const data = await fetchRole(slug);
+  if (!data?.role) return { title: "Role not found" };
   return {
-    title: `${role.title} — career guide`,
-    description: role.summary,
+    title: `${data.role.title} — career guide`,
+    description: data.role.summary,
     alternates: { canonical: `${SITE.url}/careers/${slug}` },
   };
 }
 
 export default async function RoleGuidePage({ params }: Props) {
   const { slug } = await params;
-  const role = ROLES.find((r) => r.slug === slug);
-  const guide = getRoleGuide(slug);
-  if (!role || !guide) notFound();
+  const [data, topics] = await Promise.all([fetchRole(slug), fetchTopics()]);
+  if (!data?.role || !data.guide) notFound();
 
-  const relatedTopics = TOPICS.filter((t) =>
+  const { role, guide } = data;
+  const relatedTopics = topics.filter((t) =>
     guide.relatedTopics.includes(t.slug),
   );
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
-      {/* Breadcrumb */}
       <Link
         href="/careers"
         className="text-sm text-fg-muted transition-colors hover:text-fg"
@@ -42,7 +41,6 @@ export default async function RoleGuidePage({ params }: Props) {
         ← All career paths
       </Link>
 
-      {/* Hero */}
       <div className="mt-6 flex items-center gap-4">
         <span
           className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl text-2xl shadow-[var(--shadow)]"
@@ -58,7 +56,6 @@ export default async function RoleGuidePage({ params }: Props) {
         </div>
       </div>
 
-      {/* Overview */}
       <section className="mt-10 glass rounded-2xl border border-border p-6 shadow-[var(--shadow)]">
         <h2 className="text-xl font-bold tracking-tight">Overview</h2>
         <div className="mt-3 space-y-3 text-fg-muted leading-relaxed">
@@ -68,7 +65,6 @@ export default async function RoleGuidePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Day to day */}
       <section className="mt-8 glass rounded-2xl border border-border p-6 shadow-[var(--shadow)]">
         <h2 className="text-xl font-bold tracking-tight">
           What you actually do <span className="text-gradient">day to day</span>
@@ -83,7 +79,6 @@ export default async function RoleGuidePage({ params }: Props) {
         </ul>
       </section>
 
-      {/* Career progression */}
       <section className="mt-8">
         <h2 className="text-2xl font-bold tracking-tight">
           Career <span className="text-gradient">progression</span>
@@ -109,16 +104,19 @@ export default async function RoleGuidePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Required background */}
       <section className="mt-14">
         <h2 className="text-2xl font-bold tracking-tight">
           What you <span className="text-gradient">need</span>
         </h2>
         <div className="mt-6 grid gap-4 sm:grid-cols-3">
-          {/* Must */}
           <div className="rounded-2xl border border-border bg-surface p-5">
             <h3 className="flex items-center gap-2 font-semibold text-fg">
-              <span className="grid h-7 w-7 place-items-center rounded-lg text-sm" style={{ background: "linear-gradient(135deg, var(--emerald), var(--cyan))" }}>
+              <span
+                className="grid h-7 w-7 place-items-center rounded-lg text-sm"
+                style={{
+                  background: "linear-gradient(135deg, var(--emerald), var(--cyan))",
+                }}
+              >
                 ✓
               </span>
               Must have
@@ -133,10 +131,14 @@ export default async function RoleGuidePage({ params }: Props) {
             </ul>
           </div>
 
-          {/* Helpful */}
           <div className="rounded-2xl border border-border bg-surface p-5">
             <h3 className="flex items-center gap-2 font-semibold text-fg">
-              <span className="grid h-7 w-7 place-items-center rounded-lg text-sm" style={{ background: "linear-gradient(135deg, var(--amber), var(--rose))" }}>
+              <span
+                className="grid h-7 w-7 place-items-center rounded-lg text-sm"
+                style={{
+                  background: "linear-gradient(135deg, var(--amber), var(--rose))",
+                }}
+              >
                 +
               </span>
               Helpful
@@ -151,10 +153,14 @@ export default async function RoleGuidePage({ params }: Props) {
             </ul>
           </div>
 
-          {/* Not needed */}
           <div className="rounded-2xl border border-border bg-surface p-5">
             <h3 className="flex items-center gap-2 font-semibold text-fg">
-              <span className="grid h-7 w-7 place-items-center rounded-lg text-sm" style={{ background: "linear-gradient(135deg, var(--rose), var(--fuchsia))" }}>
+              <span
+                className="grid h-7 w-7 place-items-center rounded-lg text-sm"
+                style={{
+                  background: "linear-gradient(135deg, var(--rose), var(--fuchsia))",
+                }}
+              >
                 ✗
               </span>
               You do NOT need
@@ -171,7 +177,6 @@ export default async function RoleGuidePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Switching from */}
       <section className="mt-14">
         <h2 className="text-2xl font-bold tracking-tight">
           Switching <span className="text-gradient">from...</span>
@@ -194,7 +199,6 @@ export default async function RoleGuidePage({ params }: Props) {
         </div>
       </section>
 
-      {/* Related topics */}
       {relatedTopics.length > 0 && (
         <section className="mt-14">
           <h2 className="text-2xl font-bold tracking-tight">
@@ -223,7 +227,6 @@ export default async function RoleGuidePage({ params }: Props) {
         </section>
       )}
 
-      {/* Cross-links */}
       <div className="mt-14 flex flex-wrap gap-3">
         <Link
           href={`/interview-prep/role/${slug}`}

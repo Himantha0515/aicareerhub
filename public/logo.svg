@@ -1,0 +1,67 @@
+<svg viewBox="0 0 360 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="blueStripe" x1="0" y1="0" x2="0.3" y2="1">
+      <stop offset="0%" stop-color="#1a3a7a"/>
+      <stop offset="100%" stop-color="#0c2d6b"/>
+    </linearGradient>
+    <linearGradient id="orangeStripe" x1="0.5" y1="0" x2="0.8" y2="1">
+      <stop offset="0%" stop-color="#f5a623"/>
+      <stop offset="60%" stop-color="#e8541e"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <linearGradient id="arrowBlue" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2980b9"/>
+      <stop offset="50%" stop-color="#2fa4e7"/>
+      <stop offset="100%" stop-color="#00b4d8"/>
+    </linearGradient>
+    <clipPath id="aClip">
+      <path d="M 20 72 L 44 6 L 56 6 L 80 72 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- A shape — blue left half -->
+  <path d="M 20 72 L 44 6 L 50 6 L 50 72 Z" fill="url(#blueStripe)"/>
+  <!-- A shape — orange right half -->
+  <path d="M 50 6 L 56 6 L 80 72 L 50 72 Z" fill="url(#orangeStripe)"/>
+  <!-- A crossbar -->
+  <rect x="30" y="46" width="40" height="5" rx="1" fill="rgba(255,255,255,0.25)"/>
+
+  <!-- Circuit traces on blue side -->
+  <g clip-path="url(#aClip)">
+    <line x1="36" y1="22" x2="40" y2="36" stroke="#5ba3e6" stroke-width="1.2" opacity="0.7"/>
+    <line x1="40" y1="36" x2="34" y2="52" stroke="#5ba3e6" stroke-width="1.2" opacity="0.7"/>
+    <line x1="34" y1="52" x2="38" y2="64" stroke="#5ba3e6" stroke-width="1.2" opacity="0.6"/>
+    <circle cx="36" cy="22" r="2.5" fill="#60a5fa"/>
+    <circle cx="40" cy="36" r="2.5" fill="#60a5fa"/>
+    <circle cx="34" cy="52" r="2.5" fill="#5ba3e6"/>
+    <circle cx="38" cy="64" r="2" fill="#5ba3e6" opacity="0.6"/>
+
+    <!-- Circuit traces on orange side -->
+    <line x1="58" y1="28" x2="62" y2="42" stroke="#fca5a5" stroke-width="1.2" opacity="0.7"/>
+    <line x1="62" y1="42" x2="66" y2="56" stroke="#fca5a5" stroke-width="1.2" opacity="0.6"/>
+    <line x1="66" y1="56" x2="70" y2="66" stroke="#fca5a5" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="58" cy="28" r="2.5" fill="#fca5a5"/>
+    <circle cx="62" cy="42" r="2.5" fill="#fca5a5"/>
+    <circle cx="66" cy="56" r="2" fill="#fca5a5" opacity="0.7"/>
+  </g>
+
+  <!-- Upward arrow / growth path -->
+  <path d="M 30 60 C 40 50, 55 35, 72 18" stroke="url(#arrowBlue)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 34 55 C 42 46, 56 32, 70 16" stroke="#2fa4e7" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.5"/>
+  <path d="M 37 52 C 45 43, 58 29, 74 14" stroke="#00b4d8" stroke-width="1.5" fill="none" stroke-linecap="round" opacity="0.35"/>
+
+  <!-- Arrowhead -->
+  <polygon points="72,8 82,20 74,18" fill="#00b4d8"/>
+  <polygon points="72,8 70,20 64,14" fill="#2fa4e7" opacity="0.6"/>
+
+  <!-- Glow nodes on arrow path -->
+  <circle cx="40" cy="52" r="2" fill="#00b4d8" opacity="0.8"/>
+  <circle cx="55" cy="38" r="2.5" fill="#2fa4e7"/>
+  <circle cx="68" cy="22" r="2" fill="#00b4d8" opacity="0.9"/>
+
+  <!-- Text: AI -->
+  <text x="100" y="52" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="900" fill="#0c2340" letter-spacing="1">AI</text>
+
+  <!-- Text: CareerPath -->
+  <text x="148" y="52" font-family="Arial, Helvetica, sans-serif" font-size="38" font-weight="700" fill="#1e40af" letter-spacing="0.5">CareerPath</text>
+</svg>

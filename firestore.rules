@@ -1,0 +1,53 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Feedback: validated create-only (unchanged)
+    match /feedback/{id} {
+      allow create: if request.resource.data.keys().hasAll(['type', 'typeLabel', 'message', 'receivedAt', 'source'])
+        && request.resource.data.type in ['bug', 'job', 'content', 'other']
+        && request.resource.data.message is string
+        && request.resource.data.message.size() >= 8
+        && request.resource.data.message.size() <= 4000
+        && request.resource.data.source == 'aicareerhub-web';
+      allow read, update, delete: if false;
+    }
+
+    // Public content — read-only from clients. Writes via Admin SDK / seed only.
+    match /topics/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /topicGuides/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /roles/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /roleGuides/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /salaries/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /interviewQuestions/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /jobs/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+    match /meta/{id} {
+      allow read: if true;
+      allow write: if false;
+    }
+
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

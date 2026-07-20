@@ -16,18 +16,16 @@ export default function Footer() {
       <div className="glass">
         <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-10 sm:flex-row sm:items-center">
           <div>
-            <p className="flex items-center gap-2 font-semibold">
-              <span
-                className="grid h-7 w-7 place-items-center rounded-lg text-xs font-bold text-white"
-                style={{ background: "var(--grad-brand)" }}
-              >
-                AI
-              </span>
-              <span className="text-gradient">{SITE.name}</span>
-            </p>
+            <div className="flex items-center gap-2 font-semibold">
+              <img
+                src="/logo.svg"
+                alt={SITE.name}
+                className="h-6 w-auto"
+              />
+            </div>
             <p className="mt-2 text-sm text-fg-muted">
-              © {new Date().getFullYear()} {SITE.name}. Job listings link to the
-              original employer posting.
+              © {new Date().getFullYear()} {SITE.name}. Jobs are listed from
+              company career portals — Apply opens the employer site.
             </p>
           </div>
           <nav className="flex gap-5 sm:ml-auto">

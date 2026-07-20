@@ -1,5 +1,5 @@
 import Link from "next/link";
-import ThemeToggle from "./ThemeToggle";
+import FeedbackButton from "./FeedbackButton";
 import MobileNav from "./MobileNav";
 import { SITE } from "@/lib/site";
 
@@ -13,20 +13,27 @@ const NAV = [
 export default function Header() {
   return (
     <header className="glass sticky top-0 z-50 border-b border-border">
-      <div className="mx-auto flex h-16 max-w-6xl items-center gap-6 px-4">
-        <Link href="/" className="group flex items-center gap-2.5">
-          <span
-            className="grid h-9 w-9 place-items-center rounded-xl text-sm font-bold text-white shadow-[var(--glow)] transition-transform duration-300 group-hover:rotate-6 group-hover:scale-110"
-            style={{ background: "var(--grad-brand)" }}
-          >
-            AI
-          </span>
-          <span className="text-gradient text-lg font-bold tracking-tight">
-            {SITE.name}
-          </span>
+      <div className="mx-auto flex h-16 w-full max-w-6xl min-w-0 items-center gap-2 px-4 sm:gap-3">
+
+        {/* Logo */}
+        <Link href="/" className="group flex min-w-0 shrink overflow-hidden items-center">
+          <img
+            src="/logo.svg"
+            alt={SITE.name}
+            className="h-8 w-auto max-w-[38vw] object-contain object-left transition-transform duration-300 group-hover:scale-105 sm:h-10 sm:max-w-none"
+          />
         </Link>
 
-        <nav className="hidden gap-1 sm:flex">
+        {/* Browse AI Jobs — sits right next to logo on all screen sizes */}
+        <Link
+          href="/jobs"
+          className="btn-gradient shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold sm:px-4 sm:py-2 sm:text-sm"
+        >
+          Browse AI Jobs ✨
+        </Link>
+
+        {/* Desktop nav */}
+        <nav className="hidden gap-1 sm:flex ml-2">
           {NAV.map((item) => (
             <Link
               key={item.href}
@@ -38,7 +45,8 @@ export default function Header() {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-3">
+        {/* Right side: Feedback (mail icon) + mobile menu */}
+        <div className="ml-auto flex items-center gap-2 sm:gap-3">
           <Link
             href="/profile"
             className="hidden rounded-full px-3 py-1.5 text-sm font-medium text-fg-muted transition-all duration-200 hover:bg-accent-soft hover:text-accent sm:inline-block"
@@ -46,13 +54,7 @@ export default function Header() {
           >
             👤
           </Link>
-          <ThemeToggle />
-          <Link
-            href="/jobs"
-            className="btn-gradient hidden rounded-full px-4 py-2 text-sm font-semibold sm:inline-block"
-          >
-            Browse jobs ✨
-          </Link>
+          <FeedbackButton />
           <MobileNav />
         </div>
       </div>

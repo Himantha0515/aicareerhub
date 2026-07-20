@@ -1,113 +1,141 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
+import { createPortal } from "react-dom";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV = [
-  { href: "/learn", label: "Learn", emoji: "🎓" },
-  { href: "/careers", label: "Careers", emoji: "🧭" },
-  { href: "/salaries", label: "Salaries", emoji: "💰" },
+  { href: "/learn",          label: "Learn",          emoji: "🎓" },
+  { href: "/careers",        label: "Careers",        emoji: "🧭" },
+  { href: "/salaries",       label: "Salaries",       emoji: "💰" },
   { href: "/interview-prep", label: "Interview Prep", emoji: "📝" },
-  { href: "/jobs", label: "Jobs", emoji: "💼" },
-  { href: "/profile", label: "Profile", emoji: "👤" },
+  { href: "/jobs",           label: "Jobs",           emoji: "💼" },
+  { href: "/profile",        label: "Profile",        emoji: "👤" },
 ];
 
 export default function MobileNav() {
-  const [open, setOpen] = useState(false);
-  const pathname = usePathname();
+  const [open, setOpen]       = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const pathname              = usePathname();
+  const closeRef              = useRef<HTMLButtonElement>(null);
+
+  useEffect(() => { setMounted(true); }, []);
+
+  useEffect(() => { setOpen(false); }, [pathname]);
 
   useEffect(() => {
-    setOpen(false);
-  }, [pathname]);
-
-  useEffect(() => {
-    if (open) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-    return () => {
-      document.body.style.overflow = "";
-    };
+    document.body.style.overflow = open ? "hidden" : "";
+    if (open) setTimeout(() => closeRef.current?.focus(), 50);
+    return () => { document.body.style.overflow = ""; };
   }, [open]);
+
+  useEffect(() => {
+    const onKey = (e: KeyboardEvent) => { if (e.key === "Escape") setOpen(false); };
+    document.addEventListener("keydown", onKey);
+    return () => document.removeEventListener("keydown", onKey);
+  }, []);
+
+  const isActive = (href: string) =>
+    pathname === href || (href !== "/" && pathname.startsWith(href));
+
+  const navigateFromMenu = (href: string) => {
+    setOpen(false);
+    if (href === pathname || href === window.location.pathname) return;
+    // Trigger the global page-transition loader while Next.js navigates
+    window.dispatchEvent(new CustomEvent("page-navigate"));
+  };
+
+  const overlay = (
+    <div
+      className="mnav-root"
+      aria-hidden={!open}
+      style={{ pointerEvents: open ? "auto" : "none" }}
+    >
+      <button
+        type="button"
+        className="mnav-backdrop"
+        aria-label="Close navigation menu"
+        onClick={() => setOpen(false)}
+        style={{ opacity: open ? 1 : 0 }}
+      />
+
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label="Navigation menu"
+        className="mnav-panel"
+        style={{
+          transform: open ? "translateX(0)" : "translateX(110%)",
+          opacity: open ? 1 : 0,
+        }}
+      >
+        <div className="mnav-header">
+          <img src="/logo.svg" alt="AI CareerPath" className="h-8 w-auto max-w-[70%]" />
+          <button
+            ref={closeRef}
+            onClick={() => setOpen(false)}
+            aria-label="Close navigation menu"
+            className="mnav-close-btn"
+          >
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+              stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+              <line x1="4"  y1="4"  x2="14" y2="14" />
+              <line x1="14" y1="4"  x2="4"  y2="14" />
+            </svg>
+          </button>
+        </div>
+
+        <nav className="mnav-links">
+          {NAV.map((item, i) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={() => navigateFromMenu(item.href)}
+              className={`mnav-link${isActive(item.href) ? " mnav-link--active" : ""}`}
+              style={{
+                opacity:   open ? 1 : 0,
+                transform: open ? "translateX(0)" : "translateX(12px)",
+                transition: [
+                  `opacity 280ms ease ${i * 40 + 60}ms`,
+                  `transform 280ms cubic-bezier(0.34,1.56,0.64,1) ${i * 40 + 60}ms`,
+                ].join(", "),
+              }}
+            >
+              <span className="mnav-link-emoji">{item.emoji}</span>
+              <span>{item.label}</span>
+              {isActive(item.href) && <span className="mnav-active-dot" />}
+            </Link>
+          ))}
+        </nav>
+
+        <p
+          className="mnav-footer"
+          style={{
+            opacity:    open ? 0.55 : 0,
+            transition: `opacity 280ms ease ${open ? "280ms" : "0ms"}`,
+          }}
+        >
+          AI CareerPath · Built for India
+        </p>
+      </div>
+    </div>
+  );
 
   return (
     <div className="sm:hidden">
       <button
         onClick={() => setOpen((v) => !v)}
-        className="grid h-9 w-9 place-items-center rounded-lg text-fg transition-colors hover:bg-accent-soft"
-        aria-label={open ? "Close menu" : "Open menu"}
+        aria-label={open ? "Close navigation menu" : "Open navigation menu"}
+        aria-expanded={open}
+        className="mnav-hamburger"
       >
-        <svg
-          width="20"
-          height="20"
-          viewBox="0 0 20 20"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="1.5"
-          strokeLinecap="round"
-        >
-          {open ? (
-            <>
-              <line x1="4" y1="4" x2="16" y2="16" />
-              <line x1="16" y1="4" x2="4" y2="16" />
-            </>
-          ) : (
-            <>
-              <line x1="3" y1="5" x2="17" y2="5" />
-              <line x1="3" y1="10" x2="17" y2="10" />
-              <line x1="3" y1="15" x2="17" y2="15" />
-            </>
-          )}
-        </svg>
+        <span style={{ transform: open ? "rotate(45deg)"  : "translateY(-5px)" }} />
+        <span style={{ opacity:   open ? 0 : 1 }} />
+        <span style={{ transform: open ? "rotate(-45deg)" : "translateY(5px)"  }} />
       </button>
 
-      {open && (
-        <>
-          <div
-            className="fixed inset-0 z-40 bg-black/50 backdrop-blur-md"
-            onClick={() => setOpen(false)}
-          />
-          <nav className="fixed inset-y-0 right-0 z-50 w-72 border-l border-border bg-bg/95 backdrop-blur-lg p-6 shadow-2xl">
-            <button
-              onClick={() => setOpen(false)}
-              className="mb-6 grid h-9 w-9 place-items-center rounded-lg text-fg-muted transition-colors hover:bg-accent-soft hover:text-fg"
-              aria-label="Close menu"
-            >
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="1.5"
-                strokeLinecap="round"
-              >
-                <line x1="4" y1="4" x2="16" y2="16" />
-                <line x1="16" y1="4" x2="4" y2="16" />
-              </svg>
-            </button>
-            <ul className="space-y-1">
-              {NAV.map((item) => (
-                <li key={item.href}>
-                  <Link
-                    href={item.href}
-                    className={`flex items-center gap-3 rounded-xl px-4 py-3 text-sm font-medium transition-colors ${
-                      pathname.startsWith(item.href)
-                        ? "bg-accent/10 text-accent"
-                        : "text-fg hover:bg-accent-soft hover:text-accent"
-                    }`}
-                  >
-                    <span>{item.emoji}</span>
-                    {item.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </nav>
-        </>
-      )}
+      {mounted && createPortal(overlay, document.body)}
     </div>
   );
 }

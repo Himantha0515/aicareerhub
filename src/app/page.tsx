@@ -1,7 +1,6 @@
 import Link from "next/link";
 import JobCard from "@/components/JobCard";
-import { getJobs } from "@/lib/jobs";
-import { TOPICS } from "@/lib/content";
+import { fetchJobs, fetchTopics } from "@/lib/content-client";
 
 const PILLARS = [
   {
@@ -30,19 +29,17 @@ const PILLARS = [
 const PROMISES = [
   { emoji: "🆓", title: "Free forever", body: "Every guide, open to everyone" },
   { emoji: "🇮🇳", title: "Built for India", body: "Roles, cities and salaries that apply here" },
-  { emoji: "✅", title: "Hand-checked jobs", body: "Every listing verified before it goes up" },
+  { emoji: "🏢", title: "From company portals", body: "Apply opens the employer’s own posting" },
 ];
 
 export default async function Home() {
-  const jobs = await getJobs();
+  const [{ jobs }, topics] = await Promise.all([fetchJobs(), fetchTopics()]);
   const latest = jobs.slice(0, 6);
 
   return (
     <>
-      {/* Hero */}
-      <section className="relative mx-auto max-w-6xl px-4 pt-16 pb-14 sm:pt-24">
-        {/* Floating decorative chips */}
-        <div aria-hidden className="pointer-events-none absolute inset-0 hidden lg:block">
+      <section className="relative mx-auto w-full max-w-6xl overflow-x-clip px-4 pt-16 pb-14 sm:pt-24">
+        <div aria-hidden className="pointer-events-none absolute inset-0 hidden overflow-hidden lg:block">
           <span className="animate-bob absolute top-16 right-14 rounded-2xl border border-border bg-surface px-4 py-2 text-sm shadow-[var(--shadow)]">
             🤖 Machine Learning
           </span>
@@ -76,8 +73,8 @@ export default async function Home() {
           className="animate-fade-up mt-6 max-w-xl text-lg text-fg-muted text-pretty"
           style={{ animationDelay: "0.16s" }}
         >
-          Free guides that start from zero, and a hand-checked AI job board.
-          Built for India — students, freshers and switchers welcome.
+          Free guides that start from zero, plus AI jobs refreshed daily from
+          company career portals. Apply always opens the employer site.
         </p>
 
         <div
@@ -98,7 +95,6 @@ export default async function Home() {
           </Link>
         </div>
 
-        {/* Honest promise tiles — no invented numbers */}
         <div
           className="animate-fade-up mt-12 grid max-w-2xl gap-3 sm:grid-cols-3"
           style={{ animationDelay: "0.32s" }}
@@ -116,33 +112,32 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Topic tiles */}
-      <section className="mx-auto max-w-6xl px-4 py-14">
-        <div className="mb-6 flex items-baseline justify-between gap-4">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+      <section className="mx-auto w-full max-w-6xl px-4 py-14">
+        <div className="mb-6 flex min-w-0 items-baseline justify-between gap-3">
+          <h2 className="min-w-0 text-2xl font-bold tracking-tight sm:text-3xl">
             Explore <span className="text-gradient">topics</span>
           </h2>
           <Link
             href="/learn"
-            className="text-sm font-medium text-accent transition-opacity hover:opacity-70"
+            className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
           >
             View all →
           </Link>
         </div>
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
-          {TOPICS.slice(0, 8).map((topic) => (
+        <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
+          {topics.slice(0, 8).map((topic) => (
             <Link
               key={topic.slug}
               href={`/learn/${topic.slug}`}
-              className="card-3d group rounded-2xl border border-border bg-surface p-5 text-center hover:border-accent/50"
+              className="card-3d group min-w-0 rounded-2xl border border-border bg-surface p-3 text-center hover:border-accent/50 sm:p-5"
             >
               <span
-                className="mx-auto grid h-14 w-14 place-items-center rounded-2xl text-2xl shadow-[var(--shadow)] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6"
+                className="mx-auto grid h-12 w-12 place-items-center rounded-2xl text-xl shadow-[var(--shadow)] transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 sm:h-14 sm:w-14 sm:text-2xl"
                 style={{ background: topic.gradient }}
               >
                 {topic.emoji}
               </span>
-              <p className="mt-3 font-semibold transition-colors group-hover:text-accent">
+              <p className="mt-3 text-sm font-semibold break-words transition-colors group-hover:text-accent sm:text-base">
                 {topic.title}
               </p>
             </Link>
@@ -150,18 +145,17 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Pillars */}
-      <section className="mx-auto max-w-6xl px-4 py-14">
+      <section className="mx-auto w-full max-w-6xl px-4 py-14">
         <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
           Everything you need,{" "}
           <span className="text-gradient">in one place</span>
         </h2>
-        <div className="grid gap-4 sm:grid-cols-3">
+        <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">
           {PILLARS.map((p) => (
             <Link
               key={p.href}
               href={p.href}
-              className="card-3d group rounded-2xl border border-border bg-surface p-6 hover:border-accent/50"
+              className="card-3d group min-w-0 rounded-2xl border border-border bg-surface p-5 hover:border-accent/50 sm:p-6"
             >
               <span
                 className="grid h-12 w-12 place-items-center rounded-xl text-xl shadow-[var(--shadow)] transition-transform duration-300 group-hover:scale-110"
@@ -178,15 +172,14 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Latest jobs */}
-      <section className="mx-auto max-w-6xl px-4 py-14">
-        <div className="mb-6 flex items-baseline justify-between gap-4">
-          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+      <section className="mx-auto w-full max-w-6xl px-4 py-14">
+        <div className="mb-6 flex min-w-0 items-baseline justify-between gap-3">
+          <h2 className="min-w-0 text-2xl font-bold tracking-tight sm:text-3xl">
             Latest <span className="text-gradient">AI jobs</span>
           </h2>
           <Link
             href="/jobs"
-            className="text-sm font-medium text-accent transition-opacity hover:opacity-70"
+            className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
           >
             View all →
           </Link>
@@ -194,17 +187,19 @@ export default async function Home() {
 
         {latest.length === 0 ? (
           <p className="glass rounded-2xl border border-border p-6 text-sm text-fg-muted text-pretty shadow-[var(--shadow)]">
-            The board is still filling up — we check every role by hand before it
-            goes up.{" "}
+            Jobs refresh daily from employer Greenhouse, Lever and Ashby boards.
+            Check back soon, or{" "}
             <Link href="/learn" className="font-medium text-accent hover:opacity-70">
-              Start with the guides
+              start with the guides
             </Link>{" "}
             in the meantime.
           </p>
         ) : (
-          <div className="grid gap-4 sm:grid-cols-2">
+          <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
             {latest.map((job) => (
-              <JobCard key={job.id} job={job} />
+              <div key={job.id} className="min-w-0 max-w-full">
+                <JobCard job={job} />
+              </div>
             ))}
           </div>
         )}

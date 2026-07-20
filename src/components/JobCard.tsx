@@ -19,42 +19,59 @@ function avatarGradient(company: string): string {
 
 export default function JobCard({ job }: { job: Job }) {
   return (
-    <Link
-      href={`/jobs/${job.id}`}
-      className="card-3d group block rounded-2xl border border-border bg-surface p-5 hover:border-accent/50"
-    >
-      <div className="flex items-start gap-3.5">
-        <span
-          className="grid h-11 w-11 shrink-0 place-items-center rounded-xl text-base font-bold text-white shadow-[var(--shadow)]"
-          style={{ background: avatarGradient(job.company) }}
-        >
-          {job.company.charAt(0).toUpperCase()}
-        </span>
-        <div className="min-w-0 flex-1">
-          <h3 className="truncate font-semibold text-fg transition-colors group-hover:text-accent">
-            {job.title}
-          </h3>
-          <p className="mt-0.5 truncate text-sm text-fg-muted">
-            {job.company} · {job.location}
-          </p>
-        </div>
-        <span className="shrink-0 rounded-full bg-accent-soft px-2.5 py-1 text-xs font-medium text-accent">
-          {timeAgo(job.postedAt)}
-        </span>
-      </div>
+    <article className="card-3d group w-full max-w-full min-w-0 overflow-hidden rounded-2xl border border-border bg-surface p-4 sm:p-5 hover:border-accent/50">
+      <Link href={`/jobs/${job.id}`} className="block min-w-0">
+        <div className="flex min-w-0 items-start gap-3">
+          <span
+            className="grid h-10 w-10 shrink-0 place-items-center rounded-xl text-sm font-bold text-white shadow-[var(--shadow)] sm:h-11 sm:w-11 sm:text-base"
+            style={{ background: avatarGradient(job.company) }}
+          >
+            {job.company.charAt(0).toUpperCase()}
+          </span>
 
-      {job.tags.length > 0 && (
-        <ul className="mt-4 flex flex-wrap gap-1.5">
-          {job.tags.slice(0, 4).map((tag) => (
-            <li
-              key={tag}
-              className="rounded-full border border-border bg-surface-2 px-2.5 py-0.5 text-xs font-medium text-fg-muted"
-            >
-              {tag}
-            </li>
-          ))}
-        </ul>
-      )}
-    </Link>
+          <div className="min-w-0 flex-1 overflow-hidden">
+            <div className="flex min-w-0 items-start justify-between gap-2">
+              <h3 className="min-w-0 flex-1 text-sm font-semibold leading-snug text-fg break-words sm:text-base sm:truncate transition-colors group-hover:text-accent">
+                {job.title}
+              </h3>
+              <span className="shrink-0 rounded-full bg-accent-soft px-2 py-0.5 text-[10px] font-medium text-accent sm:px-2.5 sm:py-1 sm:text-xs">
+                {timeAgo(job.postedAt)}
+              </span>
+            </div>
+            <p className="mt-0.5 truncate text-xs text-fg-muted sm:text-sm">
+              {job.company} · {job.location}
+              {job.companyType ? ` · ${job.companyType}` : ""}
+            </p>
+          </div>
+        </div>
+
+        {job.tags.length > 0 && (
+          <ul className="mt-3 flex min-w-0 flex-wrap gap-1.5 sm:mt-4">
+            {job.tags.slice(0, 4).map((tag) => (
+              <li
+                key={tag}
+                className="max-w-full truncate rounded-full border border-border bg-surface-2 px-2.5 py-0.5 text-xs font-medium text-fg-muted"
+              >
+                {tag}
+              </li>
+            ))}
+          </ul>
+        )}
+      </Link>
+
+      <div className="mt-3 flex min-w-0 items-center justify-between gap-2 border-t border-border pt-3">
+        <p className="min-w-0 truncate text-[11px] text-fg-muted sm:text-xs">
+          Via {job.source}
+        </p>
+        <a
+          href={job.applyUrl}
+          target="_blank"
+          rel="nofollow noopener noreferrer"
+          className="shrink-0 text-xs font-semibold text-accent transition-opacity hover:opacity-70 sm:text-sm"
+        >
+          Apply on company site →
+        </a>
+      </div>
+    </article>
   );
 }

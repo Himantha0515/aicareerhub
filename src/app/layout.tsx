@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BackgroundFX from "@/components/BackgroundFX";
+import PageTransition from "@/components/PageTransition";
+import BackButton from "@/components/BackButton";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -30,11 +32,12 @@ export const metadata: Metadata = {
   },
 };
 
-/* Runs before first paint so a stored theme never flashes the wrong colours. */
-const themeScript = `
+/* Light-only product — clear any old dark preference before paint. */
+const lightOnlyScript = `
 try {
-  var t = localStorage.getItem('theme');
-  if (t) document.documentElement.dataset.theme = t;
+  localStorage.removeItem('theme');
+  document.documentElement.dataset.theme = 'light';
+  document.documentElement.style.colorScheme = 'light';
 } catch (e) {}
 `;
 
@@ -44,16 +47,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-IN" suppressHydrationWarning>
+    <html lang="en-IN" data-theme="light" style={{ colorScheme: "light" }}>
       <head>
-        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+        <script dangerouslySetInnerHTML={{ __html: lightOnlyScript }} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col antialiased`}
       >
+        <PageTransition />
         <BackgroundFX />
         <Header />
-        <main className="flex-1">{children}</main>
+        <BackButton />
+        <main className="w-full min-w-0 max-w-full flex-1 overflow-x-clip">
+          {children}
+        </main>
         <Footer />
       </body>
     </html>

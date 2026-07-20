@@ -1,34 +1,41 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ROLES } from "@/lib/content";
-import { getQuestionsByRole, INTERVIEW_QUESTIONS } from "@/lib/interview-questions";
+import {
+  fetchInterviewQuestions,
+  fetchRole,
+  fetchRoles,
+} from "@/lib/content-client";
 import { SITE } from "@/lib/site";
 import QuestionAccordion from "@/components/QuestionAccordion";
 
 type Props = { params: Promise<{ slug: string }> };
 
-export function generateStaticParams() {
-  const roleSlugs = new Set(INTERVIEW_QUESTIONS.flatMap((q) => q.roleSlugs));
-  return [...roleSlugs].map((slug) => ({ slug }));
+export async function generateStaticParams() {
+  const roles = await fetchRoles();
+  return roles.map((r) => ({ slug: r.slug }));
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const role = ROLES.find((r) => r.slug === slug);
-  if (!role) return { title: "Role not found" };
+  const data = await fetchRole(slug);
+  if (!data?.role) return { title: "Role not found" };
   return {
-    title: `${role.title} — interview questions`,
-    description: `Interview questions commonly asked for ${role.title} positions at AI companies in India.`,
+    title: `${data.role.title} — interview questions`,
+    description: `Interview questions commonly asked for ${data.role.title} positions at AI companies in India.`,
     alternates: { canonical: `${SITE.url}/interview-prep/role/${slug}` },
   };
 }
 
 export default async function RoleQuestionsPage({ params }: Props) {
   const { slug } = await params;
-  const role = ROLES.find((r) => r.slug === slug);
-  const questions = getQuestionsByRole(slug);
-  if (!role || questions.length === 0) notFound();
+  const [data, questions] = await Promise.all([
+    fetchRole(slug),
+    fetchInterviewQuestions({ role: slug }),
+  ]);
+  if (!data?.role || questions.length === 0) notFound();
+
+  const { role } = data;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-12">
@@ -72,7 +79,7 @@ export default async function RoleQuestionsPage({ params }: Props) {
           🧭 Full career guide
         </Link>
         <Link
-          href={`/salaries`}
+          href="/salaries"
           className="rounded-full border border-border bg-surface px-4 py-2 text-sm font-medium transition-colors hover:border-accent/50 hover:text-accent"
         >
           💰 Salary data
