@@ -7,7 +7,7 @@ import { SITE } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: {
-    absolute: `${SITE.name} — Learn AI, Find AI Jobs, Build a Career`,
+    absolute: `${SITE.name} — ${SITE.tagline}`,
   },
   description: SITE.description,
   alternates: { canonical: SITE.url },
@@ -18,15 +18,17 @@ const PILLARS = [
     href: "/learn",
     emoji: "🎓",
     gradient: "linear-gradient(135deg, var(--indigo), var(--violet))",
-    title: "Learn AI from zero",
+    title: "Learn from zero",
     body: "Plain-English guides to LLMs, RAG, MCP, agents and MLOps. Written for school and college students, not just engineers.",
+    cta: "Open guides",
   },
   {
     href: "/careers",
     emoji: "🧭",
     gradient: "linear-gradient(135deg, var(--violet), var(--fuchsia))",
-    title: "Pick a career path",
+    title: "Pick a path",
     body: "What an ML engineer, GenAI developer or MLOps engineer actually does all day — and how to become one.",
+    cta: "See career paths",
   },
   {
     href: "/salaries",
@@ -34,8 +36,25 @@ const PILLARS = [
     gradient: "linear-gradient(135deg, var(--cyan), var(--indigo))",
     title: "Know your worth",
     body: "Honest salary ranges for AI roles across Bengaluru, Hyderabad, Pune and Delhi NCR, plus remote.",
+    cta: "Compare salaries",
   },
 ];
+
+/** Short homepage labels so topic cards are not flagged for long anchors. */
+const TOPIC_SHORT: Record<string, string> = {
+  "what-is-ai": "AI vs ML basics",
+  "how-llms-work": "How LLMs work",
+  "python-for-ai": "Python for AI",
+  "maths-for-ml": "Maths you need",
+  "prompt-engineering": "Prompt engineering",
+  rag: "RAG systems",
+  mcp: "MCP protocol",
+  "ai-agents": "AI agents",
+  "fine-tuning": "Fine-tuning vs RAG",
+  evals: "Evaluating AI",
+  mlops: "MLOps basics",
+  "ai-infra": "AI infrastructure",
+};
 
 const PROMISES = [
   { emoji: "🆓", title: "Free forever", body: "Every guide, open to everyone" },
@@ -101,13 +120,13 @@ export default async function Home() {
                 href="/jobs"
                 className="btn-gradient rounded-full px-6 py-3 font-semibold"
               >
-                Browse AI jobs →
+                Browse jobs →
               </Link>
               <Link
                 href="/learn"
                 className="rounded-full border border-border bg-surface px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
               >
-                Start learning AI
+                Start learning
               </Link>
             </div>
 
@@ -198,7 +217,7 @@ export default async function Home() {
             href="/learn"
             className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
           >
-            All learning guides →
+            All guides →
           </Link>
         </div>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
@@ -206,6 +225,7 @@ export default async function Home() {
             <Link
               key={topic.slug}
               href={`/learn/${topic.slug}`}
+              title={topic.title}
               className="card-3d group min-w-0 rounded-2xl border border-border bg-surface p-3 text-center hover:border-accent/50 sm:p-5"
             >
               <span
@@ -215,7 +235,7 @@ export default async function Home() {
                 {topic.emoji}
               </span>
               <p className="mt-3 text-sm font-semibold break-words transition-colors group-hover:text-accent sm:text-base">
-                {topic.title}
+                {TOPIC_SHORT[topic.slug] ?? topic.title}
               </p>
             </Link>
           ))}
@@ -229,9 +249,8 @@ export default async function Home() {
         </h2>
         <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">
           {PILLARS.map((p) => (
-            <Link
+            <article
               key={p.href}
-              href={p.href}
               className="card-3d group min-w-0 rounded-2xl border border-border bg-surface p-5 hover:border-accent/50 sm:p-6"
             >
               <span
@@ -240,11 +259,15 @@ export default async function Home() {
               >
                 {p.emoji}
               </span>
-              <h3 className="mt-4 text-lg font-semibold transition-colors group-hover:text-accent">
-                {p.title}
-              </h3>
+              <h3 className="mt-4 text-lg font-semibold text-fg">{p.title}</h3>
               <p className="mt-2 text-sm text-fg-muted text-pretty">{p.body}</p>
-            </Link>
+              <Link
+                href={p.href}
+                className="mt-3 inline-block text-sm font-semibold text-accent transition-opacity hover:opacity-70"
+              >
+                {p.cta} →
+              </Link>
+            </article>
           ))}
         </div>
       </section>
@@ -258,7 +281,7 @@ export default async function Home() {
             href="/jobs"
             className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
           >
-            Full AI jobs board →
+            See openings →
           </Link>
         </div>
 
@@ -267,7 +290,7 @@ export default async function Home() {
             Jobs refresh daily from employer Greenhouse, Lever and Ashby boards.
             Check back soon, or{" "}
             <Link href="/learn" className="font-medium text-accent hover:opacity-70">
-              start with the AI guides
+              read beginner guides
             </Link>{" "}
             in the meantime.
           </p>

@@ -29,7 +29,7 @@ export default function Header() {
           href="/jobs"
           className="btn-gradient shrink-0 rounded-full px-3 py-1.5 text-xs font-semibold sm:px-4 sm:py-2 sm:text-sm"
         >
-          AI job board
+          Job board
         </Link>
 
         {/* Desktop nav */}

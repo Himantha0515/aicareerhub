@@ -20,12 +20,12 @@ function avatarGradient(company: string): string {
 /** Short link label so SEO tools do not flag long/duplicate job-title anchors. */
 function shortJobLabel(title: string): string {
   const cleaned = title.replace(/\s+/g, " ").trim();
-  if (cleaned.length <= 48) return cleaned;
-  return `${cleaned.slice(0, 45).trimEnd()}…`;
+  if (cleaned.length <= 28) return cleaned;
+  return `${cleaned.slice(0, 25).trimEnd()}…`;
 }
 
 export default function JobCard({ job }: { job: Job }) {
-  const applyLabel = `Apply at ${job.company}`;
+  const applyLabel = `Apply · ${job.company}`;
 
   return (
     <article className="card-3d group w-full max-w-full min-w-0 overflow-hidden rounded-2xl border border-border bg-surface p-4 sm:p-5 hover:border-accent/50">
@@ -41,6 +41,7 @@ export default function JobCard({ job }: { job: Job }) {
           <div className="flex min-w-0 items-start justify-between gap-2">
             <Link
               href={`/jobs/${job.id}`}
+              title={job.title}
               className="min-w-0 flex-1 text-sm font-semibold leading-snug text-fg break-words sm:text-base sm:truncate transition-colors group-hover:text-accent hover:text-accent"
             >
               {shortJobLabel(job.title)}
@@ -78,7 +79,7 @@ export default function JobCard({ job }: { job: Job }) {
           target="_blank"
           rel="nofollow noopener noreferrer"
           className="shrink-0 max-w-[55%] truncate text-xs font-semibold text-accent transition-opacity hover:opacity-70 sm:text-sm"
-          title={applyLabel}
+          title={`Apply for ${job.title} at ${job.company}`}
         >
           {applyLabel}
         </a>
