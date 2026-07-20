@@ -5,6 +5,7 @@ import Footer from "@/components/Footer";
 import BackgroundFX from "@/components/BackgroundFX";
 import PageTransition from "@/components/PageTransition";
 import BackButton from "@/components/BackButton";
+import SiteAnalytics from "@/components/SiteAnalytics";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -17,6 +18,8 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
+const googleVerification = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION?.trim();
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
@@ -41,6 +44,9 @@ export const metadata: Metadata = {
     type: "website",
     url: SITE.url,
   },
+  ...(googleVerification
+    ? { verification: { google: googleVerification } }
+    : {}),
 };
 
 /* Light-only product — clear any old dark preference before paint. */
@@ -73,6 +79,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <SiteAnalytics />
       </body>
     </html>
   );

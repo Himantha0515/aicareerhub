@@ -32,15 +32,11 @@ export default function PrivacyPage() {
 
         <h2 className="pt-4 text-xl font-semibold text-fg">What we collect</h2>
         <p>
-          <strong className="text-fg">Analytics.</strong> We collect aggregate
-          data about which pages are visited, roughly where visitors are, and
-          which links are clicked. This is used to decide what to write next.
-        </p>
-        <p>
-          <strong className="text-fg">Advertising.</strong> This site shows ads
-          served by third-party vendors, which may use cookies to serve ads based
-          on your prior visits to this and other sites. You can opt out of
-          personalised advertising through Google&rsquo;s Ads Settings.
+          <strong className="text-fg">Analytics.</strong> We use Google
+          Analytics to collect aggregate data about which pages are visited,
+          roughly where visitors are, and which links are clicked. This helps us
+          decide what to write next. Advertising vendors are not used at this
+          time.
         </p>
         <p>
           <strong className="text-fg">Anything you send us.</strong> If you email
