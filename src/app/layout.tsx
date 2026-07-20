@@ -25,6 +25,13 @@ export const metadata: Metadata = {
     template: `%s — ${SITE.name}`,
   },
   description: SITE.description,
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/icon", type: "image/png", sizes: "32x32" },
+    ],
+    apple: [{ url: "/icon", type: "image/png" }],
+  },
   openGraph: {
     siteName: SITE.name,
     locale: SITE.locale,
