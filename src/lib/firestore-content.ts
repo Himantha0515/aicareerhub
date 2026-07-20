@@ -132,10 +132,9 @@ export async function fsQuestionsByRole(
 export async function fsHasContent(): Promise<boolean> {
   const db = dbOrNull();
   if (!db) return false;
+  // Single doc read only — never list a collection just to probe.
   const meta = await getDoc(doc(db, FS.meta, "content"));
-  if (meta.exists()) return true;
-  const topics = await getDocs(collection(db, FS.topics));
-  return !topics.empty;
+  return meta.exists();
 }
 
 /** Cleared after seed/scrape so the next request re-probes Firestore. */
