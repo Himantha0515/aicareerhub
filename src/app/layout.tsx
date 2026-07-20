@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     template: `%s — ${SITE.name}`,
   },
   description: SITE.description,
+  alternates: {
+    canonical: SITE.url,
+  },
   icons: {
     icon: [
       { url: "/favicon.svg", type: "image/svg+xml" },
@@ -36,6 +39,7 @@ export const metadata: Metadata = {
     siteName: SITE.name,
     locale: SITE.locale,
     type: "website",
+    url: SITE.url,
   },
 };
 

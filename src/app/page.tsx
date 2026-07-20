@@ -1,6 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import JobCard from "@/components/JobCard";
 import { fetchJobs, fetchTopics } from "@/lib/content-client";
+import { SITE } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: {
+    absolute: `${SITE.name} — Learn AI, Find AI Jobs, Build a Career`,
+  },
+  description: SITE.description,
+  alternates: { canonical: SITE.url },
+};
 
 const PILLARS = [
   {
@@ -30,6 +40,25 @@ const PROMISES = [
   { emoji: "🆓", title: "Free forever", body: "Every guide, open to everyone" },
   { emoji: "🇮🇳", title: "Built for India", body: "Roles, cities and salaries that apply here" },
   { emoji: "🏢", title: "From company portals", body: "Apply opens the employer’s own posting" },
+];
+
+const STEPS = [
+  {
+    title: "Start with the basics",
+    body: "Learn AI concepts in plain English — what machine learning, large language models and GenAI actually mean — before you touch frameworks or jargon.",
+  },
+  {
+    title: "Choose a role that fits",
+    body: "Explore career paths such as ML engineer, GenAI developer and MLOps. See the skills each role needs so you can build a career with a clear plan.",
+  },
+  {
+    title: "Practise interview answers",
+    body: "Use interview prep by topic and by role to rehearse the questions hiring managers ask for AI jobs in India.",
+  },
+  {
+    title: "Apply on company sites",
+    body: "Browse AI jobs refreshed from Greenhouse, Lever and Ashby boards. When you are ready, apply on the employer’s own careers page — we never gate applications.",
+  },
 ];
 
 export default async function Home() {
@@ -73,8 +102,10 @@ export default async function Home() {
           className="animate-fade-up mt-6 max-w-xl text-lg text-fg-muted text-pretty"
           style={{ animationDelay: "0.16s" }}
         >
-          Free guides that start from zero, plus AI jobs refreshed daily from
-          company career portals. Apply always opens the employer site.
+          Learn AI skills that get you hired. Free beginner guides plus AI jobs
+          refreshed daily from company career portals — apply always opens the
+          employer site so you can build a career in machine learning and GenAI
+          in India.
         </p>
 
         <div
@@ -91,7 +122,7 @@ export default async function Home() {
             href="/learn"
             className="rounded-full border border-border bg-surface px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
           >
-            🎓 Start learning
+            Start learning AI
           </Link>
         </div>
 
@@ -112,16 +143,68 @@ export default async function Home() {
         </div>
       </section>
 
+      <section className="mx-auto w-full max-w-6xl px-4 py-10">
+        <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          How to <span className="text-gradient">build an AI career</span>
+        </h2>
+        <div className="mt-4 space-y-4 text-fg-muted text-pretty leading-relaxed">
+          <p>
+            {SITE.name} helps you learn AI, find AI jobs, and build a career in
+            artificial intelligence without paywalls or recruiter middlemen.
+            Whether you are a student, a career switcher, or an engineer moving
+            into GenAI, the path starts the same way: understand the ideas,
+            practise the skills that get you hired, then apply to real openings
+            on company career portals.
+          </p>
+          <p>
+            Our learning tracks cover the foundations of machine learning, how
+            large language models work, the Python you need for AI, prompt
+            engineering, retrieval-augmented generation (RAG), the Model Context
+            Protocol (MCP), agents, fine-tuning, evals and MLOps. Each guide is
+            written for India — with examples, cities and hiring context that
+            match how AI jobs are posted here and for remote roles.
+          </p>
+          <p>
+            When you are ready to apply, the jobs board lists AI and machine
+            learning roles pulled from employer Greenhouse, Lever and Ashby
+            boards. You can also check salary ranges for popular AI roles in
+            Bengaluru, Hyderabad, Pune and Delhi NCR, and rehearse interview
+            questions by topic or by career path before you talk to hiring
+            managers.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 py-10">
+        <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
+          Four steps to <span className="text-gradient">get hired</span>
+        </h2>
+        <ol className="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
+          {STEPS.map((step, i) => (
+            <li
+              key={step.title}
+              className="rounded-2xl border border-border bg-surface p-5 shadow-[var(--shadow)]"
+            >
+              <p className="text-xs font-semibold uppercase tracking-wider text-accent">
+                Step {i + 1}
+              </p>
+              <h3 className="mt-1 text-lg font-semibold">{step.title}</h3>
+              <p className="mt-2 text-sm text-fg-muted text-pretty">{step.body}</p>
+            </li>
+          ))}
+        </ol>
+      </section>
+
       <section className="mx-auto w-full max-w-6xl px-4 py-14">
         <div className="mb-6 flex min-w-0 items-baseline justify-between gap-3">
           <h2 className="min-w-0 text-2xl font-bold tracking-tight sm:text-3xl">
-            Explore <span className="text-gradient">topics</span>
+            Explore <span className="text-gradient">learning topics</span>
           </h2>
           <Link
             href="/learn"
             className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
           >
-            View all →
+            All learning guides →
           </Link>
         </div>
         <div className="grid w-full grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4">
@@ -181,7 +264,7 @@ export default async function Home() {
             href="/jobs"
             className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
           >
-            View all →
+            Full AI jobs board →
           </Link>
         </div>
 
@@ -190,7 +273,7 @@ export default async function Home() {
             Jobs refresh daily from employer Greenhouse, Lever and Ashby boards.
             Check back soon, or{" "}
             <Link href="/learn" className="font-medium text-accent hover:opacity-70">
-              start with the guides
+              start with the AI guides
             </Link>{" "}
             in the meantime.
           </p>
@@ -203,6 +286,27 @@ export default async function Home() {
             ))}
           </div>
         )}
+      </section>
+
+      <section className="mx-auto w-full max-w-6xl px-4 pb-16">
+        <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+          Why learn AI <span className="text-gradient">with us</span>
+        </h2>
+        <div className="mt-4 space-y-4 text-fg-muted text-pretty leading-relaxed">
+          <p>
+            Finding AI jobs in India can feel noisy: endless posts, unclear
+            requirements, and courses that sell certificates instead of skills.
+            We keep the focus narrow — learn AI that employers ask for, see what
+            each career path expects day to day, and apply only through official
+            company portals so your application reaches the right place.
+          </p>
+          <p>
+            You can move from “what is an LLM?” to “how do I answer RAG interview
+            questions?” to “which ML engineer roles are hiring this week?” without
+            leaving the site. That is how you learn AI, find AI jobs, and build a
+            career in it — step by step, at your own pace, free forever.
+          </p>
+        </div>
       </section>
     </>
   );

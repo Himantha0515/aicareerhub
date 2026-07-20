@@ -1,0 +1,10 @@
+{
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.aicareerpath.in" }],
+      "destination": "https://aicareerpath.in/:path*",
+      "permanent": true
+    }
+  ]
+}
