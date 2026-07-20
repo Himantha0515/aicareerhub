@@ -5,7 +5,7 @@ export const SITE = {
   tagline: "Learn AI Skills That Get You Hired",
   description:
     "Free, beginner-friendly guides to AI, GenAI, RAG, MCP and MLOps — plus a daily board of AI and machine learning jobs for India and remote.",
-  url: "https://example.com", // TODO: replace with the real domain
+  url: "https://aicareerpath.in", // Production domain
   locale: "en_IN",
   /** Inbox that receives navbar Feedback submissions */
   feedbackEmail: "himanthakumar456@gmail.com",
