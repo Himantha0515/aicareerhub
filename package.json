@@ -11,6 +11,7 @@
     "seed:firestore": "npx tsx scripts/seed-firestore.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.122.0",
     "@next/third-parties": "^16.2.10",
     "firebase": "^12.16.0",
     "firebase-admin": "^14.2.0",

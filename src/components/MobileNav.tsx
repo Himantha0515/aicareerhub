@@ -6,11 +6,13 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const NAV = [
-  { href: "/learn",          label: "Topics",     emoji: "🎓" },
-  { href: "/careers",        label: "Paths",      emoji: "🧭" },
-  { href: "/salaries",       label: "Pay",        emoji: "💰" },
+  { href: "/assessment",     label: "Find My Path", emoji: "🧭" },
+  { href: "/learn",          label: "Learn",      emoji: "🎓" },
+  { href: "/careers",        label: "Careers",    emoji: "🗺️" },
+  { href: "/salaries",       label: "Salaries",   emoji: "💰" },
   { href: "/interview-prep", label: "Interviews", emoji: "📝" },
-  { href: "/jobs",           label: "Openings",   emoji: "💼" },
+  { href: "/jobs",           label: "Jobs",       emoji: "💼" },
+  { href: "/coach",          label: "AI Coach",   emoji: "🤖" },
   { href: "/profile",        label: "My profile", emoji: "👤" },
 ];
 

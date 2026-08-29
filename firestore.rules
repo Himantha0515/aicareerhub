@@ -1,7 +1,7 @@
 rules_version = '2';
 service cloud.firestore {
   match /databases/{database}/documents {
-    // Feedback: validated create-only (unchanged)
+    // Feedback: validated create-only
     match /feedback/{id} {
       allow create: if request.resource.data.keys().hasAll(['type', 'typeLabel', 'message', 'receivedAt', 'source'])
         && request.resource.data.type in ['bug', 'job', 'content', 'other']
@@ -10,6 +10,11 @@ service cloud.firestore {
         && request.resource.data.message.size() <= 4000
         && request.resource.data.source == 'aicareerhub-web';
       allow read, update, delete: if false;
+    }
+
+    // User profiles — authenticated users can only read/write their own document
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
     }
 
     // Public content — read-only from clients. Writes via Admin SDK / seed only.

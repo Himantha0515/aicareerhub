@@ -6,6 +6,7 @@ import BackgroundFX from "@/components/BackgroundFX";
 import PageTransition from "@/components/PageTransition";
 import BackButton from "@/components/BackButton";
 import SiteAnalytics from "@/components/SiteAnalytics";
+import { AuthProvider } from "@/contexts/AuthContext";
 import { SITE } from "@/lib/site";
 import "./globals.css";
 
@@ -71,15 +72,17 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col antialiased`}
       >
-        <PageTransition />
-        <BackgroundFX />
-        <Header />
-        <BackButton />
-        <main className="w-full min-w-0 max-w-full flex-1 overflow-x-clip">
-          {children}
-        </main>
-        <Footer />
-        <SiteAnalytics />
+        <AuthProvider>
+          <PageTransition />
+          <BackgroundFX />
+          <Header />
+          <BackButton />
+          <main className="w-full min-w-0 max-w-full flex-1 overflow-x-clip">
+            {children}
+          </main>
+          <Footer />
+          <SiteAnalytics />
+        </AuthProvider>
       </body>
     </html>
   );

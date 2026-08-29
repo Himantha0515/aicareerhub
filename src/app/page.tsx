@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import HeroChatBot from "@/components/HeroChatBot";
 import JobCard from "@/components/JobCard";
 import { fetchJobs, fetchTopics } from "@/lib/content-client";
 import { SITE } from "@/lib/site";
@@ -13,72 +12,31 @@ export const metadata: Metadata = {
   alternates: { canonical: SITE.url },
 };
 
-const PILLARS = [
-  {
-    href: "/learn",
-    emoji: "🎓",
-    gradient: "linear-gradient(135deg, var(--indigo), var(--violet))",
-    title: "Learn from zero",
-    body: "Plain-English guides to LLMs, RAG, MCP, agents and MLOps. Written for school and college students, not just engineers.",
-    cta: "Open guides",
-  },
-  {
-    href: "/careers",
-    emoji: "🧭",
-    gradient: "linear-gradient(135deg, var(--violet), var(--fuchsia))",
-    title: "Pick a path",
-    body: "What an ML engineer, GenAI developer or MLOps engineer actually does all day — and how to become one.",
-    cta: "See career paths",
-  },
-  {
-    href: "/salaries",
-    emoji: "💰",
-    gradient: "linear-gradient(135deg, var(--cyan), var(--indigo))",
-    title: "Know your worth",
-    body: "Honest salary ranges for AI roles across Bengaluru, Hyderabad, Pune and Delhi NCR, plus remote.",
-    cta: "Compare salaries",
-  },
+const CAREER_JOURNEY = [
+  { step: "01", icon: "🧭", title: "Assess", desc: "Discover your starting point and target role" },
+  { step: "02", icon: "📚", title: "Learn", desc: "Follow a personalized week-by-week roadmap" },
+  { step: "03", icon: "⚒️", title: "Practice", desc: "Solve interview questions and build projects" },
+  { step: "04", icon: "💼", title: "Apply", desc: "Match to real AI jobs and track applications" },
 ];
 
-/** Short homepage labels so topic cards are not flagged for long anchors. */
-const TOPIC_SHORT: Record<string, string> = {
-  "what-is-ai": "AI vs ML basics",
-  "how-llms-work": "How LLMs work",
-  "python-for-ai": "Python for AI",
-  "maths-for-ml": "Maths you need",
-  "prompt-engineering": "Prompt engineering",
-  rag: "RAG systems",
-  mcp: "MCP protocol",
-  "ai-agents": "AI agents",
-  "fine-tuning": "Fine-tuning vs RAG",
-  evals: "Evaluating AI",
-  mlops: "MLOps basics",
-  "ai-infra": "AI infrastructure",
-};
+const PLATFORM_STATS = [
+  { value: "12+", label: "Learning topics" },
+  { value: "360+", label: "Interview questions" },
+  { value: "100+", label: "AI jobs listed" },
+  { value: "8", label: "Career paths" },
+];
+
+const ROLES_PREVIEW = [
+  { slug: "genai-engineer", emoji: "🤖", title: "GenAI Engineer", tag: "Hottest role" },
+  { slug: "ml-engineer", emoji: "🧠", title: "ML Engineer", tag: "High demand" },
+  { slug: "data-scientist", emoji: "📊", title: "Data Scientist", tag: "Evergreen" },
+  { slug: "mlops-engineer", emoji: "⚙️", title: "MLOps Engineer", tag: "Growing fast" },
+];
 
 const PROMISES = [
-  { emoji: "🆓", title: "Free forever", body: "Every guide, open to everyone" },
-  { emoji: "🇮🇳", title: "Built for India", body: "Roles, cities and salaries that apply here" },
-  { emoji: "🏢", title: "From company portals", body: "Apply opens the employer’s own posting" },
-];
-
-const STEPS = [
-  {
-    title: "Start with the basics",
-    body: "Learn AI concepts in plain English — what machine learning, large language models and GenAI actually mean — before you touch frameworks or jargon.",
-  },
-  {
-    title: "Choose a role that fits",
-    body: "Explore career paths such as ML engineer, GenAI developer and MLOps. See the skills each role needs so you can build a career with a clear plan.",
-  },
-  {
-    title: "Practise interview answers",
-    body: "Use interview prep by topic and by role to rehearse the questions hiring managers ask for AI jobs in India.",
-  },
-  {
-    title: "Apply on company sites",
-    body: "Browse AI jobs refreshed from Greenhouse, Lever and Ashby boards. When you are ready, apply on the employer’s own careers page — we never gate applications.",
-  },
+  { emoji: "🆓", title: "100% Free", body: "All learning content, roadmaps, and interview prep are free forever." },
+  { emoji: "🇮🇳", title: "India-focused", body: "Roles, salaries, and job listings specific to the Indian AI market." },
+  { emoji: "🤖", title: "AI-powered", body: "Personal career coach, skill gap analysis, and job matching using AI." },
 ];
 
 export default async function Home() {
@@ -87,136 +45,162 @@ export default async function Home() {
 
   return (
     <>
-      <section className="relative mx-auto w-full max-w-6xl overflow-x-clip px-4 pt-16 pb-14 sm:pt-24">
-        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(280px,0.95fr)] lg:gap-6">
-          <div className="min-w-0">
-            <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
-              🚀 Your AI career launchpad for India
-            </p>
+      {/* ── HERO ── */}
+      <section className="relative mx-auto w-full max-w-6xl overflow-x-clip px-4 pt-16 pb-20 sm:pt-28">
+        <div className="relative z-10 max-w-3xl">
+          <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
+            🚀 India&apos;s AI career operating system
+          </p>
 
-            <h1
-              className="animate-fade-up mt-6 max-w-3xl text-4xl font-bold tracking-tight text-balance sm:text-6xl"
-              style={{ animationDelay: "0.08s" }}
-            >
-              Learn AI. Find AI jobs.{" "}
-              <span className="text-gradient">Build a career in it.</span>
-            </h1>
+          <h1
+            className="animate-fade-up mt-6 text-4xl font-bold tracking-tight text-balance sm:text-6xl lg:text-7xl"
+            style={{ animationDelay: "0.08s" }}
+          >
+            Build your AI career —{" "}
+            <span className="text-gradient">step by step.</span>
+          </h1>
 
-            <p
-              className="animate-fade-up mt-6 max-w-xl text-lg text-fg-muted text-pretty"
-              style={{ animationDelay: "0.16s" }}
-            >
-              Learn AI skills that get you hired. Free beginner guides plus AI jobs
-              refreshed daily from company career portals — apply always opens the
-              employer site so you can build a career in machine learning and GenAI
-              in India.
-            </p>
-
-            <div
-              className="animate-fade-up mt-9 flex flex-wrap gap-3"
-              style={{ animationDelay: "0.24s" }}
-            >
-              <Link
-                href="/jobs"
-                className="btn-gradient rounded-full px-6 py-3 font-semibold"
-              >
-                Browse jobs →
-              </Link>
-              <Link
-                href="/learn"
-                className="rounded-full border border-border bg-surface px-6 py-3 font-semibold transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
-              >
-                Start learning
-              </Link>
-            </div>
-
-            <div
-              className="animate-fade-up mt-12 grid max-w-2xl gap-3 sm:grid-cols-3"
-              style={{ animationDelay: "0.32s" }}
-            >
-              {PROMISES.map((s) => (
-                <div
-                  key={s.title}
-                  className="glass rounded-2xl border border-border p-4 shadow-[var(--shadow)]"
-                >
-                  <p className="text-xl">{s.emoji}</p>
-                  <p className="mt-1 font-semibold">{s.title}</p>
-                  <p className="mt-0.5 text-xs text-fg-muted">{s.body}</p>
-                </div>
-              ))}
-            </div>
-          </div>
+          <p
+            className="animate-fade-up mt-6 max-w-2xl text-xl text-fg-muted text-pretty"
+            style={{ animationDelay: "0.16s" }}
+          >
+            Tell us where you are today. We&apos;ll show you what to learn, what to build,
+            which skills you&apos;re missing, and which AI jobs you&apos;re ready for.
+          </p>
 
           <div
-            className="animate-fade-up relative flex justify-center lg:justify-end"
-            style={{ animationDelay: "0.2s" }}
+            className="animate-fade-up mt-8 flex flex-wrap gap-3"
+            style={{ animationDelay: "0.24s" }}
           >
-            <HeroChatBot />
+            <Link
+              href="/assessment"
+              className="btn-gradient rounded-full px-7 py-3.5 font-semibold text-lg"
+            >
+              Find My Career Path →
+            </Link>
+            <Link
+              href="/jobs"
+              className="rounded-full border border-border bg-surface px-7 py-3.5 font-semibold text-lg transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
+            >
+              Explore AI Jobs
+            </Link>
+          </div>
+
+          {/* Stats bar */}
+          <div
+            className="animate-fade-up mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4"
+            style={{ animationDelay: "0.32s" }}
+          >
+            {PLATFORM_STATS.map((s) => (
+              <div key={s.label} className="glass rounded-2xl border border-border p-4 shadow-[var(--shadow)]">
+                <p className="text-2xl font-bold text-accent">{s.value}</p>
+                <p className="text-xs text-fg-muted mt-0.5">{s.label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {/* Decorative orbs */}
+        <div className="pointer-events-none absolute -right-32 top-10 h-[500px] w-[500px] rounded-full opacity-20"
+          style={{ background: "radial-gradient(circle, var(--accent) 0%, transparent 70%)" }} />
+        <div className="pointer-events-none absolute -left-20 bottom-0 h-[300px] w-[300px] rounded-full opacity-10"
+          style={{ background: "radial-gradient(circle, var(--fuchsia) 0%, transparent 70%)" }} />
+      </section>
+
+      {/* ── HOW IT WORKS ── */}
+      <section className="mx-auto w-full max-w-6xl px-4 py-16">
+        <div className="text-center mb-10">
+          <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
+            From zero to <span className="text-gradient">AI career</span>
+          </h2>
+          <p className="mt-3 text-fg-muted max-w-xl mx-auto">
+            A complete system — not just articles. Every step connects to your goal.
+          </p>
+        </div>
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {CAREER_JOURNEY.map((s, i) => (
+            <div
+              key={s.step}
+              className="relative rounded-3xl border border-border bg-surface p-6 shadow-[var(--shadow)] hover:-translate-y-1 transition-transform duration-200"
+            >
+              <p className="text-xs font-bold tracking-widest text-accent opacity-60">{s.step}</p>
+              <span className="mt-2 block text-3xl">{s.icon}</span>
+              <h3 className="mt-3 text-lg font-bold">{s.title}</h3>
+              <p className="mt-1 text-sm text-fg-muted">{s.desc}</p>
+              {i < CAREER_JOURNEY.length - 1 && (
+                <div className="absolute -right-2 top-1/2 -translate-y-1/2 hidden lg:block text-fg-muted text-xl">→</div>
+              )}
+            </div>
+          ))}
+        </div>
+        <div className="mt-8 text-center">
+          <Link href="/assessment" className="btn-gradient rounded-full px-6 py-3 font-semibold">
+            Start Your Assessment →
+          </Link>
+        </div>
+      </section>
+
+      {/* ── CAREER PATHS ── */}
+      <section className="mx-auto w-full max-w-6xl px-4 py-14">
+        <div className="flex items-baseline justify-between mb-6">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            Popular <span className="text-gradient">career paths</span>
+          </h2>
+          <Link href="/careers" className="text-sm font-medium text-accent hover:opacity-70">
+            All paths →
+          </Link>
+        </div>
+        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          {ROLES_PREVIEW.map((r) => (
+            <Link
+              key={r.slug}
+              href={`/careers/${r.slug}`}
+              className="card-3d group rounded-2xl border border-border bg-surface p-5 hover:border-accent/50"
+            >
+              <span className="text-3xl">{r.emoji}</span>
+              <h3 className="mt-3 font-semibold text-fg group-hover:text-accent transition-colors">{r.title}</h3>
+              <span className="mt-2 inline-block rounded-full bg-accent-soft px-2.5 py-0.5 text-xs font-semibold text-accent">
+                {r.tag}
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      {/* ── AI CAREER COACH CTA ── */}
+      <section className="mx-auto w-full max-w-6xl px-4 py-10">
+        <div className="rounded-3xl border border-border bg-surface p-8 sm:p-10 shadow-[var(--shadow)] ring-1 ring-accent/10 relative overflow-hidden">
+          <div className="pointer-events-none absolute right-0 top-0 h-full w-1/2 opacity-5"
+            style={{ background: "radial-gradient(circle at right, var(--accent), transparent)" }} />
+          <div className="relative z-10 sm:flex items-center justify-between gap-8">
+            <div>
+              <p className="inline-flex items-center gap-2 rounded-full border border-accent/20 bg-accent-soft px-3 py-1 text-xs font-semibold text-accent">
+                🤖 Powered by Claude AI
+              </p>
+              <h2 className="mt-4 text-2xl font-bold sm:text-3xl">
+                Meet your AI Career Coach
+              </h2>
+              <p className="mt-2 max-w-lg text-fg-muted text-pretty">
+                Ask anything — what to learn next, which jobs you&apos;re ready for, how to switch from
+                Java to AI, what skills you&apos;re missing. The coach uses your profile for personalized answers.
+              </p>
+            </div>
+            <div className="mt-6 sm:mt-0 shrink-0">
+              <Link href="/coach" className="btn-gradient rounded-full px-6 py-3 font-semibold whitespace-nowrap">
+                Chat with AI Coach →
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 py-10">
-        <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-          How to <span className="text-gradient">build an AI career</span>
-        </h2>
-        <div className="mt-4 space-y-4 text-fg-muted text-pretty leading-relaxed">
-          <p>
-            {SITE.name} helps you learn AI, find AI jobs, and build a career in
-            artificial intelligence without paywalls or recruiter middlemen.
-            Whether you are a student, a career switcher, or an engineer moving
-            into GenAI, the path starts the same way: understand the ideas,
-            practise the skills that get you hired, then apply to real openings
-            on company career portals.
-          </p>
-          <p>
-            Our learning tracks cover the foundations of machine learning, how
-            large language models work, the Python you need for AI, prompt
-            engineering, retrieval-augmented generation (RAG), the Model Context
-            Protocol (MCP), agents, fine-tuning, evals and MLOps. Each guide is
-            written for India — with examples, cities and hiring context that
-            match how AI jobs are posted here and for remote roles.
-          </p>
-          <p>
-            When you are ready to apply, the jobs board lists AI and machine
-            learning roles pulled from employer Greenhouse, Lever and Ashby
-            boards. You can also check salary ranges for popular AI roles in
-            Bengaluru, Hyderabad, Pune and Delhi NCR, and rehearse interview
-            questions by topic or by career path before you talk to hiring
-            managers.
-          </p>
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-4 py-10">
-        <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-          Four steps to <span className="text-gradient">get hired</span>
-        </h2>
-        <ol className="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
-          {STEPS.map((step, i) => (
-            <li
-              key={step.title}
-              className="rounded-2xl border border-border bg-surface p-5 shadow-[var(--shadow)]"
-            >
-              <p className="text-xs font-semibold uppercase tracking-wider text-accent">
-                Step {i + 1}
-              </p>
-              <h3 className="mt-1 text-lg font-semibold">{step.title}</h3>
-              <p className="mt-2 text-sm text-fg-muted text-pretty">{step.body}</p>
-            </li>
-          ))}
-        </ol>
-      </section>
-
+      {/* ── LEARNING TOPICS ── */}
       <section className="mx-auto w-full max-w-6xl px-4 py-14">
-        <div className="mb-6 flex min-w-0 items-baseline justify-between gap-3">
-          <h2 className="min-w-0 text-2xl font-bold tracking-tight sm:text-3xl">
-            Explore <span className="text-gradient">learning topics</span>
+        <div className="flex items-baseline justify-between mb-6">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
+            Start <span className="text-gradient">learning today</span>
           </h2>
-          <Link
-            href="/learn"
-            className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
-          >
+          <Link href="/learn" className="text-sm font-medium text-accent hover:opacity-70">
             All guides →
           </Link>
         </div>
@@ -225,7 +209,6 @@ export default async function Home() {
             <Link
               key={topic.slug}
               href={`/learn/${topic.slug}`}
-              title={topic.title}
               className="card-3d group min-w-0 rounded-2xl border border-border bg-surface p-3 text-center hover:border-accent/50 sm:p-5"
             >
               <span
@@ -235,64 +218,28 @@ export default async function Home() {
                 {topic.emoji}
               </span>
               <p className="mt-3 text-sm font-semibold break-words transition-colors group-hover:text-accent sm:text-base">
-                {TOPIC_SHORT[topic.slug] ?? topic.title}
+                {topic.title}
               </p>
             </Link>
           ))}
         </div>
       </section>
 
+      {/* ── LATEST JOBS ── */}
       <section className="mx-auto w-full max-w-6xl px-4 py-14">
-        <h2 className="mb-6 text-2xl font-bold tracking-tight sm:text-3xl">
-          Everything you need,{" "}
-          <span className="text-gradient">in one place</span>
-        </h2>
-        <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-3 sm:gap-4">
-          {PILLARS.map((p) => (
-            <article
-              key={p.href}
-              className="card-3d group min-w-0 rounded-2xl border border-border bg-surface p-5 hover:border-accent/50 sm:p-6"
-            >
-              <span
-                className="grid h-12 w-12 place-items-center rounded-xl text-xl shadow-[var(--shadow)] transition-transform duration-300 group-hover:scale-110"
-                style={{ background: p.gradient }}
-              >
-                {p.emoji}
-              </span>
-              <h3 className="mt-4 text-lg font-semibold text-fg">{p.title}</h3>
-              <p className="mt-2 text-sm text-fg-muted text-pretty">{p.body}</p>
-              <Link
-                href={p.href}
-                className="mt-3 inline-block text-sm font-semibold text-accent transition-opacity hover:opacity-70"
-              >
-                {p.cta} →
-              </Link>
-            </article>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto w-full max-w-6xl px-4 py-14">
-        <div className="mb-6 flex min-w-0 items-baseline justify-between gap-3">
-          <h2 className="min-w-0 text-2xl font-bold tracking-tight sm:text-3xl">
+        <div className="flex items-baseline justify-between mb-6">
+          <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
             Latest <span className="text-gradient">AI jobs</span>
           </h2>
-          <Link
-            href="/jobs"
-            className="shrink-0 text-sm font-medium text-accent transition-opacity hover:opacity-70"
-          >
-            See openings →
+          <Link href="/jobs" className="text-sm font-medium text-accent hover:opacity-70">
+            See all openings →
           </Link>
         </div>
-
         {latest.length === 0 ? (
-          <p className="glass rounded-2xl border border-border p-6 text-sm text-fg-muted text-pretty shadow-[var(--shadow)]">
-            Jobs refresh daily from employer Greenhouse, Lever and Ashby boards.
-            Check back soon, or{" "}
-            <Link href="/learn" className="font-medium text-accent hover:opacity-70">
-              read beginner guides
-            </Link>{" "}
-            in the meantime.
+          <p className="glass rounded-2xl border border-border p-6 text-sm text-fg-muted shadow-[var(--shadow)]">
+            Jobs refresh daily from company career portals.{" "}
+            <Link href="/learn" className="font-medium text-accent">Start learning</Link>{" "}
+            while you wait.
           </p>
         ) : (
           <div className="grid w-full grid-cols-1 gap-3 sm:grid-cols-2 sm:gap-4">
@@ -305,24 +252,23 @@ export default async function Home() {
         )}
       </section>
 
-      <section className="mx-auto w-full max-w-6xl px-4 pb-16">
-        <h2 className="text-2xl font-bold tracking-tight sm:text-3xl">
-          Why learn AI <span className="text-gradient">with us</span>
-        </h2>
-        <div className="mt-4 space-y-4 text-fg-muted text-pretty leading-relaxed">
-          <p>
-            Finding AI jobs in India can feel noisy: endless posts, unclear
-            requirements, and courses that sell certificates instead of skills.
-            We keep the focus narrow — learn AI that employers ask for, see what
-            each career path expects day to day, and apply only through official
-            company portals so your application reaches the right place.
-          </p>
-          <p>
-            You can move from “what is an LLM?” to “how do I answer RAG interview
-            questions?” to “which ML engineer roles are hiring this week?” without
-            leaving the site. That is how you learn AI, find AI jobs, and build a
-            career in it — step by step, at your own pace, free forever.
-          </p>
+      {/* ── PROMISES ── */}
+      <section className="mx-auto w-full max-w-6xl px-4 pb-20">
+        <div className="grid gap-4 sm:grid-cols-3">
+          {PROMISES.map((p) => (
+            <div key={p.title} className="rounded-2xl border border-border bg-surface p-6 shadow-[var(--shadow)]">
+              <p className="text-3xl">{p.emoji}</p>
+              <h3 className="mt-3 font-bold text-lg">{p.title}</h3>
+              <p className="mt-1 text-sm text-fg-muted text-pretty">{p.body}</p>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-10 text-center">
+          <Link href="/assessment" className="btn-gradient rounded-full px-8 py-4 font-semibold text-lg">
+            Find My AI Career Path →
+          </Link>
+          <p className="mt-3 text-sm text-fg-muted">Takes 3 minutes. Free forever.</p>
         </div>
       </section>
     </>
