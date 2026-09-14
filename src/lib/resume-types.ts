@@ -37,13 +37,43 @@ export type ResumeData = {
   education: ResumeEducation[];
 };
 
-export type ResumeTemplateId = "modern" | "classic" | "compact" | "genai";
+/** Visual layout engine used by ResumePreview. */
+export type ResumeLayout =
+  | "header"
+  | "classic"
+  | "compact"
+  | "sidebar"
+  | "skills_first"
+  | "timeline"
+  | "minimal"
+  | "two_tone";
+
+export type ResumeTemplateId =
+  | "aurora"
+  | "slate"
+  | "nimbus"
+  | "indigo"
+  | "emerald"
+  | "coral"
+  | "onyx"
+  | "sapphire"
+  | "violet"
+  | "mercury"
+  | "copper"
+  | "pearl"
+  | "obsidian"
+  | "mint"
+  | "crimson"
+  | "graphite";
 
 export type ResumeTemplateMeta = {
   id: ResumeTemplateId;
   name: string;
   blurb: string;
   accent: string;
+  layout: ResumeLayout;
+  category: "ats" | "modern" | "tech" | "executive";
+  popular?: boolean;
 };
 
 export const EMPTY_RESUME: ResumeData = {
@@ -113,6 +143,17 @@ export const SAMPLE_RESUME: ResumeData = {
         "Owned FastAPI inference service serving ~40k requests/day.",
       ],
     },
+    {
+      company: "PixelSoft",
+      role: "Software Engineer",
+      location: "Hyderabad",
+      start: "2021",
+      end: "2023",
+      bullets: [
+        "Built Python microservices and internal APIs used by 3 product teams.",
+        "Reduced batch job runtime by 35% through profiling and caching.",
+      ],
+    },
   ],
   projects: [
     {
@@ -129,7 +170,7 @@ export const SAMPLE_RESUME: ResumeData = {
     {
       school: "NIT Surathkal",
       degree: "B.Tech Computer Science",
-      year: "2022",
+      year: "2021",
       details: "CGPA 8.4",
     },
   ],

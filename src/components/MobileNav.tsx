@@ -7,13 +7,17 @@ import { usePathname } from "next/navigation";
 
 const NAV = [
   { href: "/assessment",     label: "Find My Path", emoji: "🧭" },
-  { href: "/learn",          label: "Learn",      emoji: "🎓" },
-  { href: "/careers",        label: "Careers",    emoji: "🗺️" },
-  { href: "/salaries",       label: "Salaries",   emoji: "💰" },
-  { href: "/interview-prep", label: "Interviews", emoji: "📝" },
-  { href: "/jobs",           label: "Jobs",       emoji: "💼" },
-  { href: "/coach",          label: "AI Coach",   emoji: "🤖" },
-  { href: "/profile",        label: "My profile", emoji: "👤" },
+  { href: "/learn",          label: "Learn",        emoji: "🎓" },
+  { href: "/projects",       label: "Projects",     emoji: "⚒️" },
+  { href: "/careers",        label: "Careers",      emoji: "🗺️" },
+  { href: "/interview-prep", label: "Interviews",   emoji: "📝" },
+  { href: "/jobs",           label: "Jobs",         emoji: "💼" },
+  { href: "/resume",         label: "Resume",       emoji: "📋" },
+  { href: "/resume/templates", label: "Templates",  emoji: "▦" },
+  { href: "/resume/examples", label: "Examples",    emoji: "📄" },
+  { href: "/coach",          label: "AI Coach",     emoji: "🤖" },
+  { href: "/challenge",      label: "Daily",        emoji: "🔥" },
+  { href: "/profile",        label: "My profile",   emoji: "👤" },
 ];
 
 export default function MobileNav() {
