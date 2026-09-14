@@ -1046,3 +1046,34 @@ a:active, button:active {
   outline-offset: 2px;
   border-radius: 4px;
 }
+
+/* Resume builder — print only the preview sheet */
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+  #resume-print-root,
+  #resume-print-root * {
+    visibility: visible !important;
+  }
+  #resume-print-root {
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 12mm !important;
+    box-shadow: none !important;
+    border: none !important;
+    background: white !important;
+  }
+  header,
+  footer,
+  .resume-page > p,
+  .resume-page > h1,
+  nav,
+  button {
+    display: none !important;
+  }
+}

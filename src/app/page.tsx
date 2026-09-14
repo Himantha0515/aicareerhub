@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import HeroChatBot from "@/components/HeroChatBot";
 import JobCard from "@/components/JobCard";
 import { fetchJobs, fetchTopics } from "@/lib/content-client";
 import { SITE } from "@/lib/site";
@@ -47,64 +48,67 @@ export default async function Home() {
     <>
       {/* ── HERO ── */}
       <section className="relative mx-auto w-full max-w-6xl overflow-x-clip px-4 pt-16 pb-20 sm:pt-28">
-        <div className="relative z-10 max-w-3xl">
-          <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
-            🚀 India&apos;s AI career operating system
-          </p>
+        <div className="grid items-center gap-10 lg:grid-cols-[minmax(0,1.05fr)_minmax(280px,0.95fr)] lg:gap-6">
+          <div className="relative z-10 min-w-0">
+            <p className="animate-fade-up inline-flex items-center gap-2 rounded-full border border-border bg-surface px-4 py-1.5 text-sm font-medium text-fg-muted shadow-[var(--shadow)]">
+              🚀 India&apos;s AI career operating system
+            </p>
 
-          <h1
-            className="animate-fade-up mt-6 text-4xl font-bold tracking-tight text-balance sm:text-6xl lg:text-7xl"
-            style={{ animationDelay: "0.08s" }}
-          >
-            Build your AI career —{" "}
-            <span className="text-gradient">step by step.</span>
-          </h1>
-
-          <p
-            className="animate-fade-up mt-6 max-w-2xl text-xl text-fg-muted text-pretty"
-            style={{ animationDelay: "0.16s" }}
-          >
-            Tell us where you are today. We&apos;ll show you what to learn, what to build,
-            which skills you&apos;re missing, and which AI jobs you&apos;re ready for.
-          </p>
-
-          <div
-            className="animate-fade-up mt-8 flex flex-wrap gap-3"
-            style={{ animationDelay: "0.24s" }}
-          >
-            <Link
-              href="/assessment"
-              className="btn-gradient rounded-full px-7 py-3.5 font-semibold text-lg"
+            <h1
+              className="animate-fade-up mt-6 text-4xl font-bold tracking-tight text-balance sm:text-6xl lg:text-7xl"
+              style={{ animationDelay: "0.08s" }}
             >
-              Find My Career Path →
-            </Link>
-            <Link
-              href="/jobs"
-              className="rounded-full border border-border bg-surface px-7 py-3.5 font-semibold text-lg transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
+              Build your AI career —{" "}
+              <span className="text-gradient">step by step.</span>
+            </h1>
+
+            <p
+              className="animate-fade-up mt-6 max-w-2xl text-xl text-fg-muted text-pretty"
+              style={{ animationDelay: "0.16s" }}
             >
-              Explore AI Jobs
-            </Link>
+              Tell us where you are today. We&apos;ll show you what to learn, what to build,
+              which skills you&apos;re missing, and which AI jobs you&apos;re ready for.
+            </p>
+
+            <div
+              className="animate-fade-up mt-8 flex flex-wrap gap-3"
+              style={{ animationDelay: "0.24s" }}
+            >
+              <Link
+                href="/assessment"
+                className="btn-gradient rounded-full px-7 py-3.5 font-semibold text-lg"
+              >
+                Find My Career Path →
+              </Link>
+              <Link
+                href="/jobs"
+                className="rounded-full border border-border bg-surface px-7 py-3.5 font-semibold text-lg transition-all duration-200 hover:-translate-y-0.5 hover:border-accent/50 hover:text-accent hover:shadow-[var(--shadow)]"
+              >
+                Explore AI Jobs
+              </Link>
+            </div>
+
+            {/* Stats bar */}
+            <div
+              className="animate-fade-up mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4"
+              style={{ animationDelay: "0.32s" }}
+            >
+              {PLATFORM_STATS.map((s) => (
+                <div key={s.label} className="glass rounded-2xl border border-border p-4 shadow-[var(--shadow)]">
+                  <p className="text-2xl font-bold text-accent">{s.value}</p>
+                  <p className="text-xs text-fg-muted mt-0.5">{s.label}</p>
+                </div>
+              ))}
+            </div>
           </div>
 
-          {/* Stats bar */}
           <div
-            className="animate-fade-up mt-12 grid grid-cols-2 gap-3 sm:grid-cols-4 sm:gap-4"
-            style={{ animationDelay: "0.32s" }}
+            className="animate-fade-up relative flex justify-center lg:justify-end"
+            style={{ animationDelay: "0.2s" }}
           >
-            {PLATFORM_STATS.map((s) => (
-              <div key={s.label} className="glass rounded-2xl border border-border p-4 shadow-[var(--shadow)]">
-                <p className="text-2xl font-bold text-accent">{s.value}</p>
-                <p className="text-xs text-fg-muted mt-0.5">{s.label}</p>
-              </div>
-            ))}
+            <HeroChatBot />
           </div>
         </div>
-
-        {/* Decorative orbs */}
-        <div className="pointer-events-none absolute -right-32 top-10 h-[500px] w-[500px] rounded-full opacity-20"
-          style={{ background: "radial-gradient(circle, var(--accent) 0%, transparent 70%)" }} />
-        <div className="pointer-events-none absolute -left-20 bottom-0 h-[300px] w-[300px] rounded-full opacity-10"
-          style={{ background: "radial-gradient(circle, var(--fuchsia) 0%, transparent 70%)" }} />
       </section>
 
       {/* ── HOW IT WORKS ── */}
@@ -190,6 +194,26 @@ export default async function Home() {
                 Chat with AI Coach →
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── RESUME BUILDER CTA ── */}
+      <section className="mx-auto w-full max-w-6xl px-4 py-6">
+        <div className="rounded-3xl border border-border bg-surface p-8 sm:p-10 shadow-[var(--shadow)] sm:flex items-center justify-between gap-8">
+          <div>
+            <h2 className="text-2xl font-bold sm:text-3xl">
+              AI <span className="text-gradient">Resume Builder</span>
+            </h2>
+            <p className="mt-2 max-w-lg text-fg-muted text-pretty">
+              Fill a form or paste an old resume, rewrite it for GenAI/ML roles, pick a template,
+              and download a PDF ready for Indian ATS screens.
+            </p>
+          </div>
+          <div className="mt-6 sm:mt-0 shrink-0">
+            <Link href="/resume" className="btn-gradient rounded-full px-6 py-3 font-semibold whitespace-nowrap">
+              Build my resume →
+            </Link>
           </div>
         </div>
       </section>
