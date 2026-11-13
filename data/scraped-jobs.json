@@ -1,23 +1,737 @@
 {
-  "updatedAt": "2026-11-12T07:28:08.262Z",
+  "updatedAt": "2026-11-13T06:59:27.570Z",
   "count": 555,
   "jobs": [
     {
-      "id": "gh-thoughtworks-8276059",
-      "title": "Lead Full Stack Developer",
-      "company": "Thoughtworks",
-      "location": "Chennai, India",
+      "id": "gh-coursera-6212857004",
+      "title": "LLMops Engineer",
+      "company": "Coursera",
+      "location": "India",
+      "tags": [
+        "GenAI"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/coursera/jobs/6212857004",
+      "postedAt": "2026-11-13T05:16:51.000Z",
+      "source": "Coursera careers",
+      "description": [
+        "About Coursera + Udemy Coursera and Udemy are now one company, bringing together two mission-driven brands to create the world’s most powerful platform for turning learning into progress. Together, we help more than 300 million learners and 12,000+ enterprise customers build the skills they need for a world being reshaped by AI. Read more about the combined company by visiting our&nbsp; blog . Why join us now? AI is transforming how people learn, work, and grow, and the need for new skills has never been greater. Coursera brings trusted content and credentials from leading university and industry partners, while Udemy brings a dynamic skills marketplace and global network of real-world experts. By combining these strengths, we can connect more people and organizations to the skills they ne"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-airbnb-8288417",
+      "title": "Engineering Manager, Tech Foundations",
+      "company": "Airbnb",
+      "location": "Bangalore, India",
       "tags": [
         "Engineering"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://www.thoughtworks.com/careers/jobs/8276059?gh_jid=8276059",
-      "postedAt": "2026-11-12T06:48:08.000Z",
-      "source": "Thoughtworks careers",
+      "applyUrl": "https://careers.airbnb.com/positions/8288417?gh_jid=8288417",
+      "postedAt": "2026-11-13T04:09:55.000Z",
+      "source": "Airbnb careers",
       "description": [
-        "Lead Developers act as the primary point of contact for our clients, ensuring that teams are successful in their delivery. In this role, you will bring a strategic mindset to projects and spend time collaborating and negotiating with clients to bring a technical vision to life. Having a balance of high-level and tactical mindsets is a must, as you will spend time both with clients and your teammates. At Thoughtworks, we believe in going above and beyond the standard and are committed to delivering best-in-class solutions that exceed our clients' expectations. Our standard engineering and delivery practices reflect our commitment to quality, and our team is always looking to innovate and improve. Lead Developers guide and coach their teams in their implementation and application. Job respon"
+        "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: The CRM Engineering team builds the go-to-market platforms and tooling that Airbnb uses to grow and manage its supply. We power the full host lifecycle: acquiring new hosts, onboarding them, and retaining and growing them once they are live. We also build the platforms that connect Airbnb with its wider community, including Hosts, Guests, Local Community Leaders, Government Regulators, and more. We partner"
       ],
-      "companyType": "service"
+      "companyType": "product"
+    },
+    {
+      "id": "gh-okta-8155879",
+      "title": "Director, Site Reliability Engineering",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8155879?gh_jid=8155879",
+      "postedAt": "2026-11-13T03:47:05.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Okta authenticates, authorizes and provisions millions of users a day. The service is hosted on Amazon Web Services (AWS) across multiple availability zones and geographically separated regions. The service is designed for high throughput, and 99.999 availability. We're looking fo"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "ashby-perplexity-859604e1-9ada-4833-97b3-51fe185b6ff7",
+      "title": "Engineering Manager, Security",
+      "company": "Perplexity",
+      "location": "San Francisco · London · Remote · Belgrade · New York City",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.ashbyhq.com/Perplexity/859604e1-9ada-4833-97b3-51fe185b6ff7/application",
+      "postedAt": "2026-11-13T02:54:29.258Z",
+      "source": "Perplexity careers",
+      "description": [
+        "ABOUT THE ROLE Perplexity's security team protects products used by millions of people and thousands of enterprises, including AI agents that browse the web, run code, and act in customer systems. The team is small, senior, and builds most of what it uses: our own detections, agents that triage and investigate alerts around the clock, continuous offensive testing, and secure-by-default platforms for the rest of engineering. We're also turning what we've built into cybersecurity products for customers, so the same team that defends Perplexity builds what we ship. We're looking for an Engineering Manager to lead and grow Security Engineering, including the engineers building our cybersecurity products. You'll own the team's execution and people, set the technical direction for how we defend "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-pinterest-8230778",
+      "title": "Sr. Security Software Engineer, Security Operations",
+      "company": "Pinterest",
+      "location": "San Francisco, CA, US; Remote, US",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.pinterestcareers.com/jobs/?gh_jid=8230778",
+      "postedAt": "2026-11-13T00:31:05.000Z",
+      "source": "Pinterest careers",
+      "description": [
+        "About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the&nbsp; flexibility to do your best work. Creating a career you love? It’s Possible. At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experie"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-stripe-8293644",
+      "title": "Staff Software Engineer, Code Forge",
+      "company": "Stripe",
+      "location": "San Francisco, Seattle, US-Remote",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://stripe.com/jobs/search?gh_jid=8293644",
+      "postedAt": "2026-11-12T22:21:09.000Z",
+      "source": "Stripe careers",
+      "description": [
+        "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team The Developer Productivity organization works to make Stripe the most productive place of an engineer’s career. The Code Review team builds the tools and processes that help Stripe engineers review and ship code safely and efficiently. We treat engineers’ attention"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8368072",
+      "title": "Senior Software Engineer",
+      "company": "Coinbase",
+      "location": "Remote - Brazil",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8368072?gh_jid=8368072",
+      "postedAt": "2026-11-12T21:47:45.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer on the CEE Surfaces team within Coinbase's Customer Experience and Engagement org, you'll build and scale the customer- and agent-facing support experiences th"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8031260",
+      "title": "Machine Learning Engineer, CX Intelligence",
+      "company": "Coinbase",
+      "location": "Remote - Brazil",
+      "tags": [
+        "Machine Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8031260?gh_jid=8031260",
+      "postedAt": "2026-11-12T21:47:42.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . The CX Intelligence Engineering team, part of Coinbase's Enterprise Applications and Architecture org, builds the multi-agent platform powering Coinbase Chat, Help Center, and agent tooling"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8279479",
+      "title": "Software Engineer, Enterprise Apps",
+      "company": "Coinbase",
+      "location": "Remote - Brazil",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479",
+      "postedAt": "2026-11-12T21:47:39.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Software Engineer, Enterprise Apps on the CX Shared Agent Platforms and SFDC Solutions team within Coinbase's Enterprise Applications and Architecture org, you'll build the platforms a"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8008569",
+      "title": "Senior Machine Learning Engineer, CX Intelligence",
+      "company": "Coinbase",
+      "location": "Remote - Brazil",
+      "tags": [
+        "Machine Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8008569?gh_jid=8008569",
+      "postedAt": "2026-11-12T21:47:33.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Machine Learning Engineer on the CX Intelligence team within Enterprise Applications and Architecture, you'll build the AI-powered conversational systems that connect Coinbase's Help C"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-gitlab-8760233002",
+      "title": "Backend Engineer, Trusted Agentic Development",
+      "company": "GitLab",
+      "location": "Remote, Poland",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8760233002",
+      "postedAt": "2026-11-12T21:42:57.000Z",
+      "source": "GitLab careers",
+      "description": [
+        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-snorkelai-6009496004",
+      "title": "Research Scientist - RL Training",
+      "company": "Snorkel AI",
+      "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
+      "tags": [
+        "Research"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/snorkelai/jobs/6009496004",
+      "postedAt": "2026-11-12T18:54:54.000Z",
+      "source": "Snorkel AI careers",
+      "description": [
+        "About Snorkel Snorkel AI is the frontier AI data lab, helping teams build the data and environments behind high-performing frontier and agentic AI. We combine technology with research-driven AI data development to create datasets, benchmarks, evals, and custom solutions for real-world AI systems. Founded out of the Stanford AI Lab in 2019, Snorkel works with leading AI labs and enterprises to move from better data to better outcomes.&nbsp; Excited to help us redefine how AI is built? Apply to be the newest Snorkeler! ABOUT THE ROLE&nbsp; We are looking for a Research Scientist to advance reinforcement learning for large language models. You will develop, implement, and run training methods that help models solve frontier-level challenging tasks, especially complex, multi-turn, long-horizon"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-dropbox-8356942",
+      "title": "Senior Client Platform Engineer, Endpoint Platform & Automation",
+      "company": "Dropbox",
+      "location": "Remote - Canada: Select locations",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.dropbox.com/listing/8356942?gh_jid=8356942",
+      "postedAt": "2026-11-12T17:56:54.000Z",
+      "source": "Dropbox careers",
+      "description": [
+        "Role Description As a Senior Client Platform Engineer on CorpFleet Engineering, you will lead the migration to FleetDM and build the shared platform capabilities that support dependable endpoint operations. You will combine hands-on engineering with technical planning, partnering with Windows, macOS, and Linux engineers to introduce changes safely across a distributed environment. You will develop automation, integrations, and configuration-as-code workflows, validate platform capabilities, and guide phased adoption. Beyond migration, you will improve platform reliability, visibility, and maintainability, helping the team reduce manual work and operate the service with shared ownership. You will partner with Security, IAM, CorpInfra, and support teams to resolve dependencies and make pract"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-dropbox-8356941",
+      "title": "Senior Client Platform Engineer, Endpoint Platform & Automation",
+      "company": "Dropbox",
+      "location": "Remote - US: Select locations",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.dropbox.com/listing/8356941?gh_jid=8356941",
+      "postedAt": "2026-11-12T17:56:51.000Z",
+      "source": "Dropbox careers",
+      "description": [
+        "Role Description As a Senior Client Platform Engineer on CorpFleet Engineering, you will lead the migration to FleetDM and build the shared platform capabilities that support dependable endpoint operations. You will combine hands-on engineering with technical planning, partnering with Windows, macOS, and Linux engineers to introduce changes safely across a distributed environment. You will develop automation, integrations, and configuration-as-code workflows, validate platform capabilities, and guide phased adoption. Beyond migration, you will improve platform reliability, visibility, and maintainability, helping the team reduce manual work and operate the service with shared ownership. You will partner with Security, IAM, CorpInfra, and support teams to resolve dependencies and make pract"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-dropbox-8356939",
+      "title": "Senior Client Platform Engineer, Endpoint Platform & Automation",
+      "company": "Dropbox",
+      "location": "Remote - Ireland",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.dropbox.com/listing/8356939?gh_jid=8356939",
+      "postedAt": "2026-11-12T17:56:47.000Z",
+      "source": "Dropbox careers",
+      "description": [
+        "Role Description As a Senior Client Platform Engineer on CorpFleet Engineering, you will lead the migration to FleetDM and build the shared platform capabilities that support dependable endpoint operations. You will combine hands-on engineering with technical planning, partnering with Windows, macOS, and Linux engineers to introduce changes safely across a distributed environment. You will develop automation, integrations, and configuration-as-code workflows, validate platform capabilities, and guide phased adoption. Beyond migration, you will improve platform reliability, visibility, and maintainability, helping the team reduce manual work and operate the service with shared ownership. You will partner with Security, IAM, CorpInfra, and support teams to resolve dependencies and make pract"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-instacart-8383513",
+      "title": "Sr Software Engineer II - Ads Manager (Front End)",
+      "company": "Instacart",
+      "location": "United States - Remote",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8383513",
+      "postedAt": "2026-11-12T17:29:43.000Z",
+      "source": "Instacart careers",
+      "description": [
+        "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers. Instacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table. Instacart is a Flex First team There’s no one-size "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-twilio-8015771",
+      "title": "Senior Software Engineer",
+      "company": "Twilio",
+      "location": "Remote - Ireland",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8015771",
+      "postedAt": "2026-11-12T15:30:03.000Z",
+      "source": "Twilio careers",
+      "description": [
+        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-twilio-8108771",
+      "title": "DevOps Engineer (Observability)",
+      "company": "Twilio",
+      "location": "Remote - Ireland",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
+      "postedAt": "2026-11-12T15:28:03.000Z",
+      "source": "Twilio careers",
+      "description": [
+        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-twilio-8258589",
+      "title": "Staff Machine Learning Engineer",
+      "company": "Twilio",
+      "location": "Remote - Ontario, Canada (DNU)",
+      "tags": [
+        "Machine Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8258589",
+      "postedAt": "2026-11-12T15:27:29.000Z",
+      "source": "Twilio careers",
+      "description": [
+        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-twilio-8240288",
+      "title": "Staff Software Engineer (L4)",
+      "company": "Twilio",
+      "location": "Remote - Ireland",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8240288",
+      "postedAt": "2026-11-12T15:26:44.000Z",
+      "source": "Twilio careers",
+      "description": [
+        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-twilio-8319434",
+      "title": "Staff, Software Engineer (L4)",
+      "company": "Twilio",
+      "location": "Remote - India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8319434",
+      "postedAt": "2026-11-12T15:22:51.000Z",
+      "source": "Twilio careers",
+      "description": [
+        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-dropbox-8261916",
+      "title": "Principal Software Engineer, Product Engineering",
+      "company": "Dropbox",
+      "location": "Remote - Canada: Select locations",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
+      "postedAt": "2026-11-12T15:15:44.000Z",
+      "source": "Dropbox careers",
+      "description": [
+        "Role Description As a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage. &nbsp; Your influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product lead"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-dropbox-8261911",
+      "title": "Principal Software Engineer, Product Engineering",
+      "company": "Dropbox",
+      "location": "Remote - US: All locations",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.dropbox.com/listing/8261911?gh_jid=8261911",
+      "postedAt": "2026-11-12T15:15:44.000Z",
+      "source": "Dropbox careers",
+      "description": [
+        "Role Description As a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage. &nbsp; Your influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product lead"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-okta-8007091",
+      "title": "Staff Software Engineer - Windows",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8007091?gh_jid=8007091",
+      "postedAt": "2026-11-12T14:45:48.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Device Identity and Access Organization The Device Identity and Access organization is at the forefront of Okta’s Zero Trust vision. As a foundational pillar within Okta Research and Development (ORD), our mission is to transform the device itself into a secure, trusted, and effor"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8106167",
+      "title": "Engineering Manager, AI Builder Experience",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8106167",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "AI frameworks like LangChain, LlamaIndex, and n8n are quickly becoming the default way developers build with AI — and MongoDB wants to be the data platform that shows up everywhere they build. As part of the AI Builders Experience org at MongoDB, we’re forming a brand new engineering team to make that happen, and we're looking for the founding Engineering Manager to hire the team, set the technical direction, and ship integrations into some of the fastest-moving open-source ecosystems in tech. In this role, you'll be close enough to the code to jump into exploratory work yourself while also building the team, process, and operational rigor to keep a growing integration portfolio healthy long-term. The new team will work mostly in Python and TypeScript while collaborating closely with clien"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8239745",
+      "title": "Senior Engineering Manager, Atlas Agent Engine",
+      "company": "MongoDB",
+      "location": "Bengaluru",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8239745",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "We are seeking a Senior Engineering Manager to join our growing Bengaluru Product & Technology team to provide technical direction, direct architecture, and implement core parts of a new platform we are building to make it easier for customers to build AI applications using MongoDB.&nbsp; As a Senior Engineering Manager on this new team, you will be responsible for leading and growing an engineering team, taking on challenging, high-visibility projects that improve and enhance the performance, scalability, and reliability of the distributed systems infrastructure for this new product. MongoDB engineering teams pride themselves on building high-quality software and living MongoDB cultural values every day – we value intellectual curiosity and honesty, and building together in an environment"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8071475",
+      "title": "Senior Platform Engineer",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8071475",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "The Infrastructure Engineering team is responsible for building and maintaining a self-service internal development platform that enables MongoDB engineering teams to reliably deploy and operate their own production services and products. We work with numerous engineering teams across the company to understand their infrastructure requirements and development workflows, develop broadly applicable self-service platform services and tooling, continuously monitor how platform services are being utilized, and look for ways to improve developer productivity through automation and education. We are big open source enthusiasts and use a number of open source tools in our stack (contributing upstream whenever possible). Some of the tools we use regularly include Go, AWS, Kubernetes, Crossplane, Te"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8323897",
+      "title": "Senior Software Engineer",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8323897",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "The Application Modernization Platform (AMP) team is dedicated to solving one of the industry's biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. An important aspect of this is Data Migration. MongoDB is building a world-class team in India to build tooling that helps customers migrate their data from legacy relational databases to MongoDB in real-time. As companies modernise their application and data ecosystems, they are increasingly drawn to the flexibility and scalability of the document model. The tools developed by the Data Migration team are critical in this journey, helping customers with schema modeling, initial data loads, and continuous data synchroniza"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8106099",
+      "title": "Senior Software Engineer, AI Builder Experience (ABX)",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8106099",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "AI agents are transforming the way developers interact with software - and databases are no exception. We're seeking a Senior Software Engineer to join our AI Interfaces team within AI Builder Experience (ABX), where you'll provide technical direction, shape architecture, and build the core products that make it seamless for developers and AI agents to work with MongoDB. Our team owns the surfaces through which humans and agents connect to MongoDB - including the MongoDB MCP Server, Agent Skills, our Intelligent Assistant Platform, and purpose-built agents. In short: if it's how an agent talks to MongoDB, we're building it. This is a new team charting new territory, and as a Senior Software Engineer here, you'll be right at the frontier - building the technologies that let AI applications "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8107301",
+      "title": "Senior Software Engineer, AI Framework Integrations",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8107301",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "AI frameworks like LangChain, LlamaIndex, and n8n are quickly becoming the default way developers build with AI — and MongoDB wants to be the data platform that shows up everywhere they build. As part of the AI Builders Experience (ABX) org, we're standing up a brand new engineering team in Gurugram to make that happen, and we're looking for Senior Software Engineers to be among its founding members. The team owns the connective layer between MongoDB and third-party AI frameworks, platforms, and tools — the integrations that let developers use MongoDB effectively with the AI stack they've already chosen. That means shipping into some of the fastest-moving open-source ecosystems in tech, working mostly in Python and TypeScript, and partnering with the Database Experience (DBX) org when an i"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8243327",
+      "title": "Senior Staff Engineer, Atlas Agent Engine",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8243327",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "We are seeking a Senior Staff Engineer to join our growing Gurugram Products & Technology team to provide technical direction, direct architecture, and implement core parts of a new platform we are building to make it easier for customers to build AI applications using MongoDB.&nbsp; As a Senior Staff Engineer on this new team, you will be responsible for providing technical leadership to teams developing cutting edge technologies related to enabling deployment at scale of AI applications. You will take on challenging, high-visibility projects that improve and enhance the performance, scalability, and reliability of the distributed systems infrastructure for this new product. MongoDB engineering teams pride themselves on building high-quality software and living MongoDB cultural values eve"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8239047",
+      "title": "Software Engineer 3",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "The Application Modernization Platform (AMP) team is dedicated to solving one of the industry's biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. To accelerate this transition, MongoDB is building a dedicated Platform and Infrastructure team to develop the Application Modernisation Platform and Infrastructure . As we help customers modernize their application and data ecosystems, we face the challenge of deploying complex tooling into highly restrictive client environments and architecting automated verification frameworks to ensure data equivalence. This new team will architect the platform foundation and infrastructure that enables a \"build once, run anywhere\" m"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8127772",
+      "title": "Software Engineer 3, AI Framework Integrations",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8127772",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "AI frameworks like LangChain, LlamaIndex, and n8n are quickly becoming the default way developers build with AI — and MongoDB wants to be the data platform that shows up everywhere they build. As part of the AI Builders Experience (ABX) org, we're standing up a brand new engineering team in Gurugram to make that happen, and we're looking for Software Engineers to be among its founding members. The team owns the connective layer between MongoDB and third-party AI frameworks, platforms, and tools — the integrations that let developers use MongoDB effectively with the AI stack they've already chosen. That means shipping into some of the fastest-moving open-source ecosystems in tech, working mostly in Python and TypeScript, and partnering with the Database Experience (DBX) org when an integrat"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8221290",
+      "title": "Software Engineer 3 - Enterprise Architecture",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8221290",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "MongoDB seeks an experienced Software Engineer to join Enterprise Architecture on a focused team dedicated to AI experimentation. You'll partner with teams across the organization, including Internal Engineering, to explore, prototype, and validate emerging AI capabilities before they become formal roadmap priorities. We are looking to speak to candidates who are based in Gurugram for our hybrid working model. Our ideal candidate: Has 2-5 years of professional software engineering experience Deep experience with at least one modern programming language (Python, Typescript, Go, Rust, etc.) Strong technical judgment and the ability to independently solve complex engineering problems Excellent communication skills and comfort collaborating across teams and disciplines Comfortable operating in"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-7523861",
+      "title": "Staff Engineer",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=7523861",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "The database market is massive (IDC estimates it to be $121B+ by 2026!) and MongoDB is at the head of its disruption. At MongoDB we are transforming industries and empowering developers to build amazing apps that people use every day. We are the leading modern data platform and the first database provider to IPO in over 20 years. Join our team and be at the forefront of innovation and creativity. MongoDB is building a world-class team in India to create tooling that helps customers migrate their data from legacy relational databases to MongoDB in real-time. As companies modernise their application and data ecosystems, they are increasingly drawn to the flexibility and scalability of the document model.&nbsp; The tools developed by the Data Migration team are critical in this journey, helpi"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-7590587",
+      "title": "Staff Engineer, Atlas Agent Engine",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=7590587",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "We are seeking a Staff Engineer to join our growing Gurugram Products & Technology team to provide technical direction, direct architecture, and implement core parts of a new platform we are building to make it easier for customers to build AI applications using MongoDB.&nbsp; As a Staff Engineer on this new team, you will be responsible for providing technical leadership to teams developing cutting edge technologies related to enabling deployment at scale of AI applications. You will take on challenging, high-visibility projects that improve and enhance the performance, scalability, and reliability of the distributed systems infrastructure for this new product. MongoDB engineering teams pride themselves on building high-quality software and living MongoDB cultural values every day – we va"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-8122748",
+      "title": "Staff Engineer - Business Systems",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8122748",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "About Team The IT SaaS Engineering Team is the backbone of MongoDB's go-to-market operations. We build and run the Salesforce platform — with the automation, security, and governance that Sales Operations, Revenue Operations, Security, and Compliance rely on daily to manage customer relationships and drive business growth. Role Overview We're hiring a Staff Salesforce Engineer to own the architecture, design, and evolution of our CRM platform. This role combines deep technical leadership, hands-on solution design, and a modern engineering mindset that embraces AI-powered development responsibly. As a senior individual contributor, this person sets technical direction and raises the engineering bar through architecture, design, and mentorship. What You'll do Lead architecture, design, and d"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-mongodb-7778981",
+      "title": "Staff Engineer - Business Systems (Integrations)",
+      "company": "MongoDB",
+      "location": "Gurugram",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=7778981",
+      "postedAt": "2026-11-12T14:41:56.000Z",
+      "source": "MongoDB careers",
+      "description": [
+        "We are looking to speak to candidates who are based in Gurugram for our hybrid working model. About the Role We are looking for a Staff Integration Engineer (Workato & API Integration) to join our GTMTech team. This strategic role will lead the design, implementation, and governance of enterprise-grade integrations that power our core business processes across GTM systems, with a primary focus on Workato-based integrations and modern API management patterns. You will own the architecture for critical integration domains such as Quote-to-Cash and other high-impact GTMTech programs, ensuring our integration landscape is scalable, secure, observable, and aligned with best practices for event-driven and API-first designs. You will partner with engineering, architecture, security, and business "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-gitlab-8926105002",
+      "title": "Staff Backend Engineer, Performance Enablement",
+      "company": "GitLab",
+      "location": "Remote, Poland",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8926105002",
+      "postedAt": "2026-11-12T14:14:54.000Z",
+      "source": "GitLab careers",
+      "description": [
+        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8330469",
+      "title": "Engineering Manager, Ads Product Catalogs",
+      "company": "Reddit",
+      "location": "Remote - The Netherlands",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8330469",
+      "postedAt": "2026-11-12T09:28:38.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . This role is open to candidates based in the UK or the Netherlands.&nbsp; Reddit is where people come to discover, research, and discuss products that inform their purchasing decisions. Shopping, across advertising and organic experiences, is a high priority for the company, and product catalogs are foundational to that work. We are looking fo"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8330450",
+      "title": "Engineering Manager, Ads Product Catalogs",
+      "company": "Reddit",
+      "location": "Remote - United Kingdom",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8330450",
+      "postedAt": "2026-11-12T09:28:31.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . This role is open to candidates based in the UK or the Netherlands.&nbsp; Reddit is where people come to discover, research, and discuss products that inform their purchasing decisions. Shopping, across advertising and organic experiences, is a high priority for the company, and product catalogs are foundational to that work. We are looking fo"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-hackerrank-8358510",
+      "title": "Senior Deep Learning Research Engineer",
+      "company": "HackerRank",
+      "location": "Hybrid in Bangalore, India",
+      "tags": [
+        "Deep Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/hackerrank/jobs/8358510",
+      "postedAt": "2026-11-12T08:19:00.000Z",
+      "source": "HackerRank careers",
+      "description": [
+        "HackerRank helps companies like NVIDIA, Amazon, and Microsoft hire and upskill the next generation of developers based on skills, not pedigree. Our platform is trusted by over 2,500 of the world’s most innovative companies to build strong engineering teams ready for what’s next. Software has entered an era where humans and AI build side by side. As this shift accelerates, the definition of strong technical talent is changing. We give companies better ways to identify and invest in next-generation skills. People at HackerRank care deeply about the impact of their work and sweat the small details so our customers can be wildly successful with products they genuinely love to use. We move with urgency and believe great outcomes come from high standards. About the role Hiring is one of the most"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-hackerrank-8273522",
+      "title": "Deep Learning Research Engineer",
+      "company": "HackerRank",
+      "location": "Hybrid in Bangalore, India",
+      "tags": [
+        "Deep Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/hackerrank/jobs/8273522",
+      "postedAt": "2026-11-12T07:30:14.000Z",
+      "source": "HackerRank careers",
+      "description": [
+        "HackerRank helps companies like NVIDIA, Amazon, and Microsoft hire and upskill the next generation of developers based on skills, not pedigree. Our platform is trusted by over 2,500 of the world’s most innovative companies to build strong engineering teams ready for what’s next. Software has entered an era where humans and AI build side by side. As this shift accelerates, the definition of strong technical talent is changing. We give companies better ways to identify and invest in next-generation skills. People at HackerRank care deeply about the impact of their work and sweat the small details so our customers can be wildly successful with products they genuinely love to use. We move with urgency and believe great outcomes come from high standards. About the role Hiring is one of the most"
+      ],
+      "companyType": "product"
     },
     {
       "id": "gh-okta-8358096",
@@ -33,23 +747,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Backend Engineer, Identity Threat Protection &nbsp; The Identity Threat Protection Team Identity Threat Protection (ITP), powered by cutting-edge Okta AI, shatters the mold of traditional login security. We deliver real-time, surgical defense against the most sophisticated a"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-8263825",
-      "title": "Staff Software Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8263825?gh_jid=8263825",
-      "postedAt": "2026-11-12T04:57:37.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. We are looking for a Staff Software engineer who is passionate about writing the tools to integrate and support to build large-scale, high-demand software in a fast-paced agile environment. You will share our passion for test-driven development, continuous integration and automati"
       ],
       "companyType": "product"
     },
@@ -207,23 +904,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-hackerrank-8273522",
-      "title": "Deep Learning Research Engineer",
-      "company": "HackerRank",
-      "location": "Hybrid in Bangalore, India",
-      "tags": [
-        "Deep Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/hackerrank/jobs/8273522",
-      "postedAt": "2026-11-11T17:46:13.000Z",
-      "source": "HackerRank careers",
-      "description": [
-        "HackerRank helps companies like NVIDIA, Amazon, and Microsoft hire and upskill the next generation of developers based on skills, not pedigree. Our platform is trusted by over 2,500 of the world’s most innovative companies to build strong engineering teams ready for what’s next. Software has entered an era where humans and AI build side by side. As this shift accelerates, the definition of strong technical talent is changing. We give companies better ways to identify and invest in next-generation skills. People at HackerRank care deeply about the impact of their work and sweat the small details so our customers can be wildly successful with products they genuinely love to use. We move with urgency and believe great outcomes come from high standards. About the role Hiring is one of the most"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-instacart-8379682",
       "title": "Senior Software Engineer, Catalog Store",
       "company": "Instacart",
@@ -271,108 +951,6 @@
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . The Ranking Platform team builds and runs the services that coordinate contextualized and personalized ranking on Reddit. We build infrastructure, including a scatter-gather ranking coordination service, feature indexes, and scalable data pipelines that power personalized feeds, search, and other Reddit products. We partner closely with machin"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-twilio-8015771",
-      "title": "Senior Software Engineer",
-      "company": "Twilio",
-      "location": "Remote - Ireland",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8015771",
-      "postedAt": "2026-11-11T15:29:36.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-twilio-8258589",
-      "title": "Staff Machine Learning Engineer",
-      "company": "Twilio",
-      "location": "Remote - Ontario, Canada (DNU)",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8258589",
-      "postedAt": "2026-11-11T15:28:25.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-twilio-8108771",
-      "title": "DevOps Engineer (Observability)",
-      "company": "Twilio",
-      "location": "Remote - Ireland",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
-      "postedAt": "2026-11-11T15:27:59.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-twilio-8240288",
-      "title": "Staff Software Engineer (L4)",
-      "company": "Twilio",
-      "location": "Remote - Ireland",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8240288",
-      "postedAt": "2026-11-11T15:27:37.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-twilio-8236865",
-      "title": "Staff Software Engineer (L4)",
-      "company": "Twilio",
-      "location": "Remote - India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8236865",
-      "postedAt": "2026-11-11T15:27:12.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-twilio-8319434",
-      "title": "Staff, Software Engineer (L4)",
-      "company": "Twilio",
-      "location": "Remote - India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8319434",
-      "postedAt": "2026-11-11T15:23:05.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
       ],
       "companyType": "product"
     },
@@ -819,244 +1397,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-mongodb-8106167",
-      "title": "Engineering Manager, AI Builder Experience",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8106167",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "AI frameworks like LangChain, LlamaIndex, and n8n are quickly becoming the default way developers build with AI — and MongoDB wants to be the data platform that shows up everywhere they build. As part of the AI Builders Experience org at MongoDB, we’re forming a brand new engineering team to make that happen, and we're looking for the founding Engineering Manager to hire the team, set the technical direction, and ship integrations into some of the fastest-moving open-source ecosystems in tech. In this role, you'll be close enough to the code to jump into exploratory work yourself while also building the team, process, and operational rigor to keep a growing integration portfolio healthy long-term. The new team will work mostly in Python and TypeScript while collaborating closely with clien"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8239745",
-      "title": "Senior Engineering Manager, Atlas Agent Engine",
-      "company": "MongoDB",
-      "location": "Bengaluru",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8239745",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "We are seeking a Senior Engineering Manager to join our growing Bengaluru Product & Technology team to provide technical direction, direct architecture, and implement core parts of a new platform we are building to make it easier for customers to build AI applications using MongoDB.&nbsp; As a Senior Engineering Manager on this new team, you will be responsible for leading and growing an engineering team, taking on challenging, high-visibility projects that improve and enhance the performance, scalability, and reliability of the distributed systems infrastructure for this new product. MongoDB engineering teams pride themselves on building high-quality software and living MongoDB cultural values every day – we value intellectual curiosity and honesty, and building together in an environment"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8071475",
-      "title": "Senior Platform Engineer",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8071475",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "The Infrastructure Engineering team is responsible for building and maintaining a self-service internal development platform that enables MongoDB engineering teams to reliably deploy and operate their own production services and products. We work with numerous engineering teams across the company to understand their infrastructure requirements and development workflows, develop broadly applicable self-service platform services and tooling, continuously monitor how platform services are being utilized, and look for ways to improve developer productivity through automation and education. We are big open source enthusiasts and use a number of open source tools in our stack (contributing upstream whenever possible). Some of the tools we use regularly include Go, AWS, Kubernetes, Crossplane, Te"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8323897",
-      "title": "Senior Software Engineer",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8323897",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "The Application Modernization Platform (AMP) team is dedicated to solving one of the industry's biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. An important aspect of this is Data Migration. MongoDB is building a world-class team in India to build tooling that helps customers migrate their data from legacy relational databases to MongoDB in real-time. As companies modernise their application and data ecosystems, they are increasingly drawn to the flexibility and scalability of the document model. The tools developed by the Data Migration team are critical in this journey, helping customers with schema modeling, initial data loads, and continuous data synchroniza"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8106099",
-      "title": "Senior Software Engineer, AI Builder Experience (ABX)",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8106099",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "AI agents are transforming the way developers interact with software - and databases are no exception. We're seeking a Senior Software Engineer to join our AI Interfaces team within AI Builder Experience (ABX), where you'll provide technical direction, shape architecture, and build the core products that make it seamless for developers and AI agents to work with MongoDB. Our team owns the surfaces through which humans and agents connect to MongoDB - including the MongoDB MCP Server, Agent Skills, our Intelligent Assistant Platform, and purpose-built agents. In short: if it's how an agent talks to MongoDB, we're building it. This is a new team charting new territory, and as a Senior Software Engineer here, you'll be right at the frontier - building the technologies that let AI applications "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8107301",
-      "title": "Senior Software Engineer, AI Framework Integrations",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8107301",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "AI frameworks like LangChain, LlamaIndex, and n8n are quickly becoming the default way developers build with AI — and MongoDB wants to be the data platform that shows up everywhere they build. As part of the AI Builders Experience (ABX) org, we're standing up a brand new engineering team in Gurugram to make that happen, and we're looking for Senior Software Engineers to be among its founding members. The team owns the connective layer between MongoDB and third-party AI frameworks, platforms, and tools — the integrations that let developers use MongoDB effectively with the AI stack they've already chosen. That means shipping into some of the fastest-moving open-source ecosystems in tech, working mostly in Python and TypeScript, and partnering with the Database Experience (DBX) org when an i"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8243327",
-      "title": "Senior Staff Engineer, Atlas Agent Engine",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8243327",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "We are seeking a Senior Staff Engineer to join our growing Gurugram Products & Technology team to provide technical direction, direct architecture, and implement core parts of a new platform we are building to make it easier for customers to build AI applications using MongoDB.&nbsp; As a Senior Staff Engineer on this new team, you will be responsible for providing technical leadership to teams developing cutting edge technologies related to enabling deployment at scale of AI applications. You will take on challenging, high-visibility projects that improve and enhance the performance, scalability, and reliability of the distributed systems infrastructure for this new product. MongoDB engineering teams pride themselves on building high-quality software and living MongoDB cultural values eve"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8208074",
-      "title": "Software Engineer 3",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8208074",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "Enterprise Advanced is a distributed team across Europe and India that builds the software running MongoDB on any infrastructure, at global scale — from on-prem data centers to private cloud. You'll work primarily on Ops Manager and Automation, the systems that let customers deploy fault-tolerant, globally distributed MongoDB clusters in minutes. Our software manages some of the largest self-managed MongoDB deployments in the world, with production clusters running hundreds of shards and nodes under a single deployment. The main focus of this team is to adapt our software to manage MongoDB clusters which are deployed in data centers or private cloud platforms. You will work on the core functionality for all of our products, mainly on the Ops Manager , and Automation products.&nbsp; Our tea"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8127772",
-      "title": "Software Engineer 3, AI Framework Integrations",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8127772",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "AI frameworks like LangChain, LlamaIndex, and n8n are quickly becoming the default way developers build with AI — and MongoDB wants to be the data platform that shows up everywhere they build. As part of the AI Builders Experience (ABX) org, we're standing up a brand new engineering team in Gurugram to make that happen, and we're looking for Software Engineers to be among its founding members. The team owns the connective layer between MongoDB and third-party AI frameworks, platforms, and tools — the integrations that let developers use MongoDB effectively with the AI stack they've already chosen. That means shipping into some of the fastest-moving open-source ecosystems in tech, working mostly in Python and TypeScript, and partnering with the Database Experience (DBX) org when an integrat"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8221290",
-      "title": "Software Engineer 3 - Enterprise Architecture",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8221290",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "MongoDB seeks an experienced Software Engineer to join Enterprise Architecture on a focused team dedicated to AI experimentation. You'll partner with teams across the organization, including Internal Engineering, to explore, prototype, and validate emerging AI capabilities before they become formal roadmap priorities. We are looking to speak to candidates who are based in Gurugram for our hybrid working model. Our ideal candidate: Has 2-5 years of professional software engineering experience Deep experience with at least one modern programming language (Python, Typescript, Go, Rust, etc.) Strong technical judgment and the ability to independently solve complex engineering problems Excellent communication skills and comfort collaborating across teams and disciplines Comfortable operating in"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8206794",
-      "title": "Staff Engineer",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8206794",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "MongoDB's Application Modernization Platform (AMP) helps organizations modernize legacy applications and move their workloads and associated data from relational databases to MongoDB. Our customers need a dependable way to bring analysis, transformation, testing, and migration capabilities into their modernization workflows. The Platform team builds the shared foundations that make AMP a cohesive product. We connect specialized tools and services through consistent interfaces, integrate them with AI agents and development environments, and make them secure, observable, and straightforward to deploy and operate. Our work enables product teams to deliver new capabilities without repeatedly solving the same integration and infrastructure problems. We are looking for a Staff Engineer to set te"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-7590587",
-      "title": "Staff Engineer, Atlas Agent Engine",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=7590587",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "We are seeking a Staff Engineer to join our growing Gurugram Products & Technology team to provide technical direction, direct architecture, and implement core parts of a new platform we are building to make it easier for customers to build AI applications using MongoDB.&nbsp; As a Staff Engineer on this new team, you will be responsible for providing technical leadership to teams developing cutting edge technologies related to enabling deployment at scale of AI applications. You will take on challenging, high-visibility projects that improve and enhance the performance, scalability, and reliability of the distributed systems infrastructure for this new product. MongoDB engineering teams pride themselves on building high-quality software and living MongoDB cultural values every day – we va"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-8122748",
-      "title": "Staff Engineer - Business Systems",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8122748",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "About Team The IT SaaS Engineering Team is the backbone of MongoDB's go-to-market operations. We build and run the Salesforce platform — with the automation, security, and governance that Sales Operations, Revenue Operations, Security, and Compliance rely on daily to manage customer relationships and drive business growth. Role Overview We're hiring a Staff Salesforce Engineer to own the architecture, design, and evolution of our CRM platform. This role combines deep technical leadership, hands-on solution design, and a modern engineering mindset that embraces AI-powered development responsibly. As a senior individual contributor, this person sets technical direction and raises the engineering bar through architecture, design, and mentorship. What You'll do Lead architecture, design, and d"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-mongodb-7778981",
-      "title": "Staff Engineer - Business Systems (Integrations)",
-      "company": "MongoDB",
-      "location": "Gurugram",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=7778981",
-      "postedAt": "2026-11-10T21:49:06.000Z",
-      "source": "MongoDB careers",
-      "description": [
-        "We are looking to speak to candidates who are based in Gurugram for our hybrid working model. About the Role We are looking for a Staff Integration Engineer (Workato & API Integration) to join our GTMTech team. This strategic role will lead the design, implementation, and governance of enterprise-grade integrations that power our core business processes across GTM systems, with a primary focus on Workato-based integrations and modern API management patterns. You will own the architecture for critical integration domains such as Quote-to-Cash and other high-impact GTMTech programs, ensuring our integration landscape is scalable, secure, observable, and aligned with best practices for event-driven and API-first designs. You will partner with engineering, architecture, security, and business "
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-pinterest-8230775",
       "title": "Staff Security Software Engineer, Detection & Response",
       "company": "Pinterest",
@@ -1104,74 +1444,6 @@
       "source": "Stripe careers",
       "description": [
         "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies, from the world’s largest enterprises to the most ambitious startups, use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. About the team The Internal Systems Automations Platform team’s mission is to unlock productivity across all of Stripe’s internal systems. We build solutions to transform core processes for Finance, Accounting, People, Legal, Sales, Marketing, and more. We orchestrate the full "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-coinbase-8368072",
-      "title": "Senior Software Engineer",
-      "company": "Coinbase",
-      "location": "Remote - Brazil",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8368072?gh_jid=8368072",
-      "postedAt": "2026-11-10T18:03:33.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer on the CEE Surfaces team within Coinbase's Customer Experience and Engagement org, you'll build and scale the customer- and agent-facing support experiences th"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-coinbase-8031260",
-      "title": "Machine Learning Engineer, CX Intelligence",
-      "company": "Coinbase",
-      "location": "Remote - Brazil",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8031260?gh_jid=8031260",
-      "postedAt": "2026-11-10T18:03:14.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . The CX Intelligence Engineering team, part of Coinbase's Enterprise Applications and Architecture org, builds the multi-agent platform powering Coinbase Chat, Help Center, and agent tooling"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-coinbase-8279479",
-      "title": "Software Engineer, Enterprise Apps",
-      "company": "Coinbase",
-      "location": "Remote - Brazil",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8279479?gh_jid=8279479",
-      "postedAt": "2026-11-10T18:03:10.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Software Engineer, Enterprise Apps on the CX Shared Agent Platforms and SFDC Solutions team within Coinbase's Enterprise Applications and Architecture org, you'll build the platforms a"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-coinbase-8008569",
-      "title": "Senior Machine Learning Engineer, CX Intelligence",
-      "company": "Coinbase",
-      "location": "Remote - Brazil",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8008569?gh_jid=8008569",
-      "postedAt": "2026-11-10T18:03:04.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Machine Learning Engineer on the CX Intelligence team within Enterprise Applications and Architecture, you'll build the AI-powered conversational systems that connect Coinbase's Help C"
       ],
       "companyType": "product"
     },
@@ -1329,23 +1601,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-dropbox-6330377",
-      "title": "Infrastructure Software Engineer",
-      "company": "Dropbox",
-      "location": "Remote - Poland",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://jobs.dropbox.com/listing/6330377?gh_jid=6330377",
-      "postedAt": "2026-11-10T15:45:24.000Z",
-      "source": "Dropbox careers",
-      "description": [
-        "Role Description As an Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform. Collaborating closely with cross-functional teams, you'll leverage your expertise to tackle audacious challenges and push the boundaries of what's possible. Your contributions will directly impact millions of users, as every line of code you write furthers our mission to revolutionize the way people work and collaborate. Join us in redefining the future, wher"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-dropbox-7172713",
       "title": "Infrastructure Software Engineer",
       "company": "Dropbox",
@@ -1363,36 +1618,19 @@
       "companyType": "product"
     },
     {
-      "id": "gh-dropbox-8261916",
-      "title": "Principal Software Engineer, Product Engineering",
+      "id": "gh-dropbox-6330377",
+      "title": "Infrastructure Software Engineer",
       "company": "Dropbox",
-      "location": "Remote - Canada: Select locations",
+      "location": "Remote - Poland",
       "tags": [
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
+      "applyUrl": "https://jobs.dropbox.com/listing/6330377?gh_jid=6330377",
       "postedAt": "2026-11-10T15:45:24.000Z",
       "source": "Dropbox careers",
       "description": [
-        "Role Description As a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage. &nbsp; Your influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product lead"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-dropbox-8261911",
-      "title": "Principal Software Engineer, Product Engineering",
-      "company": "Dropbox",
-      "location": "Remote - US: All locations",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://jobs.dropbox.com/listing/8261911?gh_jid=8261911",
-      "postedAt": "2026-11-10T15:45:24.000Z",
-      "source": "Dropbox careers",
-      "description": [
-        "Role Description As a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage. &nbsp; Your influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product lead"
+        "Role Description As an Infrastructure Engineer, your role will be crucial in shaping and constructing the robust systems that not only support our current flagship products but also lay the groundwork for the next wave of engineering innovations. From optimizing user experiences across various projects to ensuring seamless scalability and data integrity, you'll be at the forefront of shaping the technological backbone of our platform. Collaborating closely with cross-functional teams, you'll leverage your expertise to tackle audacious challenges and push the boundaries of what's possible. Your contributions will directly impact millions of users, as every line of code you write furthers our mission to revolutionize the way people work and collaborate. Join us in redefining the future, wher"
       ],
       "companyType": "product"
     },
@@ -1652,23 +1890,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-snorkelai-6009496004",
-      "title": "Research Scientist - RL Training",
-      "company": "Snorkel AI",
-      "location": "New York City, NY (Hybrid); San Francisco, CA (Hybrid); United States (Remote)",
-      "tags": [
-        "Research"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/snorkelai/jobs/6009496004",
-      "postedAt": "2026-11-09T22:41:18.000Z",
-      "source": "Snorkel AI careers",
-      "description": [
-        "About Snorkel Snorkel AI is the frontier AI data lab, helping teams build the data and environments behind high-performing frontier and agentic AI. We combine technology with research-driven AI data development to create datasets, benchmarks, evals, and custom solutions for real-world AI systems. Founded out of the Stanford AI Lab in 2019, Snorkel works with leading AI labs and enterprises to move from better data to better outcomes.&nbsp; Excited to help us redefine how AI is built? Apply to be the newest Snorkeler! ABOUT THE ROLE&nbsp; We're looking for a Research Scientist to work on reinforcement learning for training and aligning large language models. This is a foundational research role focused on one of the most consequential open data problems in AI: how to generate the data, rewa"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-snorkelai-6229274004",
       "title": "Senior Engineering Manager, Federal & Regulated Infrastructure",
       "company": "Snorkel AI",
@@ -1713,23 +1934,6 @@
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8773028002",
       "postedAt": "2026-11-09T21:32:16.000Z",
-      "source": "GitLab careers",
-      "description": [
-        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-gitlab-8760233002",
-      "title": "Senior Backend Engineer, Trusted Agentic Development",
-      "company": "GitLab",
-      "location": "Remote, Poland",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8760233002",
-      "postedAt": "2026-11-09T21:28:25.000Z",
       "source": "GitLab careers",
       "description": [
         "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
@@ -1788,23 +1992,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-coinbase-7930686",
-      "title": "Senior Software Engineer, Backend (Consumer - Risk)",
-      "company": "Coinbase",
-      "location": "Remote - Canada",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/7930686?gh_jid=7930686",
-      "postedAt": "2026-11-09T16:32:06.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer on the Risk Engineering team within the Consumer & Business group, you'll build and optimize the systems that detect and prevent fraud, manage credit and marke"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-coinbase-8351163",
       "title": "Senior Software Engineer, Backend (Consumer - Risk)",
       "company": "Coinbase",
@@ -1818,6 +2005,23 @@
       "source": "Coinbase careers",
       "description": [
         "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . Senior Software Engineer, Backend (Consumer - Risk) As a Senior Software Engineer on the Risk Engineering team within the Consumer & Business group, you'll build and optimize the systems th"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-7930686",
+      "title": "Senior Software Engineer, Backend (Consumer - Risk)",
+      "company": "Coinbase",
+      "location": "Remote - Canada",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/7930686?gh_jid=7930686",
+      "postedAt": "2026-11-09T16:32:06.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer on the Risk Engineering team within the Consumer & Business group, you'll build and optimize the systems that detect and prevent fraud, manage credit and marke"
       ],
       "companyType": "product"
     },
@@ -2162,23 +2366,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-pinterest-8257181",
-      "title": "Engineering Manager II, Runtime Services",
-      "company": "Pinterest",
-      "location": "San Francisco, CA, US; Remote, US",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.pinterestcareers.com/jobs/?gh_jid=8257181",
-      "postedAt": "2026-11-06T21:55:13.000Z",
-      "source": "Pinterest careers",
-      "description": [
-        "About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the&nbsp; flexibility to do your best work. Creating a career you love? It’s Possible. At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experie"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-pinterest-8280111",
       "title": "Sr. Data Scientist, Performance Marketing",
       "company": "Pinterest",
@@ -2206,23 +2393,6 @@
       "jobType": "Full-time",
       "applyUrl": "https://www.pinterestcareers.com/jobs/?gh_jid=8328868",
       "postedAt": "2026-11-06T21:55:13.000Z",
-      "source": "Pinterest careers",
-      "description": [
-        "About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the&nbsp; flexibility to do your best work. Creating a career you love? It’s Possible. At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experie"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-pinterest-8230778",
-      "title": "Sr. Security Software Engineer, Security Operations",
-      "company": "Pinterest",
-      "location": "San Francisco, CA, US; Remote, US",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.pinterestcareers.com/jobs/?gh_jid=8230778",
-      "postedAt": "2026-11-06T21:55:12.000Z",
       "source": "Pinterest careers",
       "description": [
         "About Pinterest: Millions of people around the world come to our platform to find creative ideas, dream about new possibilities and plan for memories that will last a lifetime. At Pinterest, we’re on a mission to bring everyone the inspiration to create a life they love, and that starts with the people behind the product. Discover a career where you ignite innovation for millions, transform passion into growth opportunities, celebrate each other’s unique experiences and embrace the&nbsp; flexibility to do your best work. Creating a career you love? It’s Possible. At Pinterest, AI isn't just a feature, it's a powerful partner that augments our creativity and amplifies our impact, and we’re looking for candidates who are excited to be a part of that. To get a complete picture of your experie"
@@ -3318,23 +3488,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-gitlab-8778943002",
-      "title": "Senior Backend Engineer, Database Excellence (Ruby)",
-      "company": "GitLab",
-      "location": "Remote, United Kingdom",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8778943002",
-      "postedAt": "2026-11-06T20:25:07.000Z",
-      "source": "GitLab careers",
-      "description": [
-        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-gitlab-8716143002",
       "title": "Senior Backend Engineer, India",
       "company": "GitLab",
@@ -3361,23 +3514,6 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8750842002",
-      "postedAt": "2026-11-06T20:25:07.000Z",
-      "source": "GitLab careers",
-      "description": [
-        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-gitlab-8867725002",
-      "title": "Senior Backend Engineer (Ruby), Production Engineering:Tenant Controls",
-      "company": "GitLab",
-      "location": "Remote, Poland",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8867725002",
       "postedAt": "2026-11-06T20:25:07.000Z",
       "source": "GitLab careers",
       "description": [
@@ -4135,23 +4271,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-7721851",
-      "title": "Staff Data Scientist, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "tags": [
-        "Data Science"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
-      "postedAt": "2026-11-06T12:21:58.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms already exist, advertisers ar"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-reddit-7721787",
       "title": "Staff Data Scientist, Ads",
       "company": "Reddit",
@@ -4165,6 +4284,23 @@
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: US remote-friendly Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-7721851",
+      "title": "Staff Data Scientist, Ads",
+      "company": "Reddit",
+      "location": "Remote - Ontario, Canada",
+      "tags": [
+        "Data Science"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
+      "postedAt": "2026-11-06T12:21:58.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms already exist, advertisers ar"
       ],
       "companyType": "product"
     },
@@ -4509,23 +4645,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-druva-8720275002",
-      "title": "Senior Staff Software Engineer",
-      "company": "Druva",
-      "location": "Hyderabad, Andhra Pradesh, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.druva.com/why-druva/explore/careers/jobs/8720275002/?gh_jid=8720275002",
-      "postedAt": "2026-11-04T21:41:46.000Z",
-      "source": "Druva careers",
-      "description": [
-        "Senior Staff Software Engineer About Druva: Druva is the resilience foundation for the AI enterprise, helping organizations secure and recover from connected risk across data, cyber, identity, and AI. The Resilience Cloud is a fully managed, cloud-native SaaS platform that delivers air-gapped and immutable protection across cloud, SaaS, on-premises, endpoint, and edge environments. Powered by Dru MetaGraph, Druva’s graph-powered intelligence layer, the platform connects critical business context so customers can understand risk, respond faster, recover cleanly, and govern data with greater confidence. Trusted by nearly 7,500 customers, including 75 of the Fortune 500, Druva helps safeguard the critical information and systems businesses depend on in an increasingly connected world. Visit &"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-druva-8598308002",
       "title": "Senior Staff Software Engineer",
       "company": "Druva",
@@ -4539,6 +4658,23 @@
       "source": "Druva careers",
       "description": [
         "About Druva Druva is the resilience foundation for the AI enterprise, helping organizations secure and recover from connected risk across data, cyber, identity, and AI. The Resilience Cloud is a fully managed, cloud-native SaaS platform that delivers air-gapped and immutable protection across cloud, SaaS, on-premises, endpoint, and edge environments. Powered by Dru MetaGraph, Druva’s graph-powered intelligence layer, the platform connects critical business context so customers can understand risk, respond faster, recover cleanly, and govern data with greater confidence. Trusted by nearly 7,500 customers, including 75 of the Fortune 500, Druva helps safeguard the critical information and systems businesses depend on in an increasingly connected world. Visit &nbsp;druva.com &nbsp;and follow "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-druva-8720275002",
+      "title": "Senior Staff Software Engineer",
+      "company": "Druva",
+      "location": "Hyderabad, Andhra Pradesh, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.druva.com/why-druva/explore/careers/jobs/8720275002/?gh_jid=8720275002",
+      "postedAt": "2026-11-04T21:41:46.000Z",
+      "source": "Druva careers",
+      "description": [
+        "Senior Staff Software Engineer About Druva: Druva is the resilience foundation for the AI enterprise, helping organizations secure and recover from connected risk across data, cyber, identity, and AI. The Resilience Cloud is a fully managed, cloud-native SaaS platform that delivers air-gapped and immutable protection across cloud, SaaS, on-premises, endpoint, and edge environments. Powered by Dru MetaGraph, Druva’s graph-powered intelligence layer, the platform connects critical business context so customers can understand risk, respond faster, recover cleanly, and govern data with greater confidence. Trusted by nearly 7,500 customers, including 75 of the Fortune 500, Druva helps safeguard the critical information and systems businesses depend on in an increasingly connected world. Visit &"
       ],
       "companyType": "product"
     },
@@ -4607,40 +4743,6 @@
       "source": "Calendly careers",
       "description": [
         "What’s in it for you?&nbsp; Ready to make a serious impact? Millions of people already rely on Calendly, and we’re still in the midst of exciting product growth — it’s a fantastic time to join us. Everything you’ll work on here will accelerate your career to the next level. If you want to learn, grow, and do the best work of your life alongside the best people you’ve ever worked with, then we hope you’ll consider allowing Calendly to be a part of your professional journey. About the team & opportunity&nbsp; What’s so great about working on Calendly’s Engineering team?&nbsp; We make things possible for our customers through innovation. Why do we need you? Well, we are looking for a Staff Platform Engineer who will bring operational maturity, strong software engineering expertise, deep hands"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8330469",
-      "title": "Engineering Manager, Product Catalogs",
-      "company": "Reddit",
-      "location": "Remote - The Netherlands",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8330469",
-      "postedAt": "2026-11-04T16:14:10.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . This role is open to candidates based in the UK or the Netherlands.&nbsp; Reddit is where people come to discover, research, and discuss products that inform their purchasing decisions. Shopping, across advertising and organic experiences, is a high priority for the company, and product catalogs are foundational to that work. We are looking fo"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8330450",
-      "title": "Engineering Manager, Product Catalogs",
-      "company": "Reddit",
-      "location": "Remote - United Kingdom",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8330450",
-      "postedAt": "2026-11-04T16:13:57.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . This role is open to candidates based in the UK or the Netherlands.&nbsp; Reddit is where people come to discover, research, and discuss products that inform their purchasing decisions. Shopping, across advertising and organic experiences, is a high priority for the company, and product catalogs are foundational to that work. We are looking fo"
       ],
       "companyType": "product"
     },
@@ -4930,23 +5032,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. We are looking for a high-impact Senior Software Engineer in Test (Sr. SET) to join our QA Core Team. In this role, you will partner closely with Infrastructure, Release Engineering, and Development teams to drive high availability, build scalable test automation, and optimize CI/"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-7849955",
-      "title": "Principal Software Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/7849955?gh_jid=7849955",
-      "postedAt": "2026-11-03T12:06:37.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Job Description: Okta Workflows is the secure, no-code automation platform that empowers organizations to build identity-centric workflows across cloud applications — all without writing code. Our intuitive drag-and-drop interface allows enterprises to automate complex business pr"
       ],
       "companyType": "product"
     },
@@ -6381,23 +6466,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-stripe-7688358",
-      "title": "Engineering Manager, Data Transformation",
-      "company": "Stripe",
-      "location": "US-SEA, US-SF, US-NYC, US-Remote",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://stripe.com/jobs/search?gh_jid=7688358",
-      "postedAt": "2026-10-29T14:42:09.000Z",
-      "source": "Stripe careers",
-      "description": [
-        "Who we are About Stripe Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world's largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone's reach while doing the most important work of your career. About the team The Data Transformation team is responsible for building and operating batch and real-time transformation pipelines and platforms for 400+ product teams at Stripe. We're aiming to make data development and management workflow at Stripe a breeze with emphasis on pro"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-stripe-8229361",
       "title": "Engineering Manager, Mobile Development Productivity",
       "company": "Stripe",
@@ -6636,23 +6704,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-okta-8260950",
-      "title": "Senior Site Reliability Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8260950?gh_jid=8260950",
-      "postedAt": "2026-10-29T14:17:15.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Okta authenticates, authorizes, and provision millions of users a day. Internally, TDI Infrastructure Engineering runs the platforms that our own engineering and business teams build on — hosted on AWS, increasingly Kubernetes-native, and expanding fast to support AI-driven intern"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-okta-8333118",
       "title": "Senior Software Engineer - Android",
       "company": "Okta",
@@ -6802,23 +6853,6 @@
       "source": "Instacart careers",
       "description": [
         "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers. Instacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table. Instacart is a Flex First team There’s no one-size "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-8255902",
-      "title": "Staff SRE- (Python, K8s, AWS, Terraform)",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8255902?gh_jid=8255902",
-      "postedAt": "2026-10-26T16:02:23.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. What You’ll Be Doing Design, build, and operate highly scalable, reliable, and secure infrastructure powering our production systems across AWS and GCP. Lead major reliability and modernization initiatives, including container platform migrations (e.g., ECS to EKS/GKE) and microse"
       ],
       "companyType": "product"
     },
@@ -7180,23 +7214,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-8226397",
-      "title": "Senior Director, Data Science",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Data Science"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8226397",
-      "postedAt": "2026-10-23T14:06:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit is seeking a Senior Director of Consumer Data Science to lead a multi-team organization that partners across Consumer, Product, Engineering, and the broader business. You will set the strategy and operating model for consumer data science, strengthen the systems and standards that make scientific outputs reliable, actionable, and scalab"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-reddit-6960833",
       "title": "Senior Machine Learning Engineer",
       "company": "Reddit",
@@ -7437,19 +7454,19 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-8060775",
-      "title": "Senior Staff Software Engineer, Client Architecture",
+      "id": "gh-reddit-6512458",
+      "title": "Software Engineer, Ads",
       "company": "Reddit",
-      "location": "Remote - United States",
+      "location": "Remote - Ontario, Canada",
       "tags": [
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8060775",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
       "postedAt": "2026-10-23T14:06:06.000Z",
       "source": "Reddit careers",
       "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit is where 130M+ people a day come to share what they know, ask what they don't, and find their people. Every post, comment, and new format starts with our composers. We're looking for a Senior Staff engineer to be the technical anchor for how people create on Reddit across Web, iOS, and Android. You'll own the cross-client vision for con"
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to "
       ],
       "companyType": "product"
     },
@@ -7471,23 +7488,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-6512458",
-      "title": "Software Engineer, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
-      "postedAt": "2026-10-23T14:06:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to "
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-reddit-8139781",
       "title": "Software Engineer, Content Platform",
       "company": "Reddit",
@@ -7501,40 +7501,6 @@
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . This role is remote friendly. Reddit has a flexible first workforce. Who We Are: The Infrastructure organization enables Reddit to deliver Reliability, Performance and Efficiency, with a single opinionated technology stack. The Content Platform team within Infrastructure additionally focuses on empowering product teams to build the best possib"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8018517",
-      "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-      "company": "Reddit",
-      "location": "Remote - The Netherlands",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8018517",
-      "postedAt": "2026-10-23T14:06:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: Reddit has a flexible first workforce. Don't live near our office? No worries: you can work remotely from anywhere in the UK or the Netherlands. The Ads Foundational Representations (AFR) team develops signals and representations of Reddit’s core entities (ads, posts, users, and so on), capturing the semantic, contextual, and behavio"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8018513",
-      "title": "Staff Machine Learning Engineer, Ads Foundational Representations",
-      "company": "Reddit",
-      "location": "Remote - United Kingdom",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8018513",
-      "postedAt": "2026-10-23T14:06:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: Reddit has a flexible first workforce. Don't live near our office? No worries: you can work remotely from anywhere in the UK or the Netherlands. The Ads Foundational Representations (AFR) team develops signals and representations of Reddit’s core entities (ads, posts, users, and so on), capturing the semantic, contextual, and behavio"
       ],
       "companyType": "product"
     },
@@ -8270,6 +8236,23 @@
       "companyType": "product"
     },
     {
+      "id": "gh-okta-8236508",
+      "title": "Staff Software Engineer - Full Stack",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508",
+      "postedAt": "2026-10-08T02:57:59.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Software Engineer - Full Stack Position Description: We are seeking an experienced Staff Engineer to provide technical leadership for the Advanced Integration Builder team within Okta. This team builds and maintains the backend services, provisioning frameworks, authenticati"
+      ],
+      "companyType": "product"
+    },
+    {
       "id": "gh-anthropic-5445625008",
       "title": "IT Systems Engineer, Client Platform Engineer, macOS",
       "company": "Anthropic",
@@ -8334,23 +8317,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Software Engineer - Backend Get to Know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology—anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation that "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-8242301",
-      "title": "Staff Software Engineer - Full Stack",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
-      "postedAt": "2026-10-06T12:43:24.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Software Engineer - Full-stack Get to Know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology—anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation th"
       ],
       "companyType": "product"
     },
@@ -8555,6 +8521,40 @@
       "source": "Elastic careers",
       "description": [
         "Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search and the intelligence of AI to enable everyone to accelerate the results that matter. By taking advantage of all structured and unstructured data — securing and protecting private information more effectively — Elastic’s complete, cloud-based solutions for search, security, and observability help organizations deliver on the promise of AI. What is The Role Elastic is looking for a Lead Salesforce Engineer who combines deep architectural intuition, clean coding, and sharp debugging skills with an AI-native"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-okta-8039085",
+      "title": "Senior Software Engineer",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8039085?gh_jid=8039085",
+      "postedAt": "2026-10-01T06:25:43.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Job Description Okta is seeking a Senior Software Engineer to build, style, and maintain our documentation site’s frontend, infrastructure, CI/CD pipelines, and publishing processes. You will manage and scale our product and developer documentation platforms and support internal c"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-okta-8242984",
+      "title": "Senior Site Reliability Engineer",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984",
+      "postedAt": "2026-10-01T05:47:26.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. The Engineering Opportunity We are looking for an experienced Senior Site Reliability Engineer to join Okta's Emerging Products Group (EPG). Our mission is to build highly reliable, scalable, and secure cloud services that our customers can trust. We embrace an automation-first mi"
       ],
       "companyType": "product"
     },
@@ -8865,6 +8865,23 @@
       "companyType": "product"
     },
     {
+      "id": "gh-okta-7741663",
+      "title": "Principal Software Engineer",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663",
+      "postedAt": "2026-09-21T16:43:00.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. At Okta, we are building the future of secure, enterprise-grade cloud automation and system connectivity. We are looking for a Principal Engineer to join our global Automation Engineering team to design, scale, and govern our enterprise integration substrate using AWS cloud servic"
+      ],
+      "companyType": "product"
+    },
+    {
       "id": "gh-okta-8007078",
       "title": "Principal Software Engineer - macOS",
       "company": "Okta",
@@ -8878,23 +8895,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Device Identity and Access Organization The Device Identity and Access organization is at the forefront of Okta’s Zero Trust vision. As a foundational pillar within Okta Research and Development (ORD), our mission is to transform the device itself into a secure, trusted, and effor"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-7599312",
-      "title": "Senior Software Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/7599312?gh_jid=7599312",
-      "postedAt": "2026-09-21T16:43:00.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Datastores Engineer, Platform Infrastructure The Auth0 platform secures more than 100 million logins each day for customers all around the world - and we're growing fast! The Platform Infrastructure team enables Auth0 engineers to move faster by giving them tools to easily deploy "
       ],
       "companyType": "product"
     },
@@ -9018,19 +9018,19 @@
       "companyType": "product"
     },
     {
-      "id": "gh-okta-8007091",
-      "title": "Staff Software Engineer - Windows",
+      "id": "gh-okta-8220634",
+      "title": "Staff Software Engineer",
       "company": "Okta",
       "location": "Bengaluru, India",
       "tags": [
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8007091?gh_jid=8007091",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634",
       "postedAt": "2026-09-21T16:43:00.000Z",
       "source": "Okta careers",
       "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Device Identity and Access Organization The Device Identity and Access organization is at the forefront of Okta’s Zero Trust vision. As a foundational pillar within Okta Research and Development (ORD), our mission is to transform the device itself into a secure, trusted, and effor"
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the"
       ],
       "companyType": "product"
     },
