@@ -1,7 +1,228 @@
 {
-  "updatedAt": "2026-11-14T06:47:53.689Z",
+  "updatedAt": "2026-11-15T06:52:22.560Z",
   "count": 553,
   "jobs": [
+    {
+      "id": "gh-databricks-7651345002",
+      "title": "Senior Staff Software Engineer (Backend)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002",
+      "postedAt": "2026-11-15T04:37:30.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "(P-1174) We are hiring a Senior Staff Software Engineer for Databricks' Engineering team reporting to an Engineering Leader. You will be part of the Databricks engineering organization, working with teams that develop Databricks products and features for thousands of enterprises worldwide. Key Characteristics As an executive engineering individual contributor at Databricks, you will have full ownership of the product or infrastructure direction in a major area, driving it from initial development to scalable solutions with clear business impact. You will serve as a force multiplier by elevating stability, reliability, and organizational processes, while bringing deep expertise in large-scale distributed systems. You will mentor senior engineers, contribute to recruiting, and lead high-impa"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7651346002",
+      "title": "Staff Software Engineer",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7651346002",
+      "postedAt": "2026-11-15T04:37:28.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-375 We are hiring a &nbsp;Staff Software Engineer for Databricks' Engineering team reporting to an Engineering Leader. You will be part of the Databricks engineering organization, working with teams that develop Databricks products and features for thousands of enterprises worldwide. Key Characteristics As an executive engineering individual contributor at Databricks, you will have full ownership of the product or infrastructure direction in a major area, driving it from initial development to scalable solutions with clear business impact. You will serve as a force multiplier by elevating stability, reliability, and organizational processes, while bringing deep expertise in large-scale distributed systems. You will mentor senior engineers, contribute to recruiting, and lead high-impact c"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7601565002",
+      "title": "Staff Software Engineer - Databases",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7601565002",
+      "postedAt": "2026-11-15T04:37:27.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-375 At Databricks, we build powerful infrastructure that accelerates innovation and enables data teams to deliver with confidence and scale. Our unified schema migration platform underpins automated, observable, and developer-friendly workflows—ensuring Databricks can continue evolving rapidly across thousands of databases and 60+ mission-critical services. What You’ll Do As a Staff Software Engineer, you’ll lead the design, development, and reliability of our global platform that manages schema and data changes at scale: Schema Migration Platform: Architecting and maintaining automated schema change infrastructure for MySQL and TiDB, while implementing versioning, rollback, validation, and auditing for safe, predictable, and fast migrations. Scale, Reliability & Test Harness: Ensuring t"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7619810002",
+      "title": "Senior Software Engineer (Infra)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7619810002",
+      "postedAt": "2026-11-15T04:36:55.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-926 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business.&nbsp; Networking Infrastructure is a core part of the platform that powers all our data and AI products. The platform also powers key enterprise security features used by customers across all our products to build connectivity solutions to cloud resources and prevent data exfiltration. And we're setting up the team from scratch in Bengaluru , India. We are seeking an experienced Senior Software Engineers with a networki"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-6709301002",
+      "title": "Senior Software Engineer (Backend)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=6709301002",
+      "postedAt": "2026-11-15T04:36:53.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-926 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started in&nbsp; Bengaluru , India ! As a software engineer with a backend focus, you will work with your team to build infrastructure for the Databricks pla"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7897431002",
+      "title": "Senior Software Engineer - Data + AI Observability",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7897431002",
+      "postedAt": "2026-11-15T04:36:38.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-1385 Companies are investing billions of dollars into developing and deploying AI and the data platforms that enable it. But do they know what is happening?&nbsp; At Databricks, we are passionate about enabling data teams to solve the world’s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world’s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to tackle technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getti"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-8320187002",
+      "title": "Staff Software Engineer - Backend",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002",
+      "postedAt": "2026-11-15T04:36:27.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-1385 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. Databricks Mosaic AI offers a unique data-centric approach to building enterprise-quality, Machine Learning and Generative AI solutions, enabling organizations to securely and cos"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-8944097002",
+      "title": "Staff Software Engineer (App-Framework)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8944097002",
+      "postedAt": "2026-11-15T04:36:01.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-1492 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started in&nbsp; Bengaluru , India ! As a software engineer with a backend focus, you will work with your team to build infrastructure for the Databricks pl"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-8294304002",
+      "title": "Senior Software Engineer (App-Framework)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002",
+      "postedAt": "2026-11-15T04:34:41.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-1492 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started in&nbsp; Bengaluru , India ! As a software engineer with a backend focus, you will work with your team to build infrastructure for the Databricks pl"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7006090002",
+      "title": "Engineering Manager - Core Experiences",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7006090002",
+      "postedAt": "2026-11-15T04:30:40.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-995 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. The Core Experiences Platforms Org in Bangalore is responsible for the main set of platforms to access and interact with core assets such as Workspaces, Notebooks, SQL queries and the necessary serving infrastructure to power multiple User Experiences.&nbsp; Databricks is experiencing very high growth, and several critical services rely on the platforms of the Core Experiences Platforms Org. We are focused on redesignin"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-8357216002",
+      "title": "Engineering Manager (Ingestion)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8357216002",
+      "postedAt": "2026-11-15T04:30:38.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-995 About the Team At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs.&nbsp; Ingesting data into the Lakehouse is a strategic area of investment for Databricks and a key enabler for Data and AI workflows. Lakeflow Connect is looking to solve this problem by providing ready-to-use, point-and-click connectors for a wide variety of sources, including enterprise applications (like Salesforce, Workday, ServiceNow, SharePoint), databases (e.g., SQL Server), cloud storage, message queues, and local files. In addition to being an important part of Lakeflow and Data Engineering, Connect is also a key platform capability. Every surface in D"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7652016002",
+      "title": "Staff Software Engineer (Data Platform)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7652016002",
+      "postedAt": "2026-11-15T04:30:20.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-1348 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems, from security threat detection to cancer drug development. We do this by building and running the world's best data and AI infrastructure platform, so our customers can focus on the high value challenges that are central to their own missions. Our engineering teams build technical products that fulfill real, important needs in the world. We always push the boundaries of data and AI technology, while simultaneously operating with the resilience, security and scale that is important to making customers successful on our platform. We develop and operate one of the largest scale software platforms. The fleet consists of millions of virtual machines, generating terabytes of logs and process"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-7647369002",
+      "title": "Senior Software Engineer (Data Platform)",
+      "company": "Databricks",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647369002",
+      "postedAt": "2026-11-15T04:30:10.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "P-1348 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems, from security threat detection to cancer drug development. We do this by building and running the world's best data and AI infrastructure platform, so our customers can focus on the high value challenges that are central to their own missions. Our engineering teams build technical products that fulfill real, important needs in the world. We always push the boundaries of data and AI technology, while simultaneously operating with the resilience, security and scale that is important to making customers successful on our platform. We develop and operate one of the largest scale software platforms. The fleet consists of millions of virtual machines, generating terabytes of logs and process"
+      ],
+      "companyType": "product"
+    },
     {
       "id": "gh-snorkelai-6260926004",
       "title": "Research Scientist, Open Benchmarks Red Team",
@@ -836,40 +1057,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-7006090002",
-      "title": "Engineering Manager - Core Experiences",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7006090002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-995 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. The Core Experiences Platforms Org in Bangalore is responsible for the main set of platforms to access and interact with core assets such as Workspaces, Notebooks, SQL queries and the necessary serving infrastructure to power multiple User Experiences.&nbsp; Databricks is experiencing very high growth, and several critical services rely on the platforms of the Core Experiences Platforms Org. We are focused on redesignin"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-8357216002",
-      "title": "Engineering Manager (Ingestion)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8357216002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-995 About the Team At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs.&nbsp; Ingesting data into the Lakehouse is a strategic area of investment for Databricks and a key enabler for Data and AI workflows. Lakeflow Connect is looking to solve this problem by providing ready-to-use, point-and-click connectors for a wide variety of sources, including enterprise applications (like Salesforce, Workday, ServiceNow, SharePoint), databases (e.g., SQL Server), cloud storage, message queues, and local files. In addition to being an important part of Lakeflow and Data Engineering, Connect is also a key platform capability. Every surface in D"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-databricks-8878946002",
       "title": "Evergreen - AI Engineer, AI FDE",
       "company": "Databricks",
@@ -883,23 +1070,6 @@
       "source": "Databricks careers",
       "description": [
         "CSQ326R35 Mission The Machine Learning (ML) Practice team is a highly specialized customer-facing ML team at Databricks facing an increasing demand for Large Language Model (LLM)-based solutions. We deliver professional services engagements to help our customers build, scale, and optimize ML pipelines, as well as put those pipelines into production. We work cross-functionally to shape long-term strategic priorities and initiatives alongside engineering, product, and developer relations, as well as support internal subject matter expert (SME) teams. We view our team as an ensemble: we look for individuals with strong, unique specializations to improve the overall strength of the team. This team is the right fit for you if you love working with customers, teammates, and fueling your curiosit"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-8403943002",
-      "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
-      "company": "Databricks",
-      "location": "Remote - United Kingdom",
-      "tags": [
-        "GenAI"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403943002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "REQ ID: FEQ227R147 Location: United Kingdom (Remote/Hybrid — London or UK-based) Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contributor ro"
       ],
       "companyType": "product"
     },
@@ -921,19 +1091,19 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-8892970002",
+      "id": "gh-databricks-8403943002",
       "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
       "company": "Databricks",
-      "location": "Remote - France",
+      "location": "Remote - United Kingdom",
       "tags": [
         "GenAI"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892970002",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403943002",
       "postedAt": "2026-11-13T20:13:15.000Z",
       "source": "Databricks careers",
       "description": [
-        "REQ ID: FEQ227R147 Location: France (Remote/Hybrid) - will require travel across Europe Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contrib"
+        "REQ ID: FEQ227R147 Location: United Kingdom (Remote/Hybrid — London or UK-based) Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contributor ro"
       ],
       "companyType": "product"
     },
@@ -951,6 +1121,23 @@
       "source": "Databricks careers",
       "description": [
         "REQ ID: FEQ227R147 Location: Sweden (Remote/Hybrid) - will require travel across Europe Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contrib"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-8892970002",
+      "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
+      "company": "Databricks",
+      "location": "Remote - France",
+      "tags": [
+        "GenAI"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8892970002",
+      "postedAt": "2026-11-13T20:13:15.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "REQ ID: FEQ227R147 Location: France (Remote/Hybrid) - will require travel across Europe Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contrib"
       ],
       "companyType": "product"
     },
@@ -989,23 +1176,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-8210383002",
-      "title": "Senior Software Engineer (App-Framework)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-926 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines.&nbsp; The Role :&nbsp; We are seeking a highly skilled and experienced Senior Software Engineer with a deep understanding of low-level systems to join our team. In this role, you w"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-databricks-8320183002",
       "title": "Senior Software Engineer - Backend",
       "company": "Databricks",
@@ -1023,23 +1193,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-6709301002",
-      "title": "Senior Software Engineer (Backend)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=6709301002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-926 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started in&nbsp; Bengaluru , India ! As a software engineer with a backend focus, you will work with your team to build infrastructure for the Databricks pla"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-databricks-7647294002",
       "title": "Senior Software Engineer - Backend Infrastructure",
       "company": "Databricks",
@@ -1053,57 +1206,6 @@
       "source": "Databricks careers",
       "description": [
         "P-1346 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business.&nbsp; Networking Infrastructure is a core part of the platform that powers all our data and AI products. The platform also powers key enterprise security features used by customers across all our products to build connectivity solutions to cloud resources and prevent data exfiltration. And we're setting up the team from scratch in Bengaluru , India. We are seeking an experienced Senior Software Engineers with a network"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-7897431002",
-      "title": "Senior Software Engineer - Data + AI Observability",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7897431002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-1385 Companies are investing billions of dollars into developing and deploying AI and the data platforms that enable it. But do they know what is happening?&nbsp; At Databricks, we are passionate about enabling data teams to solve the world’s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world’s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to tackle technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getti"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-7647369002",
-      "title": "Senior Software Engineer (Data Platform)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7647369002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-1348 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems, from security threat detection to cancer drug development. We do this by building and running the world's best data and AI infrastructure platform, so our customers can focus on the high value challenges that are central to their own missions. Our engineering teams build technical products that fulfill real, important needs in the world. We always push the boundaries of data and AI technology, while simultaneously operating with the resilience, security and scale that is important to making customers successful on our platform. We develop and operate one of the largest scale software platforms. The fleet consists of millions of virtual machines, generating terabytes of logs and process"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-7619810002",
-      "title": "Senior Software Engineer (Infra)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7619810002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-926 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business.&nbsp; Networking Infrastructure is a core part of the platform that powers all our data and AI products. The platform also powers key enterprise security features used by customers across all our products to build connectivity solutions to cloud resources and prevent data exfiltration. And we're setting up the team from scratch in Bengaluru , India. We are seeking an experienced Senior Software Engineers with a networki"
       ],
       "companyType": "product"
     },
@@ -1206,23 +1308,6 @@
       "source": "Databricks careers",
       "description": [
         "P-1385 We are hiring a Senior Staff Software Engineer for Databricks' Engineering team reporting to an Engineering Leader. You will be part of the Databricks engineering organization, working with teams that develop Databricks products and features for thousands of enterprises worldwide. Key Characteristics As an executive engineering individual contributor at Databricks, you will have full ownership of the product or infrastructure direction in a major area, driving it from initial development to scalable solutions with clear business impact. You will serve as a force multiplier by elevating stability, reliability, and organizational processes, while bringing deep expertise in large-scale distributed systems. You will mentor senior engineers, contribute to recruiting, and lead high-impact"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-7651345002",
-      "title": "Senior Staff Software Engineer (Backend)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "(P-1174) We are hiring a Senior Staff Software Engineer for Databricks' Engineering team reporting to an Engineering Leader. You will be part of the Databricks engineering organization, working with teams that develop Databricks products and features for thousands of enterprises worldwide. Key Characteristics As an executive engineering individual contributor at Databricks, you will have full ownership of the product or infrastructure direction in a major area, driving it from initial development to scalable solutions with clear business impact. You will serve as a force multiplier by elevating stability, reliability, and organizational processes, while bringing deep expertise in large-scale distributed systems. You will mentor senior engineers, contribute to recruiting, and lead high-impa"
       ],
       "companyType": "product"
     },
@@ -1431,74 +1516,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-7651346002",
-      "title": "Staff Software Engineer",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7651346002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-375 We are hiring a &nbsp;Staff Software Engineer for Databricks' Engineering team reporting to an Engineering Leader. You will be part of the Databricks engineering organization, working with teams that develop Databricks products and features for thousands of enterprises worldwide. Key Characteristics As an executive engineering individual contributor at Databricks, you will have full ownership of the product or infrastructure direction in a major area, driving it from initial development to scalable solutions with clear business impact. You will serve as a force multiplier by elevating stability, reliability, and organizational processes, while bringing deep expertise in large-scale distributed systems. You will mentor senior engineers, contribute to recruiting, and lead high-impact c"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-8320187002",
-      "title": "Staff Software Engineer - Backend",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8320187002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-1385 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. Databricks Mosaic AI offers a unique data-centric approach to building enterprise-quality, Machine Learning and Generative AI solutions, enabling organizations to securely and cos"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-6716344002",
-      "title": "Staff Software Engineer (Core Experiences)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=6716344002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-375 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. The Core Experiences Platforms Org in Bangalore is responsible for the main set of platforms to access and interact with core assets such as Workspaces, Notebooks, SQL queries and the necessary serving infrastructure to power multiple User Experiences.&nbsp; Databricks is experiencing very high growth, and several critical services rely on the platforms of the Core Experiences Platforms Org. We are focused on redesignin"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-7601565002",
-      "title": "Staff Software Engineer - Databases",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7601565002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-375 At Databricks, we build powerful infrastructure that accelerates innovation and enables data teams to deliver with confidence and scale. Our unified schema migration platform underpins automated, observable, and developer-friendly workflows—ensuring Databricks can continue evolving rapidly across thousands of databases and 60+ mission-critical services. What You’ll Do As a Staff Software Engineer, you’ll lead the design, development, and reliability of our global platform that manages schema and data changes at scale: Schema Migration Platform: Architecting and maintaining automated schema change infrastructure for MySQL and TiDB, while implementing versioning, rollback, validation, and auditing for safe, predictable, and fast migrations. Scale, Reliability & Test Harness: Ensuring t"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-databricks-8926498002",
       "title": "Staff Software Engineer- Databricks AI",
       "company": "Databricks",
@@ -1529,23 +1546,6 @@
       "source": "Databricks careers",
       "description": [
         "P-375 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to tackle technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started. As a Staff Software Engineer working on the Data Platform team, you will leverage bleeding-edge AI developer tools and techniques to help build the"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-7652016002",
-      "title": "Staff Software Engineer (Data Platform)",
-      "company": "Databricks",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7652016002",
-      "postedAt": "2026-11-13T20:13:15.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "P-1348 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems, from security threat detection to cancer drug development. We do this by building and running the world's best data and AI infrastructure platform, so our customers can focus on the high value challenges that are central to their own missions. Our engineering teams build technical products that fulfill real, important needs in the world. We always push the boundaries of data and AI technology, while simultaneously operating with the resilience, security and scale that is important to making customers successful on our platform. We develop and operate one of the largest scale software platforms. The fleet consists of millions of virtual machines, generating terabytes of logs and process"
       ],
       "companyType": "product"
     },
@@ -2417,7 +2417,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-mongodb-8208074",
+      "id": "gh-mongodb-8083366",
       "title": "Software Engineer 3",
       "company": "MongoDB",
       "location": "Gurugram",
@@ -2425,11 +2425,11 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8208074",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8083366",
       "postedAt": "2026-11-12T14:41:56.000Z",
       "source": "MongoDB careers",
       "description": [
-        "Enterprise Advanced is a distributed team across Europe and India that builds the software running MongoDB on any infrastructure, at global scale — from on-prem data centers to private cloud. You'll work primarily on Ops Manager and Automation, the systems that let customers deploy fault-tolerant, globally distributed MongoDB clusters in minutes. Our software manages some of the largest self-managed MongoDB deployments in the world, with production clusters running hundreds of shards and nodes under a single deployment. The main focus of this team is to adapt our software to manage MongoDB clusters which are deployed in data centers or private cloud platforms. You will work on the core functionality for all of our products, mainly on the Ops Manager , and Automation products.&nbsp; Our tea"
+        "We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology & Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and internal systems that improve how teams ship, measure, and optimize web experiences. You’ll work across application development, integrations, experimentation, data-informed decision making, and AI-enabled workflows that help the team move faster and deliver better outcomes. We are looking to speak to candidates who are based in Gurugram for our hybrid working model. What you’ll do Build and maintain production-quality software that powers martech experiences Design and implement backend services, internal tools, automations, and integratio"
       ],
       "companyType": "product"
     },
