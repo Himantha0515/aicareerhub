@@ -1,7 +1,75 @@
 {
-  "updatedAt": "2026-11-22T07:10:05.870Z",
-  "count": 552,
+  "updatedAt": "2026-11-23T07:56:47.487Z",
+  "count": 554,
   "jobs": [
+    {
+      "id": "gh-okta-8242227",
+      "title": "Staff FullStack Engineer",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8242227?gh_jid=8242227",
+      "postedAt": "2026-11-23T06:22:03.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Okta seeks a skilled Staff FullStack Engineer with expertise with People Technology Applications (Workday, Greenhouse, Cornerstone). As part of our Business Technology team, you will be responsible for developing and optimizing full-stack solutions, including custom scripts, workf"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-gitlab-8478405002",
+      "title": "Engineering Manager, SSCS: Supply Chain",
+      "company": "GitLab",
+      "location": "Bangalore, India; Remote Ireland; Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
+      "tags": [
+        "Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8478405002",
+      "postedAt": "2026-11-23T05:00:24.000Z",
+      "source": "GitLab careers",
+      "description": [
+        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-okta-7892783",
+      "title": "Senior Software Engineer",
+      "company": "Okta",
+      "location": "Bengaluru",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/7892783?gh_jid=7892783",
+      "postedAt": "2026-11-23T04:38:39.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. At Okta, we are building a world where anyone can safely use any technology, and within Okta Platform R&D, we're specifically focused on protecting the future of work. We are a globally-minded company dedicated to delighting our customers across the world. We are looking for an ex"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8282748",
+      "title": "Senior Staff Applied Scientist, Science Platform",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "tags": [
+        "Research"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8282748",
+      "postedAt": "2026-11-23T00:09:13.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit brings people together around their interests, questions, and experiences. Our communities generate a rich and complex ecosystem of human activity, creating scientific challenges in understanding behavior, measuring impact, and anticipating change. The Data Science Platform team builds the tools that enable a scientific understanding of"
+      ],
+      "companyType": "product"
+    },
     {
       "id": "gh-reddit-7330347",
       "title": "Principal Data Scientist, Ads",
@@ -12,7 +80,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7330347",
-      "postedAt": "2026-11-22T00:18:42.000Z",
+      "postedAt": "2026-11-23T00:09:12.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit's Ads Data Science team is seeking a highly motivated Principal Data Scientist to drive the strategic application of advanced quantitative methods across our advertising platform to advance the intelligence powering the advertiser experience on Reddit.&nbsp; In this pivotal leadership role, you will be responsible for defining and imple"
@@ -29,7 +97,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8289345",
-      "postedAt": "2026-11-22T00:18:42.000Z",
+      "postedAt": "2026-11-23T00:09:12.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit is a complex consumer ecosystem where users, content, communities, and conversations interact over time. We are looking for a very senior data science thought leader to shape how Reddit understands and improves that ecosystem for the user / consumer flywheel. This role will define the measurement, modeling, and experimentation strategy "
@@ -37,19 +105,19 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-8282748",
-      "title": "Senior Staff Applied Scientist, Science Platform",
+      "id": "gh-reddit-8368600",
+      "title": "Senior Staff Machine Learning Engineer, Ads Ranking",
       "company": "Reddit",
       "location": "Remote - United States",
       "tags": [
-        "Research"
+        "Machine Learning"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8282748",
-      "postedAt": "2026-11-22T00:18:42.000Z",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8368600",
+      "postedAt": "2026-11-23T00:09:12.000Z",
       "source": "Reddit careers",
       "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit brings people together around their interests, questions, and experiences. Our communities generate a rich and complex ecosystem of human activity, creating scientific challenges in understanding behavior, measuring impact, and anticipating change. The Data Science Platform team builds the tools that enable a scientific understanding of"
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . We are seeking a Senior Staff Machine Learning Engineer to lead the technical direction of Reddit’s Core Ads Ranking and mid-funnel modeling systems. Operating as a hands-on technical leader, you will advance user representation, graph learning, and sequence modeling across ads verticals—building foundational architectures that power downstrea"
       ],
       "companyType": "product"
     },
@@ -63,10 +131,27 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8319655",
-      "postedAt": "2026-11-22T00:18:42.000Z",
+      "postedAt": "2026-11-23T00:09:12.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . We are seeking a senior backend software engineer to help build the app conversion signals that power Reddit’s app advertising business. You will work on MMP integrations, SKAN processing, and App CAPI to make app installs and in-app events more reliable, useful, and easier for advertisers to integrate. Role Description: Advertisers depend on "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8334138",
+      "title": "Staff Machine Learning Engineer, Ads Forecasting & Scenarios",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "tags": [
+        "Machine Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8334138",
+      "postedAt": "2026-11-23T00:09:12.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . The opportunity Build the machine learning capabilities that help advertisers understand what they could achieve on Reddit and make better investment decisions. You will lead models that estimate how campaign outcomes could change with different budgets, bids, audiences, creative performance, or objectives. The work connects supply and demand "
       ],
       "companyType": "product"
     },
@@ -80,7 +165,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8316086",
-      "postedAt": "2026-11-22T00:18:42.000Z",
+      "postedAt": "2026-11-23T00:09:12.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Team Description: The Ads Retrieval ML team builds the machine learning systems that identify relevant advertising candidates for Reddit users. Retrieval sits at the heart of the ads delivery funnel: before downstream ranking and auction decisions, our models determine which campaigns and ads are eligible to compete. We work on large-scale ret"
@@ -97,78 +182,10 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8256326",
-      "postedAt": "2026-11-22T00:18:41.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Who We Are: The Knowledge Graph Platform team builds the foundational systems that help Reddit understand entities, relationships, and context across its content. We are evolving an advanced, AI-powered knowledge graph into a reliable, scalable platform that enables teams across Reddit to build better experiences on top of shared, high-quality"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8368600",
-      "title": "Senior Staff Machine Learning Engineer, Ads Ranking",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8368600",
-      "postedAt": "2026-11-22T00:18:41.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . We are seeking a Senior Staff Machine Learning Engineer to lead the technical direction of Reddit’s Core Ads Ranking and mid-funnel modeling systems. Operating as a hands-on technical leader, you will advance user representation, graph learning, and sequence modeling across ads verticals—building foundational architectures that power downstrea"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8072076",
-      "title": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Data Science"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8072076",
-      "postedAt": "2026-11-22T00:18:41.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit’s Ads Data Science team is looking for a highly experienced Staff Data Scientist to advance the intelligence powering the advertiser experience on Reddit. In this role, you'll take deep ownership of a high-impact problem space within advertising, specializing in measurement, identity, and signal quality. This is a high-impact, high-auto"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8103609",
-      "title": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
-      "company": "Reddit",
-      "location": "Remote - British Columbia, Canada",
-      "tags": [
-        "Data Science"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8103609",
-      "postedAt": "2026-11-22T00:18:41.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit’s Ads Data Science team is looking for a highly experienced Staff Data Scientist to advance the intelligence powering the advertiser experience on Reddit. In this role, you'll take deep ownership of a high-impact problem space within advertising, specializing in measurement, identity, and signal quality. This is a high-impact, high-auto"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8334138",
-      "title": "Staff Machine Learning Engineer, Ads Forecasting & Scenarios",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8334138",
-      "postedAt": "2026-11-22T00:18:41.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . The opportunity Build the machine learning capabilities that help advertisers understand what they could achieve on Reddit and make better investment decisions. You will lead models that estimate how campaign outcomes could change with different budgets, bids, audiences, creative performance, or objectives. The work connects supply and demand "
       ],
       "companyType": "product"
     },
@@ -182,7 +199,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8029120",
-      "postedAt": "2026-11-22T00:18:40.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . The opportunity Build the machine learning capabilities that help advertisers understand what they could achieve on Reddit and make better investment decisions. On the Forecasting team, you will develop models that estimate how campaign outcomes could change with different budgets, bids, audiences, creative performance, or objectives. Your wor"
@@ -199,7 +216,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7980795",
-      "postedAt": "2026-11-22T00:18:40.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Team Description Reddit's Ads business is at an inflection point, and generative AI is reshaping how advertisers plan, build, launch, measure, and optimize campaigns. The Agentic Ads Experience team is building the next generation of advertiser-facing interfaces: campaign assistants, creative and ad copy generation, one-click campaign creation"
@@ -216,10 +233,44 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7974605",
-      "postedAt": "2026-11-22T00:18:40.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 126 million daily active unique visitors, Re"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8072076",
+      "title": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "tags": [
+        "Data Science"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8072076",
+      "postedAt": "2026-11-23T00:09:11.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit’s Ads Data Science team is looking for a highly experienced Staff Data Scientist to advance the intelligence powering the advertiser experience on Reddit. In this role, you'll take deep ownership of a high-impact problem space within advertising, specializing in measurement, identity, and signal quality. This is a high-impact, high-auto"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8103609",
+      "title": "Staff Data Scientist - Ads Measurement, Signals, Privacy",
+      "company": "Reddit",
+      "location": "Remote - British Columbia, Canada",
+      "tags": [
+        "Data Science"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8103609",
+      "postedAt": "2026-11-23T00:09:11.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit’s Ads Data Science team is looking for a highly experienced Staff Data Scientist to advance the intelligence powering the advertiser experience on Reddit. In this role, you'll take deep ownership of a high-impact problem space within advertising, specializing in measurement, identity, and signal quality. This is a high-impact, high-auto"
       ],
       "companyType": "product"
     },
@@ -233,7 +284,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7445240",
-      "postedAt": "2026-11-22T00:18:40.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: At Reddit we continue to grow our teams with the best talent. We're completely&nbsp; remote friendly . Team Description: The Marketing Science team at Reddit leverages data to maximize the impact of Reddit’s own marketing investments. We serve as the engine behind our growth, using advanced experimentation, causal inference, and econ"
@@ -250,7 +301,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7931000",
-      "postedAt": "2026-11-22T00:18:40.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: At Reddit we continue to grow our teams with the best talent. We're completely&nbsp; remote friendly . Team Description: The Marketing Science team at Reddit leverages data to maximize the impact of Reddit’s own marketing investments. We serve as the engine behind our growth, using advanced experimentation, causal inference, and econ"
@@ -267,27 +318,10 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8250389",
-      "postedAt": "2026-11-22T00:18:40.000Z",
+      "postedAt": "2026-11-23T00:09:11.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . About the Role Reddit’s Ads Creative Effectiveness team sits at the heart of our creative strategy, building GenAI and predictive products that help advertisers ship high-impact campaigns. We are searching for a Staff engineer with in-depth GenAI expertise that can help us build the future of generative products for ad creative at Reddit - bes"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-8104403",
-      "title": "Senior Data Scientist, Ads",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Data Science"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8104403",
-      "postedAt": "2026-11-22T00:18:39.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: US remote-friendly Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be after the pandemic. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large di"
       ],
       "companyType": "product"
     },
@@ -301,7 +335,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8126946",
-      "postedAt": "2026-11-22T00:18:39.000Z",
+      "postedAt": "2026-11-23T00:09:10.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: US remote-friendly or any office location - SF, LA, CHI, NY The Data Science Team at Reddit is growing and we are looking for experienced Data Scientists to partner with our cross-functional partners (Product, Engineering, Designer, Marketing, Business Development etc.) to help us build and improve the systems that continuously drive"
@@ -319,7 +353,7 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8157275",
-      "postedAt": "2026-11-22T00:18:39.000Z",
+      "postedAt": "2026-11-23T00:09:10.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence About Reddit Reddit is a community of "
@@ -336,27 +370,10 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7721787",
-      "postedAt": "2026-11-22T00:18:39.000Z",
+      "postedAt": "2026-11-23T00:09:10.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: US remote-friendly Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-reddit-7721851",
-      "title": "Staff Data Scientist, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "tags": [
-        "Data Science"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
-      "postedAt": "2026-11-22T00:18:39.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms already exist, advertisers ar"
       ],
       "companyType": "product"
     },
@@ -370,10 +387,61 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8178085",
-      "postedAt": "2026-11-22T00:18:39.000Z",
+      "postedAt": "2026-11-23T00:09:10.000Z",
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Team Description: The Ads Retrieval ML team builds the machine learning systems that identify relevant advertising candidates for Reddit users. Retrieval sits at the heart of the ads delivery funnel: before downstream ranking and auction decisions, our models determine which campaigns and ads are eligible to compete. We work on large-scale ret"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-8104403",
+      "title": "Senior Data Scientist, Ads",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "tags": [
+        "Data Science"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/8104403",
+      "postedAt": "2026-11-23T00:09:09.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Location: US remote-friendly Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be after the pandemic. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large di"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-7721851",
+      "title": "Staff Data Scientist, Ads",
+      "company": "Reddit",
+      "location": "Remote - Ontario, Canada",
+      "tags": [
+        "Data Science"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/7721851",
+      "postedAt": "2026-11-23T00:09:09.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible first workforce. At Reddit we continue to grow our teams with the best talent. We're completely remote friendly and will continue to be. Advertising is Reddit’s primary revenue driver and we have an ambitious goal to turn it into a massive business. Although several large digital ad platforms already exist, advertisers ar"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-airbnb-8407159",
+      "title": "Senior Staff Data Scientist - Reputation (Inference)",
+      "company": "Airbnb",
+      "location": "Remote - USA",
+      "tags": [
+        "Data Science"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://careers.airbnb.com/positions/8407159?gh_jid=8407159",
+      "postedAt": "2026-11-22T20:17:01.000Z",
+      "source": "Airbnb careers",
+      "description": [
+        "Airbnb was born in 2007 when two hosts welcomed three guests to their San Francisco home, and has since grown to over 5 million hosts who have welcomed over 2 billion guest arrivals in almost every country across the globe. Every day, hosts offer unique stays and experiences that make it possible for guests to connect with communities in a more authentic way. The Community You Will Join: Reputation is a new, global team at Airbnb with a mandate to address and measure how communities, cities, regulators and guests see us. We're accepting applications for a Senior Staff Data Scientist (part of Airbnb's Data Science organization, on the Economics and Policy Data Science team) who will be a dedicated data partner for Reputation, working with the VP of Reputation and the Reputation leadership t"
       ],
       "companyType": "product"
     },
@@ -446,23 +514,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-coinbase-8356850",
-      "title": "Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)",
-      "company": "Coinbase",
-      "location": "Remote - USA",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8356850?gh_jid=8356850",
-      "postedAt": "2026-11-20T20:32:17.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . We're hiring a Staff Software Engineer to join Coinbase's Consumer Agentic Finance team. We're building the most trusted financial agent on the most trusted financial exchange: one agent th"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-coinbase-8359446",
       "title": "Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)",
       "company": "Coinbase",
@@ -480,19 +531,19 @@
       "companyType": "product"
     },
     {
-      "id": "gh-coinbase-8356846",
-      "title": "Staff Software Engineer - Backend (Consumer - Agentic Trading)",
+      "id": "gh-coinbase-8356850",
+      "title": "Staff Software Engineer, Frontend/Mobile (Consumer - Agentic Trading)",
       "company": "Coinbase",
       "location": "Remote - USA",
       "tags": [
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8356846?gh_jid=8356846",
-      "postedAt": "2026-11-20T20:32:12.000Z",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8356850?gh_jid=8356850",
+      "postedAt": "2026-11-20T20:32:17.000Z",
       "source": "Coinbase careers",
       "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . We're hiring a Staff Software Engineer to join the Coinbase Advisor team within the&nbsp; Consumer & Business group. Coinbase Advisor is the world's first RIA-licensed agentic trading syste"
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . We're hiring a Staff Software Engineer to join Coinbase's Consumer Agentic Finance team. We're building the most trusted financial agent on the most trusted financial exchange: one agent th"
       ],
       "companyType": "product"
     },
@@ -506,6 +557,23 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://www.coinbase.com/careers/positions/8359515?gh_jid=8359515",
+      "postedAt": "2026-11-20T20:32:12.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . We're hiring a Staff Software Engineer to join the Coinbase Advisor team within the&nbsp; Consumer & Business group. Coinbase Advisor is the world's first RIA-licensed agentic trading syste"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8356846",
+      "title": "Staff Software Engineer - Backend (Consumer - Agentic Trading)",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8356846?gh_jid=8356846",
       "postedAt": "2026-11-20T20:32:12.000Z",
       "source": "Coinbase careers",
       "description": [
@@ -837,23 +905,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-twilio-8258589",
-      "title": "Staff Machine Learning Engineer",
-      "company": "Twilio",
-      "location": "Remote - Ontario, Canada (DNU)",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8258589",
-      "postedAt": "2026-11-20T15:26:24.000Z",
-      "source": "Twilio careers",
-      "description": [
-        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-twilio-8258587",
       "title": "Machine Learning Engineer (L3)",
       "company": "Twilio",
@@ -864,6 +915,23 @@
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8258587",
       "postedAt": "2026-11-20T15:26:12.000Z",
+      "source": "Twilio careers",
+      "description": [
+        "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-twilio-8258581",
+      "title": "Staff Machine Learning Engineer",
+      "company": "Twilio",
+      "location": "Remote - Ontario, Canada (DNU)",
+      "tags": [
+        "Machine Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/twilio/jobs/8258581",
+      "postedAt": "2026-11-20T15:25:31.000Z",
       "source": "Twilio careers",
       "description": [
         "Who we are&nbsp; At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to &nbsp;hundreds of thousands of businesses&nbsp; and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. . Hiring and how we work We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring "
@@ -1109,6 +1177,23 @@
       "companyType": "product"
     },
     {
+      "id": "gh-databricks-8403943002",
+      "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
+      "company": "Databricks",
+      "location": "Remote - United Kingdom",
+      "tags": [
+        "GenAI"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403943002",
+      "postedAt": "2026-11-19T21:47:39.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "REQ ID: FEQ227R147 Location: United Kingdom (Remote/Hybrid — London or UK-based) Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contributor ro"
+      ],
+      "companyType": "product"
+    },
+    {
       "id": "gh-databricks-8892970002",
       "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
       "company": "Databricks",
@@ -1139,23 +1224,6 @@
       "source": "Databricks careers",
       "description": [
         "REQ ID: FEQ227R147 Location: Germany (Remote/Hybrid) - will require travel across Europe Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contri"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-databricks-8403943002",
-      "title": "Lead Solutions Architect - Generative AI (EMEA Emerging DNB)",
-      "company": "Databricks",
-      "location": "Remote - United Kingdom",
-      "tags": [
-        "GenAI"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8403943002",
-      "postedAt": "2026-11-19T21:47:39.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "REQ ID: FEQ227R147 Location: United Kingdom (Remote/Hybrid — London or UK-based) Recruiter: Dina Hussain About the Role We are looking for a Lead Solution Architect focused on Generative AI to support our EMEA Emerging Digital Natives and Startups business unit — one of the fastest-moving, most technically ambitious patches in EMEA. Our customers are digital-native and cloud-native companies who build on the frontier: they adopt GenAI early, scale fast, and expect their technical partners to be as sharp as their own engineers. You will be the go-to expert our Account Teams and customers turn to when a GenAI or LLM use case needs to move from an ambitious idea to a production-grade reality across our high-growth accounts. This is a highly technical, customer-facing individual contributor ro"
       ],
       "companyType": "product"
     },
@@ -1194,7 +1262,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-8294304002",
+      "id": "gh-databricks-8210383002",
       "title": "Senior Software Engineer (App-Framework)",
       "company": "Databricks",
       "location": "Bengaluru, India",
@@ -1202,11 +1270,11 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8294304002",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8210383002",
       "postedAt": "2026-11-19T21:47:39.000Z",
       "source": "Databricks careers",
       "description": [
-        "P-1492 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we're only getting started in&nbsp; Bengaluru , India ! As a software engineer with a backend focus, you will work with your team to build infrastructure for the Databricks pl"
+        "P-926 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines.&nbsp; The Role :&nbsp; We are seeking a highly skilled and experienced Senior Software Engineer with a deep understanding of low-level systems to join our team. In this role, you w"
       ],
       "companyType": "product"
     },
@@ -1381,7 +1449,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-7651345002",
+      "id": "gh-databricks-7651326002",
       "title": "Senior Staff Software Engineer (Backend)",
       "company": "Databricks",
       "location": "Bengaluru, India",
@@ -1389,7 +1457,7 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7651345002",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=7651326002",
       "postedAt": "2026-11-19T21:47:39.000Z",
       "source": "Databricks careers",
       "description": [
@@ -1432,23 +1500,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-8593505002",
-      "title": "Specialist Solutions Architect - AI/ML",
-      "company": "Databricks",
-      "location": "Mumbai, India",
-      "tags": [
-        "AI Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593505002",
-      "postedAt": "2026-11-19T21:47:39.000Z",
-      "source": "Databricks careers",
-      "description": [
-        "FEQ327R299 As an AI/ML Specialist Solutions Architect (SSA), you will be the trusted technical ML & AI expert to both Databricks customers and the Field Engineering organization. You will work with Solution Architects to guide customers in architecting production-grade ML & AI applications on Databricks, while aligning their technical roadmap with the continually evolving Databricks Data Intelligence Platform. You will continue to strengthen your technical skills through applying cutting-edge technologies in GenAI, MLOps, and ML more broadly, expanding your impact through mentorship, and establishing yourself as an AI thought leader.&nbsp; This is a Hybrid role, based in Mumbai.&nbsp; The impact you will have: Architect production-level ML & AI workloads for customers using our unified pla"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-databricks-8585164002",
       "title": "Specialist Solutions Architect - AI/ML",
       "company": "Databricks",
@@ -1462,6 +1513,23 @@
       "source": "Databricks careers",
       "description": [
         "FEQ327R299 As an AI/ML Specialist Solutions Architect (SSA), you will be the trusted technical ML & AI expert to both Databricks customers and the Field Engineering organization. You will work with Solution Architects to guide customers in architecting production-grade ML & AI applications on Databricks, while aligning their technical roadmap with the continually evolving Databricks Data Intelligence Platform. You will continue to strengthen your technical skills through applying cutting-edge technologies in GenAI, MLOps, and ML more broadly, expanding your impact through mentorship, and establishing yourself as an AI thought leader.&nbsp; This is a Hybrid role, based in Bengaluru.&nbsp; The impact you will have: Architect production-level ML & AI workloads for customers using our unified "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-databricks-8593505002",
+      "title": "Specialist Solutions Architect - AI/ML",
+      "company": "Databricks",
+      "location": "Mumbai, India",
+      "tags": [
+        "AI Engineering"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8593505002",
+      "postedAt": "2026-11-19T21:47:39.000Z",
+      "source": "Databricks careers",
+      "description": [
+        "FEQ327R299 As an AI/ML Specialist Solutions Architect (SSA), you will be the trusted technical ML & AI expert to both Databricks customers and the Field Engineering organization. You will work with Solution Architects to guide customers in architecting production-grade ML & AI applications on Databricks, while aligning their technical roadmap with the continually evolving Databricks Data Intelligence Platform. You will continue to strengthen your technical skills through applying cutting-edge technologies in GenAI, MLOps, and ML more broadly, expanding your impact through mentorship, and establishing yourself as an AI thought leader.&nbsp; This is a Hybrid role, based in Mumbai.&nbsp; The impact you will have: Architect production-level ML & AI workloads for customers using our unified pla"
       ],
       "companyType": "product"
     },
@@ -1704,7 +1772,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-databricks-8200692002",
+      "id": "gh-databricks-8201686002",
       "title": "Staff Software Engineer - Ingestion",
       "company": "Databricks",
       "location": "Bengaluru, India",
@@ -1712,11 +1780,11 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8200692002",
+      "applyUrl": "https://databricks.com/company/careers/open-positions/job?gh_jid=8201686002",
       "postedAt": "2026-11-19T21:47:39.000Z",
       "source": "Databricks careers",
       "description": [
-        "P-375 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Ingesting data into the Lakehouse is a strategic area of investment for Databricks and a key enabler for Data and AI workflows. Lakeflow Connect is looking to solve this problem by providing ready-to-use, point-and-click connectors for a wide variety of sources, including enterprise applications (like Salesforce, Workday, ServiceNow, SharePoint), databases (e.g., SQL Server), cloud storage, message queues, and local fil"
+        "P-1403 At Databricks, we are passionate about enabling data teams to solve the world's toughest problems - from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world's best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Ingesting data into the Lakehouse is a strategic area of investment for Databricks and a key enabler for Data and AI workflows. Lakeflow Connect is looking to solve this problem by providing ready-to-use, point-and-click connectors for a wide variety of sources, including enterprise applications (like Salesforce, Workday, ServiceNow, SharePoint), databases (e.g., SQL Server), cloud storage, message queues, and local fi"
       ],
       "companyType": "product"
     },
@@ -1874,6 +1942,23 @@
       "companyType": "product"
     },
     {
+      "id": "gh-okta-7741663",
+      "title": "Principal Software Engineer",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/7741663?gh_jid=7741663",
+      "postedAt": "2026-11-19T19:59:28.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. At Okta, we are building the future of secure, enterprise-grade cloud automation and system connectivity. We are looking for a Principal Engineer to join our global Automation Engineering team to design, scale, and govern our enterprise integration substrate using AWS cloud servic"
+      ],
+      "companyType": "product"
+    },
+    {
       "id": "gh-okta-8203481",
       "title": "Senior Software Engineer - Fullstack",
       "company": "Okta",
@@ -1887,23 +1972,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. At Okta, we are building the future of secure, enterprise-grade cloud automation and system connectivity. We are looking for a Senior Software Engineer to join our global Automation Engineering team to design, scale, and govern our enterprise integration substrate using AWS cloud "
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-8242227",
-      "title": "Staff FullStack Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8242227?gh_jid=8242227",
-      "postedAt": "2026-11-19T19:56:55.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Okta seeks a skilled Staff FullStack Engineer with expertise with People Technology Applications (Workday, Greenhouse, Cornerstone). As part of our Business Technology team, you will be responsible for developing and optimizing full-stack solutions, including custom scripts, workf"
       ],
       "companyType": "product"
     },
@@ -1959,23 +2027,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-6960831",
-      "title": "Senior Machine Learning Engineer",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Machine Learning"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6960831",
-      "postedAt": "2026-11-19T19:49:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . At Reddit, machine learning sits at the heart of how millions of people discover, connect, and engage with the world’s largest collection of human conversations. From powering personalized recommendations and search to optimizing advertising systems and marketplace dynamics, our ML engineers tackle some of the most interesting and impactful pr"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-reddit-6960833",
       "title": "Senior Machine Learning Engineer",
       "company": "Reddit",
@@ -1985,6 +2036,23 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6960833",
+      "postedAt": "2026-11-19T19:49:06.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . At Reddit, machine learning sits at the heart of how millions of people discover, connect, and engage with the world’s largest collection of human conversations. From powering personalized recommendations and search to optimizing advertising systems and marketplace dynamics, our ML engineers tackle some of the most interesting and impactful pr"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-6960831",
+      "title": "Senior Machine Learning Engineer",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "tags": [
+        "Machine Learning"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6960831",
       "postedAt": "2026-11-19T19:49:06.000Z",
       "source": "Reddit careers",
       "description": [
@@ -2413,7 +2481,7 @@
       "postedAt": "2026-11-19T12:56:25.990Z",
       "source": "Supabase careers",
       "description": [
-        "ABOUT THE ROLE Supabase runs millions of Postgres databases, and storage performance is now one of the biggest levers on how fast, reliable, and affordable they are. We're building a software-defined, NVMe-over-Fabrics storage platform underneath Supabase Postgres. Postgres stays unmodified, and the new layer delivers near-local-NVMe performance with the durability and flexibility of networked storage. As the senior engineer driving storage, you'll own this effort end to end: the architecture and build-vs-buy decisions, integration into our compute platform, and operating the system in production. Your first goal is raw Postgres I/O performance at scale. In the longer term, the layer you build will provide the block-level snapshots and copy-on-write clones behind database branching, fast r"
+        "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. ABOUT THE ROLE Supabase runs millions of Postgres databases, and storage performance is now one of the biggest levers on how fast, reliable, and affordable they are. We're building a software-defined, NVMe-over-Fabrics storage platform underneath Supabase Postgres. Postgres stays unmodified, and the new layer delivers near-local-NVMe performance with the durability and flexibility of networked storage. As the senior engineer driving storage, you'll own this effort end to end: the architecture and build-vs-buy decision"
       ],
       "companyType": "product"
     },
@@ -2465,23 +2533,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. The Core Engineering Team Okta powers authentication and authorization for thousands of organizations worldwide. We make access to applications safe, secure, and seamless for billions of logins worldwide. Within Okta, the Core team builds software and frameworks and works with inf"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-gitlab-8478405002",
-      "title": "Engineering Manager, SSCS: Supply Chain",
-      "company": "GitLab",
-      "location": "Bangalore, India; Remote Ireland; Remote, Canada; Remote, Israel; Remote, United Kingdom; Remote, United States",
-      "tags": [
-        "Engineering"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/gitlab/jobs/8478405002",
-      "postedAt": "2026-11-19T09:31:56.000Z",
-      "source": "GitLab careers",
-      "description": [
-        "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values&nbsp;and continuous knowledge exchange,"
       ],
       "companyType": "product"
     },
@@ -3234,6 +3285,40 @@
       "companyType": "product"
     },
     {
+      "id": "gh-okta-8236508",
+      "title": "Staff Software Engineer - Full Stack",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8236508?gh_jid=8236508",
+      "postedAt": "2026-11-16T23:42:01.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Software Engineer - Full Stack Position Description: We are seeking an experienced Staff Engineer to provide technical leadership for the Advanced Integration Builder team within Okta. This team builds and maintains the backend services, provisioning frameworks, authenticati"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-okta-8236504",
+      "title": "Staff Software Engineer",
+      "company": "Okta",
+      "location": "Bengaluru, India",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.okta.com/company/careers/opportunity/8236504?gh_jid=8236504",
+      "postedAt": "2026-11-16T23:41:59.000Z",
+      "source": "Okta careers",
+      "description": [
+        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Software Engineer Company Description: Okta is the leading independent provider of enterprise identity. The Okta Identity Cloud enables organizations to securely connect the right people to the right technologies at the right time. With over 6,500 pre-built integrations to a"
+      ],
+      "companyType": "product"
+    },
+    {
       "id": "gh-okta-8236530",
       "title": "Staff Software Engineer, Lifecycle Management",
       "company": "Okta",
@@ -3247,40 +3332,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Position Description Okta is an enterprise-grade identity management platform, built from the ground up in the cloud and delivered with an unwavering focus on customer success. With Okta, organizations can manage access across any application, person, or device. Whether the people"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-8220634",
-      "title": "Staff Software Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8220634?gh_jid=8220634",
-      "postedAt": "2026-11-16T23:39:56.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Get to know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity at the"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-8242301",
-      "title": "Staff Software Engineer - Full Stack",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/8242301?gh_jid=8242301",
-      "postedAt": "2026-11-16T23:38:52.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Staff Software Engineer - Full-stack Get to Know Okta Okta is The World’s Identity Company. We free everyone to safely use any technology—anywhere, on any device or app. Our Workforce and Customer Identity Clouds enable secure yet flexible access, authentication, and automation th"
       ],
       "companyType": "product"
     },
@@ -3485,23 +3536,6 @@
       "source": "Okta careers",
       "description": [
         "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. Get to know Okta &nbsp; Okta is The World’s Identity Company. We free everyone to safely use any technology, anywhere, on any device or app. Our flexible and neutral products, Okta Platform and Auth0 Platform, provide secure access, authentication, and automation, placing identity"
-      ],
-      "companyType": "product"
-    },
-    {
-      "id": "gh-okta-7781674",
-      "title": "Principal Software Engineer",
-      "company": "Okta",
-      "location": "Bengaluru, India",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.okta.com/company/careers/opportunity/7781674?gh_jid=7781674",
-      "postedAt": "2026-11-16T23:32:02.000Z",
-      "source": "Okta careers",
-      "description": [
-        "Secure Every Identity, from AI to Human Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence. This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk. About the Team Okta's Core Engineering team is responsible for building and evolving shared infrastructure and services that lay the foundation for what other engineering teams build on. We're in charge of common shared services like distributed cache, configuration management, fr"
       ],
       "companyType": "product"
     },
@@ -3744,23 +3778,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-coinbase-8237493",
-      "title": "Senior Software Engineer, Core Reliability",
-      "company": "Coinbase",
-      "location": "Remote - USA",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8237493?gh_jid=8237493",
-      "postedAt": "2026-11-16T17:42:11.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer, Core Reliability on the Infra Reliability team within Platform , you'll help Coinbase scale 50x by improving reliability, security, and deployment safety acro"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-snorkelai-6260926004",
       "title": "Research Scientist, Open Benchmarks Red Team",
       "company": "Snorkel AI",
@@ -3774,6 +3791,23 @@
       "source": "Snorkel AI careers",
       "description": [
         "About Snorkel Snorkel AI is the frontier AI data lab, helping teams build the data and environments behind high-performing frontier and agentic AI. We combine technology with research-driven AI data development to create datasets, benchmarks, evals, and custom solutions for real-world AI systems. Founded out of the Stanford AI Lab in 2019, Snorkel works with leading AI labs and enterprises to move from better data to better outcomes.&nbsp; Excited to help us redefine how AI is built? Apply to be the newest Snorkeler! About Open Benchmarks Grants Open Benchmarks Grants is Snorkel’s $30M commitment to fund and support researchers and independent builders developing new AI evaluations. We support the teams behind Terminal-Bench, OSWorld 2.0, and Senior SWE-bench, and run a Research Fellows pr"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8097944",
+      "title": "Senior Software Engineer, Core Reliability",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8097944?gh_jid=8097944",
+      "postedAt": "2026-11-16T16:33:02.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer, Core Reliability on the Infra Reliability team within Platform , you'll help Coinbase scale 50x by improving reliability, security, and deployment safety acro"
       ],
       "companyType": "product"
     },
@@ -3931,7 +3965,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-mongodb-8208074",
+      "id": "gh-mongodb-8239047",
       "title": "Software Engineer 3",
       "company": "MongoDB",
       "location": "Gurugram",
@@ -3939,11 +3973,11 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8208074",
+      "applyUrl": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
       "postedAt": "2026-11-16T14:27:51.000Z",
       "source": "MongoDB careers",
       "description": [
-        "Enterprise Advanced is a distributed team across Europe and India that builds the software running MongoDB on any infrastructure, at global scale — from on-prem data centers to private cloud. You'll work primarily on Ops Manager and Automation, the systems that let customers deploy fault-tolerant, globally distributed MongoDB clusters in minutes. Our software manages some of the largest self-managed MongoDB deployments in the world, with production clusters running hundreds of shards and nodes under a single deployment. The main focus of this team is to adapt our software to manage MongoDB clusters which are deployed in data centers or private cloud platforms. You will work on the core functionality for all of our products, mainly on the Ops Manager , and Automation products.&nbsp; Our tea"
+        "The Application Modernization Platform (AMP) team is dedicated to solving one of the industry's biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. To accelerate this transition, MongoDB is building a dedicated Platform and Infrastructure team to develop the Application Modernisation Platform and Infrastructure . As we help customers modernize their application and data ecosystems, we face the challenge of deploying complex tooling into highly restrictive client environments and architecting automated verification frameworks to ensure data equivalence. This new team will architect the platform foundation and infrastructure that enables a \"build once, run anywhere\" m"
       ],
       "companyType": "product"
     },
@@ -4390,23 +4424,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-dropbox-8261916",
-      "title": "Principal Software Engineer, Product Engineering",
-      "company": "Dropbox",
-      "location": "Remote - Canada: Select locations",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
-      "postedAt": "2026-11-12T15:15:44.000Z",
-      "source": "Dropbox careers",
-      "description": [
-        "Role Description As a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage. &nbsp; Your influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product lead"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-dropbox-8261911",
       "title": "Principal Software Engineer, Product Engineering",
       "company": "Dropbox",
@@ -4416,6 +4433,23 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://jobs.dropbox.com/listing/8261911?gh_jid=8261911",
+      "postedAt": "2026-11-12T15:15:44.000Z",
+      "source": "Dropbox careers",
+      "description": [
+        "Role Description As a Principal Engineer at Dropbox, you will own company critical, loosely defined technical problems with multi year impact, operating at the intersection of technology, product, business strategy, and applied AI. You will define long term technical direction for customer facing experiences used by millions, identifying where AI meaningfully improves customer value and translating evolving business context and industry advances into durable, multi area strategies and roadmaps that shape how Dropbox builds, scales, and innovates, while remaining hands on in software development where it provides the greatest leverage. &nbsp; Your influence will span organizations, setting foundational architecture, driving execution standards, and aligning senior technical and product lead"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-dropbox-8261916",
+      "title": "Principal Software Engineer, Product Engineering",
+      "company": "Dropbox",
+      "location": "Remote - Canada: Select locations",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://jobs.dropbox.com/listing/8261916?gh_jid=8261916",
       "postedAt": "2026-11-12T15:15:44.000Z",
       "source": "Dropbox careers",
       "description": [
@@ -5036,7 +5070,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-dropbox-7752226",
+      "id": "gh-dropbox-7172701",
       "title": "Backend Product Software Engineer",
       "company": "Dropbox",
       "location": "Remote - Mexico",
@@ -5044,11 +5078,11 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://jobs.dropbox.com/listing/7752226?gh_jid=7752226",
+      "applyUrl": "https://jobs.dropbox.com/listing/7172701?gh_jid=7172701",
       "postedAt": "2026-11-10T15:45:24.000Z",
       "source": "Dropbox careers",
       "description": [
-        "Role Description As a Product Engineer at Dropbox, you will play a pivotal role in shaping the future of collaboration and file sharing. Your responsibilities will revolve around developing and enhancing our suite of Dropbox Products to deliver exceptional user experiences. You will work closely with cross-functional teams, turning innovative ideas into robust, scalable, and user-friendly features. This year, Dropbox is on a mission to expedite the creation and implementation of AI-enable d products by providing a comprehensive technology stack that facilitates rapid prototyping and reliable deployment of AI- augmented functionalit y . Our Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels. Che"
+        "Role Description As a Product Engineer at Dropbox, you will play a pivotal role in shaping the future of collaboration and file sharing. Your responsibilities will revolve around developing and enhancing our suite of Dropbox Products to deliver exceptional user experiences. You will work closely with cross-functional teams, turning innovative ideas into robust, scalable, and user-friendly features. This year, Dropbox is on a mission to expedite the creation and implementation of AI-enable products by providing a comprehensive AI technology stack that facilitates speedy prototyping and reliable deployment of AI-driven functionalities. Our Engineering Career Framework is viewable by anyone outside the company and describes what’s expected for our engineers at each of our career levels. Check"
       ],
       "companyType": "product"
     },
@@ -5359,23 +5393,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-coinbase-8351163",
-      "title": "Senior Software Engineer, Backend (Consumer - Risk)",
-      "company": "Coinbase",
-      "location": "Remote - USA",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://www.coinbase.com/careers/positions/8351163?gh_jid=8351163",
-      "postedAt": "2026-11-09T16:32:06.000Z",
-      "source": "Coinbase careers",
-      "description": [
-        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . Senior Software Engineer, Backend (Consumer - Risk) As a Senior Software Engineer on the Risk Engineering team within the Consumer & Business group, you'll build and optimize the systems th"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-coinbase-7930686",
       "title": "Senior Software Engineer, Backend (Consumer - Risk)",
       "company": "Coinbase",
@@ -5389,6 +5406,23 @@
       "source": "Coinbase careers",
       "description": [
         "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . As a Senior Software Engineer on the Risk Engineering team within the Consumer & Business group, you'll build and optimize the systems that detect and prevent fraud, manage credit and marke"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-coinbase-8351163",
+      "title": "Senior Software Engineer, Backend (Consumer - Risk)",
+      "company": "Coinbase",
+      "location": "Remote - USA",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://www.coinbase.com/careers/positions/8351163?gh_jid=8351163",
+      "postedAt": "2026-11-09T16:32:06.000Z",
+      "source": "Coinbase careers",
+      "description": [
+        "Ready to do the most impactful work of your career? At&nbsp; Coinbase , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn't a place for complacency, it’s a place to be pushed past your perceived limits. If you're ready to build the future of finance alongside people who refuse to settle for \"good enough,\" you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.”&nbsp; Learn more about working at Coinbase . Senior Software Engineer, Backend (Consumer - Risk) As a Senior Software Engineer on the Risk Engineering team within the Consumer & Business group, you'll build and optimize the systems th"
       ],
       "companyType": "product"
     },
@@ -6600,7 +6634,7 @@
       "companyType": "product"
     },
     {
-      "id": "gh-druva-8598308002",
+      "id": "gh-druva-8564138002",
       "title": "Senior Staff Software Engineer",
       "company": "Druva",
       "location": "Pune, Maharashtra, India",
@@ -6608,11 +6642,11 @@
         "Backend"
       ],
       "jobType": "Full-time",
-      "applyUrl": "https://www.druva.com/why-druva/explore/careers/jobs/8598308002/?gh_jid=8598308002",
-      "postedAt": "2026-11-04T21:41:46.000Z",
+      "applyUrl": "https://www.druva.com/why-druva/explore/careers/jobs/8564138002/?gh_jid=8564138002",
+      "postedAt": "2026-11-04T21:41:45.000Z",
       "source": "Druva careers",
       "description": [
-        "About Druva Druva is the resilience foundation for the AI enterprise, helping organizations secure and recover from connected risk across data, cyber, identity, and AI. The Resilience Cloud is a fully managed, cloud-native SaaS platform that delivers air-gapped and immutable protection across cloud, SaaS, on-premises, endpoint, and edge environments. Powered by Dru MetaGraph, Druva’s graph-powered intelligence layer, the platform connects critical business context so customers can understand risk, respond faster, recover cleanly, and govern data with greater confidence. Trusted by nearly 7,500 customers, including 75 of the Fortune 500, Druva helps safeguard the critical information and systems businesses depend on in an increasingly connected world. Visit &nbsp;druva.com &nbsp;and follow "
+        "About Druva: You won't just join a company at Druva; you'll help shape the future of data security at the moment it matters most. We are building a modern standard with our cloud-native solutions, designed to simplify the toughest challenges in cyber resilience for our customers. As the pioneer and market leader in fully managed SaaS data protection, we help organizations secure and recover their data from ransomware, cyberattacks, and operational disruptions without the complexity, cost, or risk of legacy infrastructure. Our momentum is backed by the market: Druva was named a Leader in the 2026 Gartner® Magic Quadrant™ for Backup and Data Protection Platforms , a Leader in the IDC MarketScape for Cyber-Recovery , and a Leader & Outperformer in the GigaOm Cloud Data Protection Radar . Even"
       ],
       "companyType": "product"
     },
@@ -8235,23 +8269,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-6909091",
-      "title": "Senior Software Engineer, Ads",
-      "company": "Reddit",
-      "location": "Remote - United States",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6909091",
-      "postedAt": "2026-10-23T14:06:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce!&nbsp; If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Role Description: This is a Gen"
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-reddit-6909093",
       "title": "Senior Software Engineer, Ads",
       "company": "Reddit",
@@ -8265,6 +8282,23 @@
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce!&nbsp; If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is pois"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-6909091",
+      "title": "Senior Software Engineer, Ads",
+      "company": "Reddit",
+      "location": "Remote - United States",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6909091",
+      "postedAt": "2026-10-23T14:06:06.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce!&nbsp; If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Role Description: This is a Gen"
       ],
       "companyType": "product"
     },
@@ -8372,23 +8406,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-reddit-6512458",
-      "title": "Software Engineer, Ads",
-      "company": "Reddit",
-      "location": "Remote - Ontario, Canada",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
-      "postedAt": "2026-10-23T14:06:06.000Z",
-      "source": "Reddit careers",
-      "description": [
-        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to "
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-reddit-6469397",
       "title": "Software Engineer, Ads",
       "company": "Reddit",
@@ -8402,6 +8419,23 @@
       "source": "Reddit careers",
       "description": [
         "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Role Description: This is a generalis"
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-reddit-6512458",
+      "title": "Software Engineer, Ads",
+      "company": "Reddit",
+      "location": "Remote - Ontario, Canada",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://job-boards.greenhouse.io/reddit/jobs/6512458",
+      "postedAt": "2026-10-23T14:06:06.000Z",
+      "source": "Reddit careers",
+      "description": [
+        "Reddit is a community of communities. It’s built on shared interests, passion, and trust, and is home to the most open and authentic conversations on the internet. Every day, Reddit users submit, vote, and comment on the topics they care most about. With 100,000+ active communities and approximately 130 million daily active unique visitors, Reddit is one of the internet’s largest sources of information. For more information, visit www.redditinc.com . Reddit has a flexible workforce! If you happen to live close to one of our physical office locations our doors are open for you to come into the office as often as you'd like. Don't live near one of our offices? No worries: You can apply to work remotely in any country in which we have a physical presence. Team Description Reddit is poised to "
       ],
       "companyType": "product"
     },
@@ -8809,7 +8843,7 @@
       "postedAt": "2026-10-09T08:36:35.363Z",
       "source": "Supabase careers",
       "description": [
-        "ABOUT THE ROLE As a Cloud Platform Engineer at Supabase, you’ll join Cloud Engineering, part of Engineering Operations, and shape the foundations that let engineering teams build, ship, and operate infrastructure safely and independently across AWS and GCP. This is a role spanning cloud governance, platform engineering, and hands-on operations. You’ll work across AWS and GCP account structure, identity and access management, Infrastructure as Code (IaC), reusable platform primitives, security boundaries, and self-service workflows for engineers. You’ll be joining at a point where many of these foundations are being actively defined or reworked. We’re looking for someone who can take ambiguous, messy, business-critical infrastructure problems and turn them into pragmatic systems, tools, sta"
+        "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. ABOUT THE ROLE As a Cloud Platform Engineer at Supabase, you’ll join Cloud Engineering, part of Engineering Operations, and shape the foundations that let engineering teams build, ship, and operate infrastructure safely and independently across AWS and GCP. This is a role spanning cloud governance, platform engineering, and hands-on operations. You’ll work across AWS and GCP account structure, identity and access management, Infrastructure as Code (IaC), reusable platform primitives, security boundaries, and self-serv"
       ],
       "companyType": "product"
     },
@@ -8848,23 +8882,6 @@
       "companyType": "product"
     },
     {
-      "id": "gh-instacart-8141533",
-      "title": "Senior Software Engineer II, Marketing Enablement & Technology",
-      "company": "Instacart",
-      "location": "United States - Remote",
-      "tags": [
-        "Backend"
-      ],
-      "jobType": "Full-time",
-      "applyUrl": "https://instacart.careers/job/?gh_jid=8141533",
-      "postedAt": "2026-10-05T18:19:20.000Z",
-      "source": "Instacart careers",
-      "description": [
-        "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers. Instacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table. Instacart is a Flex First team There’s no one-size "
-      ],
-      "companyType": "product"
-    },
-    {
       "id": "gh-instacart-8141535",
       "title": "Senior Software Engineer II, Marketing Enablement & Technology",
       "company": "Instacart",
@@ -8874,6 +8891,23 @@
       ],
       "jobType": "Full-time",
       "applyUrl": "https://instacart.careers/job/?gh_jid=8141535",
+      "postedAt": "2026-10-05T18:19:20.000Z",
+      "source": "Instacart careers",
+      "description": [
+        "We're transforming the grocery industry At Instacart, we invite the world to share love through food because we believe everyone should have access to the food they love and more time to enjoy it together. Where others see a simple need for grocery delivery, we see exciting complexity and endless opportunity to serve the varied needs of our community. We work to deliver an essential service that customers rely on to get their groceries and household goods, while also offering safe and flexible earnings opportunities to Instacart Personal Shoppers. Instacart has become a lifeline for millions of people, and we’re building the team to help push our shopping cart forward. If you’re ready to do the best work of your life, come join our table. Instacart is a Flex First team There’s no one-size "
+      ],
+      "companyType": "product"
+    },
+    {
+      "id": "gh-instacart-8141533",
+      "title": "Senior Software Engineer II, Marketing Enablement & Technology",
+      "company": "Instacart",
+      "location": "United States - Remote",
+      "tags": [
+        "Backend"
+      ],
+      "jobType": "Full-time",
+      "applyUrl": "https://instacart.careers/job/?gh_jid=8141533",
       "postedAt": "2026-10-05T18:19:20.000Z",
       "source": "Instacart careers",
       "description": [
